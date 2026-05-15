@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
-
 # =====================================================
-# Script:
-# Indexar pseudo-referencia con BWA
-# =====================================================
-
+# Descripción: Indexar pseudo-referencia con BWA
+# Herramientas: BWA  0.7.17-r1188
+# Autor: Tania Martínez León 
+# Versión: 1.0.0.
 # ==========================================
 # UBICACIÓN DE LA PSEUDO-REFERENCIA
 # ==========================================
