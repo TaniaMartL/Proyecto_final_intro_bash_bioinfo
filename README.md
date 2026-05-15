@@ -20,7 +20,19 @@
 #### Indexar el pseudo cromosoma de referencia 
 
 ### 5. Estructura del repositorio
-#### Explicación breve de las carpetas y archivos principales.
+#### README.md: Resumen del proyecto 
+#### datos: En esta carpeta se guardaran las secuencias descargadas 
+#### logs: En esta carpeta se guardara el reporte generado de la validación de las secuencias 
+#### metadatos: Contiene 
+##### genes_id.txtx: Lista de los ID de los genes a descargar 
+#### resultados: En esta carpeta se guardadran los archivos fasta generados de concatenar las secuencias de los genes y de indexar el archivo fasta
+#### scripts: Contiene: los siguientes scripts 
+##### descargar_genes.sh: script para realizar la descarga de genes desde la base de datos del NCBI
+##### mensaje.sh: script para recibir notificación del proceso de descargar de los genes ( para que sea funcional se deben cambiar el TOKEN Y CHAT ID
+##### validacion_gb.sh: script para validar las secuencias de genes en formato .gb
+##### pseudo_referencia.sh: script para concatenar las secuencias de los genes
+##### indexar_Quercus_bwa.sh: script para indexar la secuencias concatenada con el programa BWA 
+
 ### 6. Requisitos de software
 #### Bash 5.1
 #### EDirect
@@ -34,14 +46,20 @@
 ### 8. Instrucciones de uso
 #### Descargar el repositorio 
 #### git clone https://github.com/TaniaMartL/Proyecto_final_intro_bash_bioinfo.git
-#### cd proyecto_final
-####Ejecutar el script para descargar secuencias de mNRA de *Q.* *lobata* del NCBI 
+#### cd proyecto_final_intro_bash_bioinfo
+#### dar permisos de lectura u ejecución a los scripts. 
+#### chmod 740 scripts/descargar_genes.sh
+#### chmod 740 scripts/mensaje.sh ( cambiar las variables de TOKEN y CHAT ID)
+#### chmod 740 scripts/validacion_gb.sh
+#### chmod 740 scripts/pseudo_referencia.sh
+#### chmod 740 scripts/indexar_Quercus_bwa.sh
+#### Ejecutar el script para descargar secuencias de mNRA de *Q.* *lobata* del NCBI 
 #### bash scripts/descargar_genes.sh metadatos/genes_id.txt
-####Ejecutar el script para validar las secuencias descargadas del NCBI 
+#### Ejecutar el script para validar las secuencias descargadas del NCBI 
 #### bash scripts/validacion_gb.sh
-####Ejecutar el script para concatenar las secuencias 
+#### Ejecutar el script para concatenar las secuencias 
 #### bash scripts/pseudo_referencia.sh datos Quercus_ref
-####Ejecutar el script para indexar las secuencias concatenadas en formato .fasta
+#### Ejecutar el script para indexar las secuencias concatenadas en formato .fasta
 #### bash scripts/indexar_Quercus_bwa.sh
 ### 9. Entradas y salidas
 #### Entrada 
@@ -49,7 +67,6 @@
 #### Salidas 
 #### Secuencias de mRNA de Q. lobata descargadas de NCBI  en formato.gb
 #### secuencias concatenadas en formato fasta 
-#### 
 
 ### 10. Información del sistema
 #### Marca y modelo: Lenovo IdeaPad 3 15ALC6
