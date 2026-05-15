@@ -19,6 +19,11 @@ DIRECTORIO="datos"
 
 # Archivo de reporte
 REPORTE="logs/reporte_verificacion.txt"
+# ==========================================
+# CREAR CARPETA PARA REPORTE
+# ==========================================
+
+mkdir -p logs
 
 # Inicializar reporte
 echo "=========================================" > "$REPORTE"
