@@ -42,7 +42,7 @@
 #### curl 
 ### 7. Reproducibilidad
 #### Dar permisos de ejecución y lectura a los scripts 
-#### Instalación de EDirect y BAW 0.7.17-r1188 (proceso de instalación incluido en los scripts)
+#### Instalación manual de  BAW 0.7.17-r1188 
 ### 8. Instrucciones de uso
 #### Descargar el repositorio 
 #### git clone https://github.com/TaniaMartL/Proyecto_final_intro_bash_bioinfo.git
@@ -76,7 +76,7 @@
 #### Núcleos / hilos:  8 nucleos/ 16 hilos 
 #### RAM instalada (GB): 16 GB
 #### Almacenamiento: SSD  512 GB
-#### Tiempo aproximado de ejecución:  minutos
+#### Tiempo aproximado de ejecución:  6-7 minutos
 ### 11. Autoría
 #### Tania Martínez León 
 
