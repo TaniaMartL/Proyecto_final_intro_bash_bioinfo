@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 # =========================================================
-# Objetivo:
-# Verificar archivos .gb descargados desde NCBI
+# Descripción: Verificar archivos .gb descargados desde NCBI
 # Revisa:
 #   1. Que existan archivos .gb
 #   2. Que no estén vacíos
@@ -11,6 +10,9 @@
 #   5. Contar genes válidos e inválidos
 # Genera:
 #   reporte_verificacion.txt
+# Herramientas: awk grep
+# Autor: Tania Martínez León 
+# Versión: 1.0.0.
 # =========================================================
 # Carpeta con archivos .gb
 DIRECTORIO="datos"
