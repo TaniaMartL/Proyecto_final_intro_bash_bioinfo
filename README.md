@@ -46,7 +46,7 @@
 ### 8. Instrucciones de uso
 #### Descargar el repositorio 
 #### git clone https://github.com/TaniaMartL/Proyecto_final_intro_bash_bioinfo.git
-#### cd proyecto_final_intro_bash_bioinfo
+#### cd Proyecto_final_intro_bash_bioinfo
 #### dar permisos de lectura u ejecución a los scripts. 
 #### chmod 740 scripts/descargar_genes.sh
 #### chmod 740 scripts/mensaje.sh ( cambiar las variables de TOKEN y CHAT ID)
