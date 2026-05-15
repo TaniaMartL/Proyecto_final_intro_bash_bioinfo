@@ -33,7 +33,7 @@
 #### Instalación de EDirect y BAW 0.7.17-r1188 (proceso de instalación incluido en los scripts)
 ### 8. Instrucciones de uso
 #### Descargar el repositorio 
-#### git clone https://github.com/usuario/proyecto_final.git
+#### git clone https://github.com/TaniaMartL/Proyecto_final_intro_bash_bioinfo.git
 #### cd proyecto_final
 ####Ejecutar el script para descargar secuencias de mNRA de *Q.* *lobata* del NCBI 
 #### bash scripts/descargar_genes.sh metadatos/genes_id.txt
