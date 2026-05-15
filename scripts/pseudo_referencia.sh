@@ -1,18 +1,13 @@
 #!/usr/bin/env bash
 # =========================================================
-# Objetivo: Generar una  referencia concatenada tipo pseudo-referencia para hacer alineamientos dirigidos
-# Realiza:
-# extrae secuencia desde archivos descardados de GenBank en formato .gb
-# concatena genes de Q. lobata
-# agrega separadores de Ns
-# genera coordenadas
-# genera GFF3 básico
-# deja una referencia lista para alineamiento
+# Descripción: Generar una  referencia concatenada tipo pseudo-referencia para hacer alineamientos dirigidos
+# Herramientas: awk
+# Autor: Tania Martínez León 
+# Versión: 1.0.0.
 # =========================================================
 # Carpeta con archivos .gb
 DIRECTORIO="$1"
-PREFIX="$2"
-
+PREFIX="$2" 
 GAP=500
 
 # ==========================================
@@ -47,7 +42,7 @@ fi
 # ==========================================
 # PREPARACIÓN
 # ==========================================
-
+## agrega separadores de Ns entre las secuencias 
 SPACER=$(printf 'N%.0s' $(seq 1 $GAP))
 
 > "$FASTA_OUT"
