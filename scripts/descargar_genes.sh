@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #===============================================================================
-# Script: descargar_genes.sh
 # Descripción: Descarga múltiples genes de Quercus del NCBI usando EDirect
 # Herramientas: EDirect (Entrez Direct) - esearch, efetch, xtract
 # Autor: Tania Martínez León 
