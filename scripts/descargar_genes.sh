@@ -8,7 +8,7 @@
 #===============================================================================
 INPUT="$1"
 OUTDIR="$2"
-MAX=74
+MAX=73
 # Archivo de entrada con IDs (uno por línea)
 ARCHIVO_GENES="metadatos/genes_id.txt"
 # Directorio de salida para los genes descargados
