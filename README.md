@@ -75,7 +75,7 @@
 #### Núcleos / hilos:  8 nucleos/ 16 hilos 
 #### RAM instalada (GB): 16 GB
 #### Almacenamiento: SSD  512 GB
-#### Tiempo aproximado de ejecución:  6-7 minutos
+#### Tiempo aproximado de ejecución:  4 minutos
 ### 11. Autoría
 #### Tania Martínez León 
 
