@@ -1,0 +1,95 @@
+LOCUS       XM_031079276            1687 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata protein IQ-DOMAIN 14-like (LOC115960392),
+            transcript variant X2, mRNA.
+ACCESSION   XM_031079276
+VERSION     XM_031079276.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044912.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1687
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="9"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1687
+                     /gene="LOC115960392"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 8 ESTs, 11 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 37 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115960392"
+     CDS             228..1526
+                     /gene="LOC115960392"
+                     /codon_start=1
+                     /product="protein IQ-DOMAIN 14-like isoform X2"
+                     /protein_id="XP_030935136.1"
+                     /db_xref="GeneID:115960392"
+                     /translation="MGFLSRLFGFGSKKPKNPQPQKEKQKRRSFIASLNSNSHKGTPS
+                     RHQVDDPNKHAIAVAAATAAVAEAALAAAHAAAEVVRLTSNVGRNTNVAHRLLTAELA
+                     AVKIQSAFRGYLARRALKALKALVKLQALVRGHMVRKQTANMLRRMQTLVRLQARARA
+                     NRAQLSESFHSSSKSSLSHHPRCGSNSNFRDIINLDKGHGSSKWLDHWMEESLWNNRR
+                     DISFRNGHADDEKCDKILEVDTWKPHLNSQESKRTFQTSPNVFASDYNKESFMTYNSP
+                     SKHSTKAPNPIPSQATPSSGGVLSLGSFKLGRDETALRTADNSPQVHSLSSRPGSSAR
+                     RGPFTPTRSEYAWGYFGGYSGHPNYMANTESFRAKVRSQSAPRQRLEFEKFGSTRRSV
+                     QGLWDAGIDSDKRFADQAEYRYKAYSASGQLNRVGSANLR"
+ORIGIN      
+        1 gtaaccaaac ctcctcaata gcgcgtttac cgactactca atccccccgc acatatctct
+       61 ctacatataa tccccactcc aaaactaaaa aaacaaacca gttctgtgct cagttcagct
+      121 tctttcatag ttccaaagtt cctaaaaagt tccgaaactc tgtgtctatt tccaaaacca
+      181 aaaaaccatg tttcctttac ttaaacctcg gacccattaa gctgctcatg ggctttctca
+      241 gccggctctt cggattcggg tctaagaagc ccaagaatcc gcagccgcaa aaggagaagc
+      301 agaagcggag gagcttcatc gcttcgctaa acagcaactc ccacaaaggg acgccgtctc
+      361 ggcaccaagt ggatgacccc aacaagcacg ccatagcggt tgctgctgcc accgctgctg
+      421 tggcggaggc tgctctcgcg gcggctcatg cggcggctga ggtcgtcaga cttaccagta
+      481 acgtcgggag aaataccaac gtggcgcacc ggcttttgac ggcggagtta gctgccgtta
+      541 agatacagtc tgcttttcgt ggttatctgg caaggagggc gctaaaggca ctaaaagcat
+      601 tggtgaaact tcaagcattg gtgagagggc acatggtgag aaagcaaact gccaacatgc
+      661 tgaggcgaat gcaaacatta gtccgattgc aggcacgggc acgtgcaaat cgcgcacaat
+      721 tgtcagaatc cttccattct agcagcaagt cctctctgtc acatcaccct agatgtggtt
+      781 caaattcaaa cttcagggac atcatcaacc tagacaaagg acatggtagt tcaaagtggt
+      841 tagaccattg gatggaagaa agtttatgga acaaccgccg tgacatttca ttcagaaatg
+      901 gacatgctga tgatgagaag tgcgacaaga ttctcgaagt agacacttgg aaaccgcatt
+      961 tgaactccca agaaagtaag agaacctttc agacatcacc gaatgttttt gcttctgatt
+     1021 ataataagga gagctttatg acatacaact ctccatcaaa acactcaaca aaagctccaa
+     1081 atccaattcc tagtcaggct acaccatctt ctgggggagt tttatctctt ggctccttca
+     1141 aactaggaag agatgaaaca gctttaagga ctgctgacaa cagcccacaa gtgcattctt
+     1201 tgtcatccag gcctggaagt agtgccagaa gaggtccatt cacacccaca agaagtgagt
+     1261 atgcgtgggg ctattttggt gggtactcag gtcacccaaa ctacatggct aacacggagt
+     1321 cctttcgggc taaggttagg tcacagagtg ccccaaggca aaggctagag tttgagaaat
+     1381 tcggttcaac aaggagatct gttcaggggt tgtgggatgc agggatcgat tcagataaga
+     1441 ggtttgctga ccaagctgag tacaggtaca aagcttattc agcctctggc caattgaata
+     1501 gagttgggag tgctaattta aggtgattcc acttgttgta attttttttt ctatgtatgg
+     1561 cagcaatgct agagttgtaa ttatgtgatc atgatttttg tacctgtcca tgcacaatca
+     1621 aaagttgcca gaaacttact gttttaaact gtatgttcaa acataatcat agttgtgctt
+     1681 atatata
+//

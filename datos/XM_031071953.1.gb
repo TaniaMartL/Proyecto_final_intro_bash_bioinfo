@@ -1,0 +1,129 @@
+LOCUS       XM_031071953            3527 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata protein CNGC15b-like (LOC115954089),
+            transcript variant X1, mRNA.
+ACCESSION   XM_031071953
+VERSION     XM_031071953.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044910.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3527
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="7"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..3527
+                     /gene="LOC115954089"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 47 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 28 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:115954089"
+     CDS             1183..3312
+                     /gene="LOC115954089"
+                     /codon_start=1
+                     /product="protein CNGC15b-like isoform X1"
+                     /protein_id="XP_030927813.1"
+                     /db_xref="GeneID:115954089"
+                     /translation="MATGRSRYVRFRDDLETANCTPPNDSHLLMPTHNINDKQAPDLC
+                     LRSTEKDAIGKYSLGRELSKVFSEDYDVVEKIILDPQGPVSNRWNKIFLLACLLSLFV
+                     DPLFFYLPVAKEEACIEVMESLEVALTIIRSMIDAFYVVQIFVRFRTAYVGPSSRVFG
+                     RGELVIDPSKIASRYLRKGFWLDLVTALPLPQILIWAAIPNLRGSEITPTSIVVRFLI
+                     IFQYLLRLYHIYPLTSEIVKANGVMMETAWAGAVYNLMLCMLASHVLGSCWYLLSILR
+                     QEECWMKVCSLEQHDCKYWFLYCSNVDNPIRAAWFKSSNISSLCAGTSDFFQFGIYGE
+                     AVTSGTTSSRFFNKYYFCLWWGLRNLSSLGQNLFTSAYIGEISFAFVIVILGLVLFAL
+                     LIGNMQMYLQSTTIRLEEWRARRTDTEQWMHHRQLPRDLKQSVRRYDQYRWVATRGVD
+                     EEAILKDLPMDLRREIKRHLCLDLVRKVPLFDQMDDRMLDAICERLKPCLCTPGTCLV
+                     REGDPVNEMLFIVRGHLDSCTTNGGRSGFFNSCSIGAGDFCGEELLTWALDPRPNVAL
+                     PSSTRTVKAITEVEAFALIAEDLQFVAAQFRTLHSKKVRQTFRFHSHQWRTWAACFIQ
+                     AAWFRYKRLKEAAELKKRESLVASVPKSAPEESSSFPPYGSSFTTYAAKLAASTRRGG
+                     SKRCGTQFDILNSLQKPVEPDFTVEDR"
+ORIGIN      
+        1 tattggtcaa gattctctaa atcatcacag ttccatgtgg gtcctctact tcttattaaa
+       61 accgcgtgct tcccattttt tggctggaac ctgaagctaa gttttaactc tttcattcac
+      121 ctaaattaaa gcatcttctg tgtccctgac cactggtttt aatacttggg tacacatttc
+      181 cattgtcgaa tgttgtacag ttttagaata attcactttc acacattttt tgccacaatt
+      241 atcttgcgtg atagattgta atttgttgta acatgtatga aagtatgtga tacttgaatt
+      301 attcatagtt ttaatggcca agatgctaaa aaatagataa ttttgaaacc caaaagtcca
+      361 aaacaagttg gtgtcgacaa aaacaagagt ggttactaaa caaagtaaga aaattacaaa
+      421 ctaaaatgag ttatacgtgt tagttatgtg aactgcccca taatcctata tgcctttacc
+      481 tgtttttttt ttttatgggt ttctttatac atagttataa gttccatgag cttcacactc
+      541 ccttataaag gttcccactg aaatggtgaa aacccataga tgaagatata gagagaatat
+      601 tcagcattcc ttaattgtaa gttttcatgt ctgtcctttt gaattgttca gtggactctg
+      661 tgcctgcttc attcttaact tcatgggttt tgttttgtct aattaataga ttttttttct
+      721 tcttctaatt ttctgcttta ttattgttat tttgagtgac ccttttctcc tttaagctgt
+      781 catgttaatg caagaattag taatgaccac tttactttgt tcaagatttt tgtggttctg
+      841 gattgcatct gctgttactt tacatttcat ctgaacatga aacaatgtta tgaaacaaaa
+      901 taaaacattt attttgttgc aacttgctaa gaggtaatgt gacgaaactc acaggttaac
+      961 ttcactttct acatgaaaaa tgagatagta cttgtggctg gtaaaaattt ggtatacttt
+     1021 tcctttcaca tgattcgtaa caagtctatg tacggaaaaa gttgcttgac tcgtgtgtct
+     1081 tgagtgttct tgtggtggtt aacaaatttg gtgctgcggt atattttcat cgtagatcaa
+     1141 atccactggt tgaagacaca tctctgcctt ttctcaaacg ctatggctac tggtagatca
+     1201 agatatgtga gatttcgaga tgatcttgaa actgcaaact gtacaccacc caatgatagt
+     1261 catttgttaa tgccaactca taacatcaat gataaacagg cacctgattt gtgcctgagg
+     1321 agtactgaga aagatgcaat aggcaagtac tctcttggaa gagaactttc caaagtcttc
+     1381 tctgaggatt atgatgtggt ggagaagata atattggatc ctcagggacc tgtttcaaac
+     1441 agatggaaca aaatcttctt gttggcatgt ttgctttctc ttttcgtgga ccccttgttt
+     1501 ttttacttac cagtggctaa ggaagaggcg tgcattgaag ttatggagtc ccttgaagta
+     1561 gcccttacta tcattcggtc aatgattgat gcattttacg ttgttcagat ttttgttaga
+     1621 tttcgaacgg cttatgttgg tccatcctct cgagtatttg ggagaggaga gcttgttatt
+     1681 gacccttcaa agattgcttc aagatacctt cgcaaaggct tttggctaga ccttgtgact
+     1741 gccctacccc ttccacagat attgatttgg gctgcaatcc caaatttaag aggttcagaa
+     1801 attaccccta caagtattgt tgttcgcttc cttatcattt tccagtacct cctgaggtta
+     1861 tatcatatct atccgctcac atctgaaatt gtcaaggcca atggggttat gatggaaaca
+     1921 gcatgggctg gagctgtata caatctgatg ctctgtatgt tggcaagtca tgttttagga
+     1981 tcctgttggt acctcttatc cattctacga caagaagaat gttggatgaa agtttgcagt
+     2041 cttgaacaac atgattgcaa atattggttt ttatattgca gtaatgtaga taaccctata
+     2101 agagctgctt ggttcaaatc cagcaatatc tcaagtctat gtgctggaac tagtgacttc
+     2161 tttcagtttg gcatttatgg tgaggcagtg acttctggaa ctacatcctc aaggttcttc
+     2221 aacaagtact acttctgtct ttggtggggc ctgaggaatc tgagtagttt gggacagaat
+     2281 ctcttcacaa gcgcttatat tggagaaata agttttgctt ttgtgatcgt gatccttgga
+     2341 ttggtgcttt ttgcactgct tatagggaat atgcagatgt acctccaatc cacgactatt
+     2401 agactggaag agtggagagc taggaggact gatacagaac aatggatgca tcacaggcaa
+     2461 ctaccacgtg acttgaagca gagtgtgcga aggtatgatc aatacagatg ggttgcaact
+     2521 cggggagttg atgaggaagc cattcttaaa gatctcccca tggatctcag acgagaaatc
+     2581 aaacgccacc tgtgtttaga tctagttcgg aaagtaccac tttttgatca aatggatgac
+     2641 aggatgctag atgcaatctg tgaaaggctg aaaccttgcc tatgtacacc tggcacttgc
+     2701 ctagttcgcg agggtgatcc tgtcaatgag atgcttttca ttgtacgagg ccacttagac
+     2761 tcttgcacca ccaatggtgg tcgcagtggt ttcttcaatt catgcagcat tggagcaggg
+     2821 gacttctgtg gtgaagaatt gctaacctgg gccctggacc ctcgtccaaa tgttgcgctt
+     2881 ccttcatcta cacgcacagt aaaagccatc accgaagttg aagcttttgc tctcattgct
+     2941 gaggacttgc agtttgtagc agcccaattt cgcactctgc acagcaagaa agtcaggcag
+     3001 acatttaggt ttcactctca ccaatggagg acatgggctg catgttttat acaagcagct
+     3061 tggtttcgat ataaaagact gaaagaagca gctgagctca agaagaggga gagtctggtg
+     3121 gcatctgtgc ctaaatctgc accagaagag agttcatcct tccctccata tggctcaagc
+     3181 tttacaacct atgcagcaaa attggcagca agcactagga gaggtggaag caagaggtgt
+     3241 ggaactcaat ttgacattct aaactcatta cagaagccag ttgaacctga ttttactgtt
+     3301 gaagatagat gaagaaaaat ccttgtactt tgtgaagtgc caaatatcag tatatatata
+     3361 tatatatata tatatgtatt tagttctctt ttgtgttacc ttactattct gcaggtttgg
+     3421 gcacaaaatt catggcaatg ccttagtggt tcagtcttta cattgattat tctcatgtag
+     3481 gttttgttgc ttaggcattg tttcattgtt aagaatgata acttata
+//

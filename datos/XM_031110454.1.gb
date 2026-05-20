@@ -1,0 +1,101 @@
+LOCUS       XM_031110454            2014 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata serine/threonine-protein kinase BSK2-like
+            (LOC115987015), mRNA.
+ACCESSION   XM_031110454
+VERSION     XM_031110454.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044907.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2014
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="4"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2014
+                     /gene="LOC115987015"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 1 EST, 55 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 33 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115987015"
+     CDS             277..1770
+                     /gene="LOC115987015"
+                     /codon_start=1
+                     /product="serine/threonine-protein kinase BSK2-like"
+                     /protein_id="XP_030966314.1"
+                     /db_xref="GeneID:115987015"
+                     /translation="MGCFQSKTAHLASPDQDPPLPHPSPDPANGGGGEEELEQNDGVP
+                     AFKEFELAELRAATNGFSSELIVSESGEKAPNVVYKGKLRNNGLVAIKRFSKLSWPDP
+                     HQFVTEACGVGKVRHKRMVNLIGCCAEGDERLLVAEFMPNDTLSKHLFHWDKQPLPWE
+                     MRVRVAYYIAQALGHCNTENRKIYHDLNAYRVLFDEDGDPRLSSFGLMKNSRDGKSYS
+                     TNLAYTPPEFLRTGRVIPESVVYSYGTVLLDLLSGKHIPPSHALDLIRGKNLLLLLDS
+                     SLEGQYAEEDATELVELASKCLQYEAKDRPEIKFLLSSVTPLQKQKEVASHVLLGLTK
+                     TPVVLPTMLSPLGKACVRMDLTAVHDILLKTGYKDEEGAENELSFQEWTQQVQDMLNT
+                     KKFGDIAFRDKDFKNAIEYYSKLVSMMPVPSATIFVRRALSYLMTGQAELALRDAMQS
+                     QVCLPEWPTAFYMQALALSKLGMETDAQDMLNDGASFEAKKQNSWRI"
+ORIGIN      
+        1 acttcaaagt ctctcaactc tctaacccca ccaccaccca cttcacattc acattcacat
+       61 tcatattcac tctctaatct ctatcactca ctcactcatt gctcattcaa tttttttcca
+      121 aaccctccac cggaaaatct gtttagtact ttttttttct ctctcactca catagtcaca
+      181 tgctctcaat ctatatatag tatctctctc tctctctctc tctctctctc tctctaatct
+      241 ctctttgttt atatatatgt aaagctctca tcagtcatgg gctgttttca gtccaaaact
+      301 gcccacctag cttctcccga ccaagaccct cctcttcctc accccagtcc agatccagca
+      361 aatggtggag gaggagagga ggaattagag caaaacgatg gcgtgccggc attcaaggag
+      421 ttcgagctgg cagagctgag agcagcaaca aatgggttca gtagtgaatt gatagtctct
+      481 gagagtggag agaaagctcc caatgtggtt tacaaaggga agcttcgaaa caatggcctt
+      541 gttgccatta agcgcttctc caagctttcc tggcctgacc cacatcagtt tgtgacagag
+      601 gcttgtggag tagggaaggt tcggcataag agaatggtga atttaatagg atgttgtgct
+      661 gagggagatg agcggctttt ggtggcagag ttcatgccta atgatactct ctccaagcat
+      721 ctctttcact gggataaaca accattgcct tgggaaatgc gtgtgagagt tgcctactat
+      781 attgcacaag cacttggtca ttgcaacaca gaaaaccgaa aaatctatca tgatttaaat
+      841 gcatatagag ttctatttga tgaggatggt gacccacgat tatctagttt tggtcttatg
+      901 aagaatagcc gagatggaaa aagttatagc actaacttgg catatactcc accagagttc
+      961 ttgcggacag gcagggtcat cccagagagt gtggtctaca gttatggaac tgttcttctg
+     1021 gaccttttaa gtggaaagca tatccctcca agtcatgcat tggatttgat aagaggaaaa
+     1081 aatttgttgt tactgctgga ttcgtccttg gaaggacaat atgctgaaga agatgcaact
+     1141 gagttggttg aactggcctc aaaatgcttg caatatgagg ctaaagatcg acctgaaatc
+     1201 aaatttcttc tttcatcagt aactccgctc caaaagcaga aagaggttgc atcacatgtc
+     1261 ctattgggtt taacaaaaac accagtggtg ctgccaacca tgctttcccc ccttggaaag
+     1321 gcttgtgtga gaatggatct tactgcagtg cacgatatat tgcttaaaac aggttataaa
+     1381 gatgaagagg gtgcagaaaa tgaactgtca ttccaagagt ggacgcaaca agtgcaagat
+     1441 atgttgaaca ccaagaagtt tggggatatt gcatttagag acaaggattt caaaaatgct
+     1501 atcgaatatt attcaaagct agtatcgatg atgcctgttc cctcggctac tatctttgtg
+     1561 aggcgagccc tctcatactt gatgactggc caagcagaac ttgccttgag agatgcaatg
+     1621 caatctcagg tgtgcttgcc cgagtggcct actgcattct acatgcaagc tcttgccctc
+     1681 tcaaagcttg gaatggaaac agatgctcag gacatgctta atgatggagc ctcctttgaa
+     1741 gcaaagaaac aaaacagttg gcggatatag gttcttggct tttagctaat ggtggtggca
+     1801 atcctatatc tcttaatttt ttccgctcat ttttaccatt atgttgcaag tggcatttgc
+     1861 aagaagatcc atgtgagaac aagtttgata tatatggtat tgattggggt tatttttaag
+     1921 ttttgcaccc tcttcacttg attagtttca cacaaagaaa tgtataaagc atttgtaata
+     1981 aacaataatc taagtcagtt tttttagatt tata
+//

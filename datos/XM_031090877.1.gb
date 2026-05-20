@@ -1,0 +1,121 @@
+LOCUS       XM_031090877            2846 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata serine/threonine-protein phosphatase BSL1
+            (LOC115971152), transcript variant X3, mRNA.
+ACCESSION   XM_031090877
+VERSION     XM_031090877.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044915.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2846
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="12"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2846
+                     /gene="LOC115971152"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 7 ESTs, 2 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 33 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115971152"
+     CDS             121..2394
+                     /gene="LOC115971152"
+                     /codon_start=1
+                     /product="serine/threonine-protein phosphatase BSL1
+                     isoform X3"
+                     /protein_id="XP_030946737.1"
+                     /db_xref="GeneID:115971152"
+                     /translation="MTNDKFKWHRVVVQGQGPGPRYGHVMDLVAQRYLVTVSGNDGKR
+                     VLSDAWALDTAQKPYVWQRLSPEGDRPSARMYATASARSDGMFLLCGGRDSSGAPLAD
+                     AYGLLMHRNGQWEWTLAPGVSPSPRYQQAAVFVNARLHVTGGALRGGRAIEGEAAIAV
+                     LDTAAGVWLDRNGLVTSSSRTSKGLTEFDPTLELMRRCRHAAASVGGRIYIYGGLKGD
+                     ILLDDFLVAENSQFQSDINSPVITSERASPISSPKFNQPNVNPYVTTPTLDGGLDIPS
+                     SGSMSSMDKNSLEKLREASAAEAEAATAVWQAVQAASAAPPEETSVSDDNSQAAETTS
+                     DGSDTEADVRLHPRAVVVAKEAVGNLGGMVRQLSLDQFENESRRMIPLNNDLSYPTKK
+                     FTRQKSPQGLHKKIISSLLRPRNWKPPANRRFFLDSYEVGELCYAAEQIFMHEPTVLQ
+                     LKAPVKVFGDLHGQFGDLMRLFDEYGFPSTAGDITYIDYLFLGDYVDRGQHSLETITL
+                     LLALKIEYPENVHLIRGNHEAADINALFGFRLECIERMGENDGIWAWTRFNQLFNYLP
+                     LAALIEKKIICMHGGIGRSINSVEQIEKLERPITMDAGSIILMDLLWSDPTENDSVEG
+                     LRPNARGPGLVTFGPDRVTDFCKRNKLQLIIRAHECVMDGFERFAQGQLITLFSATNY
+                     CGTANNAGAILVVGRGLVVVPKLIHPLPPPLQSPETSPERVQEDTWMQELNIQRPPTP
+                     TRGRPQPDLDRSSLAYI"
+ORIGIN      
+        1 aattaggccg gcaggtgatc caccctcgcc acgggctgca catgccgcgg ctgcagttgg
+       61 tacaatggtt gtgtttcagg tcctgctggt cattccacgg atgatctatt tgtgcttgac
+      121 atgacaaatg ataagtttaa gtggcataga gtagtggtac aaggacaagg acctgggcct
+      181 cgctatggcc atgtaatgga cttggttgct caaagatatc ttgtcactgt tagtggcaat
+      241 gatggcaaaa gagttctatc tgatgcttgg gctttggata ctgctcagaa accatatgta
+      301 tggcagaggc taagcccaga aggtgacagg ccttctgcaa gaatgtatgc aacagcaagt
+      361 gcccgttcag atggcatgtt tttgctgtgt ggtggaagag actcttctgg cgcgccactt
+      421 gctgatgctt atgggctgct catgcatagg aatggtcagt gggaatggac tcttgcacca
+      481 ggagtatccc cttcaccaag gtatcaacaa gctgcggttt ttgttaatgc acgattgcat
+      541 gttactggag gtgcccttag aggaggacgt gcaattgaag gtgaagcagc tattgcagta
+      601 ttggacactg ctgctggagt ttggttagat agaaatggtt tggtcacctc ctcttcacgc
+      661 acaagcaagg gcctcactga atttgatcct actttggagc ttatgcgtcg ttgccgccat
+      721 gcagctgcat ctgttggtgg tcgtatatat atttatggtg gtctcaaggg agatattctt
+      781 ttggatgatt ttctggttgc agaaaattct caattccagt ctgacatcaa ttctcccgta
+      841 ataacatccg agagagcctc accaatatca agccccaaat ttaatcaacc taacgtaaac
+      901 ccttatgtga ctacaccaac tttggatggt ggactagata ttccttcttc tggtagcatg
+      961 agcagcatgg acaaaaattc tttggagaaa ttgagggaag cttctgctgc tgaagctgag
+     1021 gcagctaccg ctgtctggca agcagtgcag gctgcttctg ctgctcctcc tgaagagaca
+     1081 tctgtatcag atgataactc ccaagctgca gaaacaactt cagatggtag tgatacagag
+     1141 gcagatgttc gtcttcatcc aagagctgtt gtggttgcga aagaggctgt gggtaacctg
+     1201 ggtgggatgg taaggcaatt atctttggat caatttgaga atgagagcag acggatgatt
+     1261 ccattgaaca atgatttatc ctatcctact aaaaaattca ccaggcagaa gtctcctcag
+     1321 ggcttacata agaagatcat ttcttcattg ctcagacctc ggaattggaa acctcctgcc
+     1381 aataggagat ttttcctgga ttcatatgaa gtgggtgagc tctgttatgc tgctgaacag
+     1441 atctttatgc atgagccaac agtccttcaa ctgaaagcac ctgttaaagt atttggtgat
+     1501 ctccatggac aatttggtga tttaatgcgg ctttttgatg aatatggatt tccttccact
+     1561 gcaggagata taacgtatat tgactacctg tttttgggtg attatgttga tcgaggacag
+     1621 catagcttgg agaccataac cttgctgctt gctcttaaga ttgagtatcc tgagaacgtt
+     1681 cacttaatac gtggaaatca tgaggctgct gacataaatg ctctctttgg ttttcgcctt
+     1741 gaatgcattg aaagaatggg agagaatgat ggaatatggg catggacacg atttaatcaa
+     1801 ctattcaact atcttccact tgctgcactt attgagaaga aaatcatctg tatgcatggt
+     1861 ggcataggga ggtctataaa ttcagtagaa cagatagaga agctcgaaag gcctataaca
+     1921 atggatgctg gatctataat tttgatggat cttctatggt ctgatcctac agagaatgat
+     1981 agcgtggagg gtttgagacc gaatgctaga gggcctggtc ttgtcacttt tgggcctgat
+     2041 cgtgtcacag atttctgtaa gagaaacaaa ttacagctaa ttataagggc ccacgaatgt
+     2101 gtcatggatg ggtttgaacg gtttgctcag ggacagttga taactctttt ttctgcaact
+     2161 aactattgtg ggacggcaaa caatgctgga gctatactgg tagttggcag ggggttggtt
+     2221 gtggttccaa aattaattca tcccttgcca ccgccccttc agtcaccaga gacatctcct
+     2281 gaacgtgtac aagaggacac atggatgcag gaacttaaca ttcaaagacc accaactcct
+     2341 actcgtggtc gaccacagcc tgaccttgac cggagctcac ttgcatacat ataatgttac
+     2401 ctgacagatt tgtgaacttc acaacttgtc aaagtaaaaa tctgcatttc tctgacaggc
+     2461 ttgaccttga cctgtcctgg gtcgggataa gttttccacc tgtgaccaat atgtcctatt
+     2521 gtagtctgaa agatatgagt tgccaaaaat gaagccttgt ctagtgtaca catagcttga
+     2581 ggatggtaga ggatgtagct attagccaat tgatcatcgt tctttaacat ttgtaattta
+     2641 tgtacaattt agaatgtgaa gatactgttg cccaccatac agataaatta tagggaagga
+     2701 gaagaagctt gttttgcttt tgtgtaatgt aaaataaaca acaatatgca attaatttct
+     2761 ttgtaaggta tttatttgca ttttgataag gcaattttga aaccaaagtt ataatttgaa
+     2821 atgttcatgg agttgaacaa tattct
+//

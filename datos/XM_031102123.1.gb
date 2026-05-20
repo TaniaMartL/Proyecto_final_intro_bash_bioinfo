@@ -1,0 +1,97 @@
+LOCUS       XM_031102123            1857 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata arogenate dehydratase/prephenate
+            dehydratase 6, chloroplastic-like (LOC115979980), mRNA.
+ACCESSION   XM_031102123
+VERSION     XM_031102123.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044904.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1857
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="1"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1857
+                     /gene="LOC115979980"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 7 ESTs, 37 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:115979980"
+     CDS             219..1520
+                     /gene="LOC115979980"
+                     /codon_start=1
+                     /product="arogenate dehydratase/prephenate dehydratase 6,
+                     chloroplastic-like"
+                     /protein_id="XP_030957983.1"
+                     /db_xref="GeneID:115979980"
+                     /translation="MQAIAPPSQSFIRATRPRLAPFRVASIQCVYRSDSVNFPNGVGL
+                     SRADWQSSCAILTSKVVSKEQPTEKPGSGTGSDGSADHIAAVNGHKTIDLNLVPITDK
+                     NKTDLAAADINNNNRPPARPLTITDLSPAPMHGSQIRVAYQGVPGAYSEAAAGKAYPN
+                     CEAIPCDQFEVAFQAVELWIADRAVLPIENSLGGSIHRNYDLLLRHRLHIVGEVQLPV
+                     HHCLLALPGVRKEYLTRVISHPQALAQCELTLTKLGLNVAREAVDDTAGAAEFVAANN
+                     LRDTAAIASARAAGLYGMNILADGIQDDSSNVTRFVMLAREPIIPRTDRPFKTSIVFA
+                     HEKGTSVLFKVLSAFAFRNISLTKIESRPHRNRPIRLVDDANVGTAKHFEYMFYVDFE
+                     ASMADVRAQNALAEVQEFTTFLRVLGSYPMDMTPWCPSGGD"
+ORIGIN      
+        1 tcgttcattt ctcagcttgc cgtttctcat ttcagagaac aacaagcttc aattatcttt
+       61 atacaaatct aaacaatacc aaaaacacaa aaaaaaaaaa aaaacaccaa aaacaaaaac
+      121 aaaaaaaaca caaacagaaa caccctcccc ctctctctct ctctctgtct ctctcctatt
+      181 ccactttttg ttttcaatta tttccactaa caacaactat gcaggctatt gctcctcctt
+      241 cgcagtcctt catcagggca actcgcccgc gactcgctcc gttccgagtc gcctcaatcc
+      301 aatgcgttta ccgatccgac tcggtcaact tcccgaacgg cgtcggtttg agtcgagccg
+      361 actggcaaag ctcctgcgct atcttaacca gtaaagtcgt ttccaaagaa caacccactg
+      421 aaaaacccgg atccggaacc ggttccgacg gctcagctga ccatatcgcc gccgttaacg
+      481 gccacaagac catcgatctc aaccttgttc ccatcaccga caagaacaaa actgacctcg
+      541 cagccgcgga catcaacaac aacaacaggc cgccggcgag gccgttaact attacagacc
+      601 tgtcgccggc tccgatgcac gggtcgcaaa tccgggttgc ttaccaaggt gttcccggcg
+      661 cgtactctga agccgcggcc ggaaaagctt acccgaactg cgaagccatt ccttgtgacc
+      721 agttcgaagt ggctttccaa gccgtggagc tttggatcgc cgatcgagct gtgctcccaa
+      781 tcgaaaactc actcggcggc tcaatacaca gaaactacga cctcttactc cgccaccgcc
+      841 tccacatagt cggcgaggta cagttacccg tacaccactg cctcttggct ttaccggggg
+      901 tccgaaaaga gtacttgacc cgagtcatct cacacccgca agccttggct cagtgcgagc
+      961 tcaccctcac gaaactgggc ctcaacgtcg cccgcgaggc cgtcgacgac acggcgggag
+     1021 cggcagagtt cgtcgccgcc aacaacctcc gggacacggc ggcgatagca agcgcacgcg
+     1081 ccgcgggtct ctacgggatg aacatactcg cggacggaat ccaggacgac tcgagcaacg
+     1141 tgacccggtt cgtgatgctg gcccgagagc ccataatacc tcgcaccgac cggccattca
+     1201 agacgagcat tgtgttcgcg cacgagaaag ggacgtcggt gctgttcaag gtgctgtcgg
+     1261 cgttcgcgtt caggaacatc agcctgacga agatcgagtc gaggccgcac cgcaaccgtc
+     1321 cgatcaggtt ggtggacgat gcgaatgtgg ggaccgctaa gcatttcgag tacatgtttt
+     1381 acgtggactt cgaggcgtct atggctgacg tcagagctca aaatgcgttg gctgaggttc
+     1441 aggagttcac gacgtttttg cgagtgttgg gtagttatcc aatggatatg acgccttggt
+     1501 gtccttccgg tggagattag caaaaaatgc tccgattctt ctcttaacaa atgttattat
+     1561 tgttttgcac aaaaacaaaa aaacgaaatt tctttttaat attttttttc cttttttggt
+     1621 ttcgaattat atttcttttt tttattttat aatttgaagg atggatggaa agaagtaaga
+     1681 aatgttggtg gtaggtgtat gtaaaagtag gtgatataaa acaaagatgt gaagccacag
+     1741 agtttttggt ggctacgtgt aagtgtgaat atcaaccgcc caaactgtgt ttgttaaact
+     1801 tgtttgggaa atttggacca gataaaaaaa ttatggactt ctttctttca atgagaa
+//

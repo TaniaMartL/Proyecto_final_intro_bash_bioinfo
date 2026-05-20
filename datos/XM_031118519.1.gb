@@ -1,0 +1,123 @@
+LOCUS       XM_031118519            2962 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata tRNA
+            (cytosine(34)-C(5))-methyltransferase (LOC115994386), mRNA.
+ACCESSION   XM_031118519
+VERSION     XM_031118519.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044909.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2962
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="6"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2962
+                     /gene="LOC115994386"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 7 mRNAs, 10 ESTs, 4 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 35 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115994386"
+     CDS             139..2640
+                     /gene="LOC115994386"
+                     /codon_start=1
+                     /product="tRNA (cytosine(34)-C(5))-methyltransferase"
+                     /protein_id="XP_030974379.1"
+                     /db_xref="GeneID:115994386"
+                     /translation="MGGGGGGRGRSRTQRKHFKQSRENVWKRPKSDPSSEDNNNNGND
+                     NRDPHWQPFATQNAAFDEYYKGQGIVSEEEWDSFMEVLRKPLPAAFRINSSSQFCDDI
+                     RSQLENEFMKSLQSEVTNGEEDAIRPLPWYPENLAWHSNFSRMQLRKNQTLEKFHEFL
+                     KLENEIGNITRQEAVSMVPPLFLDVCPDHFVLDMCAAPGSKTFQLLEIIHRSTKAGSL
+                     PKGMVVANDLDVQRCNLLIHQTKRMCTANLIVTNHEAQHFPGCRLNRNCSSSSEGGMG
+                     FQQSLSQLIFDRVLCDVPCSGDGTLRKAPDIWRKWNSGMGNGVHCLQVQIAMRGISLL
+                     KVGGRIVYSTCSMNPVENEAVVAEILRKCGGSLELVDVSGELPQLVRRPGIKKWKVRD
+                     KGTWFVSYKDVPKYRRSVIVPSMFPSGRCYVESTENNQDVELGEKHENGADGNPEEGI
+                     QQSEDPVALADELDEEVSNFPLERCMRIMPHDQNSGAFFIAVFHKLSPLPAMQEKPNS
+                     LQLDDKPCVNLSNQIVEDTNGLEVISADGTDEKLSGAASEADLIDNETEGAAVEPDTC
+                     ITCEEHNSEEAEAPGHRETDPKKAGGKRKLQTQGKWKGVDPVVFFKDEAIVTSIMTFY
+                     GINDSFPLKGHLVTRNNDTNHVKRIYYISKSVKDVLELNFSVGQQLKITSIGLKMFER
+                     QTSREGNSAPCSFRISSEGLPVLLPYITKQILYASPVDFKHLLQYKTIKFADFVDAEF
+                     SHKASNLMPGCCVIVLSRGSNASMDQTQVDESIAIGCWKGRASLSVMVTATDCQELQE
+                     RLLTRMGPENGSLVQDEKPSNGEADEVLEMTDRKE"
+ORIGIN      
+        1 cacgttcgac ccaaaaaact catgcccaca cataaagcgg aataaaatta ctcttctcaa
+       61 aaaacgaatt tgaaggcgct cttccatttt cggacagttt agaaatagca tagcagcggc
+      121 ggcgcgcaga gtccgaaaat gggaggcggc ggcggaggga gaggacgatc tcgtactcag
+      181 agaaagcatt tcaagcagag cagagagaac gtttggaagc gccccaagtc cgatccttcc
+      241 tctgaagaca acaacaacaa tggaaatgat aatagggatc cgcattggca gcccttcgcc
+      301 actcaaaacg cagctttcga tgaatactat aaggggcaag ggatagtgtc cgaagaagag
+      361 tgggattcat ttatggaagt gcttcgaaaa ccattgcctg ctgctttcag aatcaattcg
+      421 agtagccagt tctgtgatga catccgatca cagttagaga atgagtttat gaaatctctt
+      481 caatctgagg tcactaatgg cgaagaagat gctattagac cattgccttg gtaccctgag
+      541 aatcttgctt ggcactcaaa tttttcccgc atgcagctga ggaagaacca aactcttgag
+      601 aagttccacg agttcttaaa gttagaaaat gaaattggaa acatcacaag acaggaggct
+      661 gtcagcatgg tacctcctct cttcctggat gtatgtccgg atcattttgt acttgacatg
+      721 tgtgctgcac cagggtcaaa aacattccag ctgcttgaga ttatacaccg atcaaccaaa
+      781 gcaggatcac tgcctaaagg aatggttgta gcaaatgatc ttgatgtcca aagatgtaat
+      841 cttctcatcc accaaacaaa aagaatgtgc actgccaatc tgatagtcac aaatcatgaa
+      901 gctcaacatt tccctggctg ccgtttgaac agaaattgct ctagttcttc tgaaggagga
+      961 atgggatttc agcaaagtct tagtcaactt atctttgatc gtgtcttatg tgatgttccc
+     1021 tgcagtggag atggtaccct ccgcaaggct ccagatatct ggaggaaatg gaattcagga
+     1081 atgggcaatg gggtccattg cctacaagtt cagatagcca tgcgaggtat atctttgctt
+     1141 aaagttggtg ggagaattgt gtactcaact tgctcaatga atccagtaga gaatgaagct
+     1201 gtggttgctg agattttgcg gaagtgtgga gggtctcttg aacttgttga tgtctccggt
+     1261 gagcttcctc aacttgttcg taggccagga attaaaaaat ggaaggtacg tgacaagggc
+     1321 acctggtttg tttcctacaa agatgtcccc aagtaccgca ggagtgtgat agttcccagc
+     1381 atgtttcctt ctggcagatg ctatgttgag tcaaccgaga ataaccaaga tgtagaattg
+     1441 ggagaaaagc atgagaatgg tgctgatgga aatcctgaag aggggattca gcagtcggag
+     1501 gatcctgtag ctctagctga cgaattggat gaggaggttt ctaattttcc ccttgaacgt
+     1561 tgcatgagga taatgcctca tgatcaaaac agtggggcct ttttcattgc ggtcttccac
+     1621 aaactttctc ctcttccagc catgcaggag aaacccaata gtctgcaact agatgataag
+     1681 ccatgtgtaa acttatcgaa tcagattgtt gaagatacaa atggattgga ggttatttca
+     1741 gcagatggta cagatgagaa actttcaggc gcagcttcag aggctgattt aatagataat
+     1801 gagacagagg gggctgctgt tgaacctgat acttgcatta cgtgtgaaga gcataattca
+     1861 gaggaagctg aagcacctgg tcatagggaa actgatccta agaaagctgg aggtaaaaga
+     1921 aagttgcaga ctcaaggcaa gtggaaaggg gttgaccctg tcgttttctt caaagatgaa
+     1981 gctattgtaa ctagcataat gacattctac ggtattaatg attcctttcc attaaagggg
+     2041 catcttgtca caagaaacaa cgatacaaat catgtgaaga gaatttacta tatctcaaag
+     2101 tcagttaagg atgttcttga attgaatttc tcagtcgggc agcaacttaa gataacgtcc
+     2161 attggcctga agatgtttga acgacaaaca tccagagaag gtaactccgc accatgttca
+     2221 ttccggatat cctctgaagg attaccagta cttctcccct acatcaccaa acaaatccta
+     2281 tatgcatccc cagtggactt caagcatctt ctgcaatata aaactattaa atttgcagat
+     2341 tttgttgatg ctgaattcag tcataaggca tcaaacctaa tgcctggttg ctgtgtgata
+     2401 gttttgagca gaggtagcaa tgcctcgatg gatcaaaccc aagtagatga gtcaatagca
+     2461 attgggtgct ggaagggtag agcaagttta tctgtaatgg tcactgcaac tgattgccaa
+     2521 gaactgcagg agaggctttt aacgcgcatg gggcctgaaa acggctcttt ggtgcaggac
+     2581 gagaaaccct ctaatggtga agctgatgaa gtactggaga tgactgacag aaaagaatga
+     2641 gaactcggaa agtatcaagc ttgcaactga gggaaattaa tttgaagaat cgagtgcctg
+     2701 gacgttctat gttgtactat aattgggtaa tctagtgttg gattttatca cgatgagtat
+     2761 gtatggcagt cttttgcctt gccatattcc attttaaagg aatcaattta ttgcaactag
+     2821 tcactcagat gtcagaattt ccttatccat atcatgctaa tgcaactctt gagaacaaga
+     2881 gattatagat tttttgttac tgaattttta aatcgttttg acttgtttct tcagtgagaa
+     2941 tagtagttga agatactaga aa
+//

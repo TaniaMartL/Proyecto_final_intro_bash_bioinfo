@@ -1,0 +1,103 @@
+LOCUS       XM_031074049            2029 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata mediator of RNA polymerase II
+            transcription subunit 15 (LOC115955742), mRNA.
+ACCESSION   XM_031074049
+VERSION     XM_031074049.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044911.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2029
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="8"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2029
+                     /gene="LOC115955742"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 18 ESTs, 4 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 40 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115955742"
+     CDS             176..1768
+                     /gene="LOC115955742"
+                     /codon_start=1
+                     /product="mediator of RNA polymerase II transcription
+                     subunit 15"
+                     /protein_id="XP_030929909.1"
+                     /db_xref="GeneID:115955742"
+                     /translation="MASGSSGRGNPGSKGFDFGSDDILCSYEDYTNQDSSNGNHGDPV
+                     ISSNSGKDFQKSRISRTAMFPSVYNQPEDSFSQDVIATVEKSMKKYTDNLMRFLEGIS
+                     SRLSQLELYCYNLDKSIGEMRSELGRDHGEADSKLKSLEKHLQEVHRSVQILRDKQEL
+                     AETQKELAKLQLAQKESSSSSHSQSSEEKTSSAAADAKKTDNTSDANNQQLALALPHQ
+                     VVPQQQPVAPPPQAPPQNLTQQQSYYLPPTQLPNPQAQTQHTHSQYPPDSQYRTPQLQ
+                     DMSRVAPQPTQSQVNQTAPVQPFPQYQQQWPQQLPQPSQQPSMQPQIRPPSTTVYSTY
+                     TPSQPTNPSPPETLPNSMPMQMPFPGIPQPASSRVDAMPYGYSGAGRTVPQPPPPQQM
+                     KGTFGAQPGDGYAVGGPQPALPPGSGYMMYDSEGRAHHPPQPPHYTQGGYPPTSVALQ
+                     NPQPTTGPNLMVRNPSHSQFFRNHPYSELIEKLVSMGFRGDHVASVIQRMEESGQPVD
+                     FNAVLDRLNVHSSGGSQRGWSG"
+ORIGIN      
+        1 ccaacgatat taaacaaaac aaaaaacacg tttttcactt aaaccctgca aacccgtaaa
+       61 aaataaaaaa taaaatccac gaaacttctt ttccaaacaa aagctgagtt agttccacgg
+      121 aatttctctc tctcgtagaa accctaactt tctctctctc gatctttctc catcgatggc
+      181 gtccggatcg tcgggtcggg gcaacccggg ttcaaagggg ttcgatttcg gatccgatga
+      241 cattctctgc tcctacgaag actacaccaa ccaggactct tcgaatggga accatggcga
+      301 cccagtcatc agctccaatt cgggaaagga ttttcagaaa agcagaatct caagaacggc
+      361 gatgtttcct tctgtctata accagccaga agattctttc agccaagatg tgattgcaac
+      421 tgtggaaaaa agtatgaaaa agtataccga caaccttatg cgctttcttg agggaatcag
+      481 ttcacgtctg tcgcagttgg aattatactg ctacaatctt gataaatcaa ttggagaaat
+      541 gcggtcagag ttaggtcgtg atcatggaga ggcagattct aaacttaaat ctcttgagaa
+      601 acatcttcaa gaagtccaca ggtctgtaca gatcctaaga gacaagcaag aacttgcaga
+      661 gacccagaaa gaattagcca agcttcagct tgcgcaaaaa gagtcatctt cttcaagcca
+      721 ctcccaatcc agtgaggaga aaacctcatc agctgctgct gatgccaaaa agactgataa
+      781 cacatctgat gcaaataacc agcaattagc tcttgccctg ccacaccaag tagtgccaca
+      841 gcaacagcct gtggcacctc ctccacaagc accaccacag aatctaacgc agcaacaatc
+      901 ctattatctc cctccaactc agttaccaaa tccacaggcc caaacccaac acacacacag
+      961 tcaatatcca cctgattctc agtaccgaac accccaactg caggacatgt ctagggtggc
+     1021 accacagcca acacagtctc aagtaaatca gacggcacca gtccaaccat tccctcaata
+     1081 tcagcagcaa tggccccagc aattacctca gccatcgcaa cagccctcaa tgcaacccca
+     1141 gatcaggccc ccatcgacaa cggtttactc aacctacaca ccaagtcaac caacaaaccc
+     1201 atcacctcca gagacgctgc caaacagcat gcccatgcaa atgccattcc caggaattcc
+     1261 tcaacctgcg tccagccgtg ttgatgccat gccgtatggg tattctggag ctggaagaac
+     1321 tgttccacag ccgcccccgc ctcagcaaat gaagggcact tttggagcac aaccaggtga
+     1381 tgggtatgca gttggtggac cccagcctgc acttcctcca gggagtggat atatgatgta
+     1441 tgacagtgag ggaagagcac atcatccacc tcaaccgcct cactacactc aaggtggata
+     1501 tcctccaaca agtgttgctc ttcagaatcc acaaccaaca acaggcccca atcttatggt
+     1561 ccggaatcca agccattcac aattctttcg caaccatccc tatagtgaac tgattgagaa
+     1621 attggtgagc atgggtttca ggggtgacca tgttgcaagc gtgattcaga ggatggagga
+     1681 gagtgggcag cccgttgatt ttaatgctgt gctagacagg ttgaatgtgc attcctctgg
+     1741 gggttctcag agaggatggt cagggtaaag aatttattca gtaatttgag ttccatatca
+     1801 gtgacaatca tgcgtgtttt attatgcatt aataaaaggt tgatgtaatg tgcacggtgt
+     1861 attgtatatg tggtttgaga gatacaaaga tggtgtatat ctgcgacctc attccaatac
+     1921 ttttgtcttc tgttgtttga tgacacttct agcagtagaa agacttccat taaatggctt
+     1981 ttcttttctt tttaaaaaat atatatatat ttcccttctt cgattggta
+//

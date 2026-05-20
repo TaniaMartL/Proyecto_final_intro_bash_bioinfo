@@ -1,0 +1,113 @@
+LOCUS       XM_031082374            2557 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata protein CASP (LOC115963390), mRNA.
+ACCESSION   XM_031082374
+VERSION     XM_031082374.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044913.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2557
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="10"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2557
+                     /gene="LOC115963390"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 15 ESTs, 6 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 34 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115963390"
+     CDS             197..2248
+                     /gene="LOC115963390"
+                     /codon_start=1
+                     /product="protein CASP"
+                     /protein_id="XP_030938234.1"
+                     /db_xref="GeneID:115963390"
+                     /translation="MEAPQVGSERDKPNPSSSPTPIVANFWKGFDLEKVKVILDEQGL
+                     RIADNQENSQKNRRKLAESTRDFKKASAEEKLSLFNSLLKGYQEEVNNLTMRAKFGEN
+                     AFLEIYQKLYEAPDPYPALASIADQDIKLSELESENRKMKVELEEFRTEATHLKNQQA
+                     TIRRLEERNRQLEQQMEEKVKETVEMKQRSLAEENQKTLEVLKEREQSLQDQLRQAKE
+                     SVSTMQKLHELAQSQLFELRAQSDEDTAAKQSELSLLMDEVERAQTRLLSLEREKGLL
+                     RSQLQTANEDAGNKKSDNLDSNSILENSLNAKEKIISELNRELHNIETTLSNEQEEHM
+                     KDIKKLKVLLNEKEVAIEEMKKELQARPTEKMVDELRKQLKLMQVLIYNSIEAEDWDA
+                     ATGGEEMSKMEHLLLDKNRKMEHELTQLKVKLNEKTALLEAAESKTEELKAKVNEQQK
+                     LIQKLEDDILKGYSSKDRKGNLFDDWDLSEARGSELSENADQKHISSDQDQSSMLKVI
+                     CNQRDRFRARLGETEEEIRHLKEKIGLLTVELEKTKADNVKLYGKIRYVQDYNHERVV
+                     SRGSKKQAEDLESGFTSDVESKYKKIYEDDINPFAAFSKKERDQRYKELGFRDRITLS
+                     SGRFLLGNKYARTFAFFYTIGLHILVFTCLYRMSALSYLRNGPEESLTGDKILNLPHA
+                     M"
+ORIGIN      
+        1 tttacttctt aagcaatacc tcactactat aaaatctgaa ggaaatccat tacccaaaaa
+       61 ataaaaccat tagacttaaa gccaaagctc tcttagatcc atcagagcaa actaaaaatt
+      121 aaaattctcg ttgttgcaga gactgaagaa cacacacaaa aaaaaatcaa aacccagcga
+      181 ttcggatccg ttgaaaatgg aggctccgca agttggatcc gagagggaca aacccaaccc
+      241 gtcctcttct cctaccccaa tcgtcgccaa tttctggaaa ggttttgatt tagagaaggt
+      301 aaaggttatt ttggatgaac aagggctaag gatagctgat aatcaggaga acagccagaa
+      361 aaatcgacgg aagcttgcag aaagcactag agatttcaag aaagcttcag cagaagaaaa
+      421 gttaagtttg tttaactctt tacttaaggg ataccaagaa gaagttaaca atctcaccat
+      481 gagagcaaag tttggagaaa atgcttttct tgaaatttat caaaaacttt atgaggctcc
+      541 agatccttat ccagctcttg cttcaattgc tgaccaagat ataaaactgt ctgaactaga
+      601 atctgagaat cggaaaatga aagttgagct tgaggaattc cggacagagg ctacccactt
+      661 aaagaatcag caggcaacaa tacgaagact tgaagaacgc aaccgccagt tagagcaaca
+      721 gatggaagaa aaagtaaaag aaactgtgga gatgaaacaa cgtagcttgg cagaagagaa
+      781 ccagaagact ttggaagttt taaaagaaag ggaacaatcg ctgcaagatc aattacgaca
+      841 agctaaagaa agtgtttcca ctatgcagaa attacatgaa cttgcacaaa gccagttatt
+      901 tgaactccgt gcacaatcag atgaagacac tgcagcaaag caatcagagc tcagtctatt
+      961 gatggatgaa gttgaacggg ctcaaacacg gcttcttagt cttgagaggg agaagggact
+     1021 tcttcgttct caattacaga ctgcaaatga agatgctgga aataagaaga gtgataattt
+     1081 agattcaaat agcatccttg agaattcttt gaatgctaaa gagaaaataa tctctgaact
+     1141 gaatcgggag cttcacaata ttgaaacaac cttatcaaat gagcaagaag aacacatgaa
+     1201 agacattaag aaattgaagg tgctgctcaa tgaaaaggaa gttgctattg aagagatgaa
+     1261 gaaagagctt caggcaaggc caacagaaaa aatggttgat gaattgcgta aacaattgaa
+     1321 acttatgcag gtactgattt ataattcaat tgaggctgaa gattgggacg cagctacagg
+     1381 tggggaagag atgagcaaaa tggagcatct tcttcttgac aagaaccgga aaatggaaca
+     1441 tgagctcaca cagttgaagg tcaaactaaa tgagaaaaca gctttgctgg aagcagctga
+     1501 aagcaagaca gaagaactta aagctaaggt caatgaacag caaaagttga tacaaaagtt
+     1561 agaagatgac atattgaagg gttatagttc caaagataga aaaggcaatc tgtttgatga
+     1621 ctgggatctt tcagaggcca ggggttctga gctctctgag aatgcagatc aaaaacatat
+     1681 ttcctcagat caagatcaga gttcaatgct taaggtgatt tgtaatcagc gggatcgatt
+     1741 tagggcacgt ttgggagaga cagaagagga aatacggcat ttgaaggaga agattgggct
+     1801 actgacagta gagctagaaa agacgaaagc tgataatgtc aaactctatg gaaagattcg
+     1861 ttatgtccag gattacaacc atgaaagagt agtctctaga ggatcaaaga agcaagccga
+     1921 agatcttgaa agtggtttta cctcagatgt tgaatctaag tacaagaaga tatatgagga
+     1981 tgatataaat ccatttgcag cattctcaaa aaaggaaagg gatcaaaggt acaaggagtt
+     2041 gggtttcagg gatagaatca cgcttagcag cggacgtttt cttcttggca ataagtatgc
+     2101 tcgaactttt gcatttttct acaccattgg gttgcatatc ctggtgttca cctgtctcta
+     2161 ccgcatgtca gctttgagtt atcttagaaa tggccctgag gaatctctta ctggagacaa
+     2221 aattttgaac cttccacatg cgatgtagtg tcacaccaac acctgttctc cactgatatc
+     2281 acttatgtga gaagagaaga tacagatgac attatggaaa gagatgtctc atacaatgta
+     2341 tatataacaa aatctggtgc aaagtttact tgccaatttg atggtgcaac aaatattgta
+     2401 aattctttta ttcttgcctt gaaatttggc ccttgtatca atgatgtatt aatacgagca
+     2461 aaatcataga aaataatctg ggcaattgaa aaatttacag atacttattg acttttatca
+     2521 aatgcatgat gatataaagc caacttattg gcatttc
+//

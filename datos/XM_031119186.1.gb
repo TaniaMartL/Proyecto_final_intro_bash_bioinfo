@@ -1,0 +1,78 @@
+LOCUS       XM_031119186             849 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata translationally-controlled tumor protein
+            homolog (LOC115994876), mRNA.
+ACCESSION   XM_031119186
+VERSION     XM_031119186.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044909.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..849
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="6"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..849
+                     /gene="LOC115994876"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 238 ESTs, 29 Proteins,
+                     and 100% coverage of the annotated genomic feature by
+                     RNAseq alignments, including 40 samples with support for
+                     all annotated introns"
+                     /db_xref="GeneID:115994876"
+     CDS             109..615
+                     /gene="LOC115994876"
+                     /codon_start=1
+                     /product="translationally-controlled tumor protein
+                     homolog"
+                     /protein_id="XP_030975046.1"
+                     /db_xref="GeneID:115994876"
+                     /translation="MLVYQDLLTGDELLSDSFPYKEIQNGILWEVEGKWVVQGAVDVD
+                     IGANPSAEGGEDDEGVDDQAVKVVDIVDTFRLQEQPSFDKKQFVTFMKRYIKLLTPKL
+                     EGEQQDIFKKNIEGATKFLLSKLSDLQFFVGESMHDDGGLVFAYYKEGATDPTFLYFA
+                     HGLKEIKC"
+ORIGIN      
+        1 gctcacaacc cctccctctc tctctaggtt gctcgctctt tgtgtgtgtg tctctctctc
+       61 tctctctctc aactccttgt ttggaacgat ccgagagttt gagcaaacat gttggtttac
+      121 caggacctcc tcacaggtga tgagctgctc tcggactcgt ttccatacaa ggaaattcag
+      181 aatggaattc tgtgggaagt tgagggaaag tgggttgttc aaggtgctgt tgatgtagac
+      241 attggtgcaa acccttctgc tgaaggtgga gaagatgatg agggtgttga tgaccaggct
+      301 gttaaggttg ttgacattgt tgacaccttt aggcttcagg agcaaccttc ttttgataag
+      361 aagcaatttg tcacattcat gaagagatac atcaagttgt tgacacccaa gcttgaaggg
+      421 gagcaacaag atatctttaa gaagaacatt gagggagcaa ccaagttcct gctttcgaag
+      481 ctcagtgacc tccaattttt cgtgggggag agcatgcatg atgatggcgg tcttgtattt
+      541 gcctattaca aggaaggtgc cactgaccca acatttttgt acttcgccca tggtctgaag
+      601 gagatcaagt gctaaaaagt agtgttgcgg gcttcgaagc agttgtttct gtaaccgtag
+      661 tttctattac tgttggtttt ctattttttg ccgtttgttc tgttgacatt aaggcctcat
+      721 gcctattgtt ttcttctggt tttaatgggt attttcttat tataatgtga ctttctgatt
+      781 tagtgggtat ttatgtttca attcagttga agaaacaaat aagttatagg agtgtcttaa
+      841 agatttttt
+//

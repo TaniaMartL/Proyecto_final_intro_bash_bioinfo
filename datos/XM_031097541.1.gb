@@ -1,0 +1,107 @@
+LOCUS       XM_031097541            2184 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata signal recognition particle receptor
+            subunit alpha-like (LOC115976329), mRNA.
+ACCESSION   XM_031097541
+VERSION     XM_031097541.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044905.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2184
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="2"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2184
+                     /gene="LOC115976329"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 8 mRNAs, 6 ESTs, 9 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 39 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115976329"
+     CDS             126..1994
+                     /gene="LOC115976329"
+                     /codon_start=1
+                     /product="signal recognition particle receptor subunit
+                     alpha-like"
+                     /protein_id="XP_030953401.1"
+                     /db_xref="GeneID:115976329"
+                     /translation="MLEQLLIFTRGGLILWTCKEFGNALKGSPIDTLIQSCLLEERSG
+                     AASYNYDGPQGAAYTLKWTFHNDLGLVFVAVYQRILHLLYVDELLAMVKHEFSEIYDP
+                     KRTAYSDFDETFRQLRKEAEARAEELKKSKQMSKPLSNSKKQGQVQKSGFEGGSKKRS
+                     EGALANDGGDGDRRKGSKLANGHSNGHHVDIVESKVNGADNGIENMSSNAGAFDVNKL
+                     LKLRAKGGKKTDTIVSKGSKIEPKKKITKKNRVWNDSPPPEKLDFTDSMGENRNHIDV
+                     VAADHGESMMDKEEIFSSESEDEEDEGVEKDSRPETKKKGWFSSMFQSIAGKANLEKS
+                     DLEPALKALKDRLMTKNVAEEIAEKLCESVAASLEGKKLASFTRVSSTVQAAMEEALV
+                     RILTPRRSIDILRDVHAAKEQGKPYVVVFVGVNGVGKSTNLAKVAYWLLQHNVSVMMA
+                     ACDTFRSGAVEQLRTHARRLQIPIFEKGYEKDPAVVAKEAIQEATRNGSDVVLVDTAG
+                     RMQDNEPLMRALSKLINLNNPDLVLFVGEALVGNDAVDQLSKFNQKLADLSATPSSRL
+                     IDGILLTKFDTIDDKVGAALSMVYISGAPVMFVGCGQSYTDLKKLNVKSIVRTLLK"
+ORIGIN      
+        1 actaaggaat aaaaacgccg ctatttatag caaaaagaat tatatatatt caaaattttg
+       61 gtgtttcttc atttcttggg ttcctcagag tgccgagaaa agacagggta catccgtaat
+      121 aaaagatgtt agagcagtta ctaattttta ctcgaggagg attaatcctc tggacatgta
+      181 aagagtttgg aaatgctctt aagggatcac caattgacac cttgatccaa tcctgtcttt
+      241 tagaagaacg atctggtgca gcatcgtaca attatgatgg gccccaaggt gccgcttaca
+      301 cactaaaatg gaccttccat aatgatcttg gccttgtgtt tgtcgctgtg tatcagcgaa
+      361 tccttcatct attgtatgtg gacgaactgc ttgcaatggt gaagcatgag ttttcagaga
+      421 tttatgatcc aaaacggacg gcttacagtg attttgatga aacttttagg caactgagaa
+      481 aggaggctga ggctcgggct gaggaattga agaaatcaaa gcagatgagc aagcctttaa
+      541 gtaatagtaa gaagcaagga caggtgcaaa agagtgggtt cgaaggagga agtaagaaaa
+      601 ggagtgaagg tgctttggcc aatgatggtg gggatggtga tagaaggaaa ggcagtaaac
+      661 tggcgaatgg ccactccaat ggccatcatg ttgatattgt agaatctaag gtaaatggtg
+      721 cagataacgg aatagaaaat atgagctcca atgctggggc gtttgatgta aataagcttc
+      781 tgaagcttag agctaaaggt gggaagaaaa cagatactat tgttagcaag ggctccaaga
+      841 tagagccaaa aaaaaagata acaaagaaga atagagtttg gaatgattca ccccctccag
+      901 agaaattgga ttttacggat tctatgggtg agaataggaa tcatatagat gttgttgcag
+      961 ctgatcatgg tgaaagtatg atggacaagg aggagatctt cagtagtgaa agtgaggatg
+     1021 aagaagatga gggagtggag aaggacagca ggcctgaaac taagaagaag gggtggtttt
+     1081 catcaatgtt ccaaagtatt gcgggcaaag cgaatttgga gaagtcagac ctggaaccag
+     1141 ctttgaaagc tctcaaggat aggctcatga ccaagaatgt ggctgaggag atagctgaga
+     1201 agctctgtga atcagtggca gcaagtcttg aggggaaaaa gttggcttca ttcacaaggg
+     1261 tatcttcaac agtgcaggca gcaatggaag aagctcttgt tcgtattcta actcctcgcc
+     1321 ggtcaattga catactgagg gatgtgcatg ctgccaagga acaagggaag ccgtatgttg
+     1381 ttgtttttgt tggtgtgaat ggagttggga aatctaccaa tctagccaag gttgcctact
+     1441 ggcttctgca gcataatgtc agtgtcatga tggctgcttg tgacacattc cgatcaggag
+     1501 ctgttgagca gttgcggact catgcacgaa gactccagat ccctatattt gagaagggct
+     1561 atgagaaaga tcctgctgtt gtagcaaagg aagcaatcca ggaggcaaca cgaaatggtt
+     1621 ctgatgtggt tcttgttgat actgctggtc gaatgcagga taatgaacca ttaatgagag
+     1681 cactctcaaa gcttattaac cttaacaatc ctgatctggt cttgtttgtt ggagaggccc
+     1741 tggttggaaa tgatgccgtt gatcaacttt caaagttcaa tcagaaatta gccgaccttt
+     1801 cagctacacc tagttccaga ttgatagatg ggatcttact cactaagttt gataccattg
+     1861 atgataaggt gggagctgca ctttcaatgg tctacatttc tggggcaccg gtcatgtttg
+     1921 ttggctgtgg acagtcatat acagacctta agaaactcaa tgtcaaatca attgttagga
+     1981 ccctccttaa atgagaatgt gtgctggttt catccctcat tgctgtgctg tttgtctgac
+     2041 agttatggac atgtatgttg ctgcggaatc cctgtgtaat cccttatgac cccatgaact
+     2101 tgttggaggt gaatcagtcg cttgcggctg caatttatgt tgtagttatt ttatttggtc
+     2161 cattgtgagt ctcctttgtg tgta
+//

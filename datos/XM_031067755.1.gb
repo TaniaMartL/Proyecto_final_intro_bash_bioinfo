@@ -1,0 +1,126 @@
+LOCUS       XM_031067755            3149 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata putative U-box domain-containing protein
+            50 (LOC115950564), mRNA.
+ACCESSION   XM_031067755
+VERSION     XM_031067755.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044909.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3149
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="6"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..3149
+                     /gene="LOC115950564"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 1 EST, 4 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 37 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115950564"
+     CDS             519..2954
+                     /gene="LOC115950564"
+                     /codon_start=1
+                     /product="putative U-box domain-containing protein 50"
+                     /protein_id="XP_030923615.1"
+                     /db_xref="GeneID:115950564"
+                     /translation="MDNTPAEKVYVAVGNDLQDGLKTLEWTLRKWSSHPISIVILHVT
+                     NNISKEYVYTPFGKLPASAVSEEKLEVLKKFEQKKIDKFLSQYIAFCGKVKAEILKVK
+                     KNEEPIQKLILDLISELQITKLVMGFTFMKSSSWKSKSTISGSFYVFQNKPDFCEFYI
+                     VCGGKQVFLKGQNDEGIMEDDQGVVVGKVKDKTSIKDWIEKIFTDPSAHSSKRNSRFS
+                     PTSSMDLDTRNSQNQWETHVGEIENYFQLLVSSDLDEDNNHDLDNNSPTESDMPEYTD
+                     SNLSLAEKIESLRRKISEAQQTVQMKREEAKENVERHSKAQWILSLCSQRTEELEGWI
+                     KEEVKMRMEMEKELEAEKEHMSEVVNDIEESKSRLGSLVELQNELSNKLQISTLAKTH
+                     AEAQLEKAVRTRGEMVRDIEELRRQRDVLNRRIEFCREKDAISMVAKVNELSCGYREY
+                     TIEEIRLATREFSESLRLKSGGDWSNVYKGRMKHGTVAIKTLDSSTELSDEVFHAKVN
+                     LLGHIRHPNLVAMVGFCLELKCMVFEYMHNGSLRDMLFSSHGSSFRTRSRALRWHDRV
+                     RVAVQVCLGLVFLHLIQPRPMVHGHLSTSSVLLDRNHVAKISGYEFSQEDRDEYASDV
+                     GLDIRAFGVVMCELLTGKNWAGLVEEAMTLDKAALVQNVDETAGDWPLDLAEEFAGLA
+                     LRCLSIDCEPNTDLNISRVMENLNKIKNRADALMARGGPQVVSNDDDTDDVPRVFICP
+                     IFQDIMKDPHVAADGFSYELEAISEWLSTGHDTSPMTNLRLIHTDLTPNRTLRSLIQD
+                     WQNRTSRRGSSIQ"
+ORIGIN      
+        1 aacaagcctg aaaatagcta cttatgctaa tcatctcaat ttagttgttc agcaatcaaa
+       61 ggacataaaa caaagaaact tggaccaaag agggttcatg aaaataccaa gaagattcaa
+      121 ggctgagact ggcaaagaca ttccatttta gtaagcgagg atgaggaccc aaaccaacct
+      181 tgcttttctt gctagaccat acaaaaaagt ccaaccgagg ccgtcctact cctaccttct
+      241 taaacaaaca taaaaatttc ccatgtccca ttgaaatctt cacaagtacc tctcttttta
+      301 ggaattcaat ccaccgctgc ctactcttca tcactttcca caaaatttac acatttattc
+      361 cttccttcaa cacgttttac actgatttgc ttacctcaac aacttttcaa gtccttttct
+      421 ggtgatgggt ctttctggaa ttgtctaaac tcaatggata attaactcag atttttcttg
+      481 tttttccagc aaatttgaag ggtcatagta agtaaccaat ggataatact ccagcagaga
+      541 aggtctatgt tgctgttgga aatgatctac aagatggatt gaagacctta gagtggacac
+      601 ttagaaaatg gagttctcat ccaatctcca tcgttattct ccatgttact aacaacattt
+      661 ccaaggaata tgtttacacc ccatttggca agcttcctgc tagtgctgta agtgaagaaa
+      721 aactggaagt tttaaagaag tttgagcaga aaaagattga caagtttctt tcccagtaca
+      781 tagctttctg tggcaaggta aaggctgaga tattgaaagt caagaaaaat gaagaaccta
+      841 ttcaaaaact cattcttgat ttgatttctg aactccaaat aaccaaatta gtcatggggt
+      901 ttacattcat gaagtcctca tcctggaaat caaagagcac gattagtggg tcattctacg
+      961 tttttcaaaa caagcctgat ttttgcgagt tttacatagt ctgtggagga aagcaagtgt
+     1021 tcctcaaagg acaaaatgat gaaggaatca tggaagatga tcagggagtt gtggtaggaa
+     1081 aggtgaaaga caaaacttct atcaaagatt ggatagaaaa gattttcact gatccttcag
+     1141 ctcattcctc aaaaaggaat tctcgtttct cacccacttc ctcaatggat ttggacacac
+     1201 gcaattcaca aaatcagtgg gaaacccatg tcggagaaat tgaaaattat ttccagcttt
+     1261 tggtgtcttc agatttggat gaagataata atcatgatct agacaacaat agtccaacgg
+     1321 agtcagatat gccggaatac actgattcta atctgagtct cgcagaaaaa attgaatctc
+     1381 taagaagaaa aattagcgaa gctcagcaaa cagtccaaat gaagagagaa gaagctaagg
+     1441 aaaacgttga aaggcattca aaagctcaat ggatcctttc tttatgcagt cagcggactg
+     1501 aagaacttga aggttggata aaggaagaag ttaaaatgcg aatggagatg gagaaagaat
+     1561 tagaggccga aaaagaacac atgagtgaag tagtaaacga cattgaagaa agcaagagta
+     1621 ggctaggttc acttgtagaa ctccaaaacg agctctctaa caagctccaa atttccacat
+     1681 tggcaaaaac tcatgccgag gctcagctag aaaaggcggt aaggacaagg ggcgagatgg
+     1741 ttagggacat cgaggaattg aggagacaga gagatgtgct taacaggagg attgagtttt
+     1801 gcagagaaaa agatgcaatt agcatggttg caaaagtgaa cgaattgagt tgtggttata
+     1861 gggagtacac aattgaagag atcagattag ccactcgtga gttttcagag agtttgagat
+     1921 tgaaatctgg aggagattgg agcaatgtgt ataaagggcg catgaaacat ggcacagttg
+     1981 caatcaaaac actcgactca tcaactgaac tatcagacga agttttccat gctaaggtga
+     2041 atctgcttgg ccatattcga cacccaaatt tggtagccat ggttggtttt tgtttggagc
+     2101 taaaatgcat ggtgtttgaa tacatgcaca atggtagcct acgagacatg ttattttcct
+     2161 cccatggaag tagctttagg acaagaagtc gggcccttcg atggcatgac cgggtccgtg
+     2221 ttgcggtcca agtttgcttg ggcttggtct tccttcactt gattcagccc aggcccatgg
+     2281 ttcatggcca cctttcaaca tccagtgtcc tccttgatcg aaatcatgtt gcaaagatca
+     2341 gtggttatga gttctcacaa gaagaccgtg atgaatatgc atccgatgtg ggattggaca
+     2401 ttcgggcttt tggggttgta atgtgtgagc tactgactgg gaaaaattgg gctgggcttg
+     2461 ttgaggaggc aatgacattg gataaggcag ccctggtcca gaatgtggac gaaactgctg
+     2521 gagattggcc tttggatttg gcagaggaat ttgcgggctt agctttgagg tgtttgtcca
+     2581 ttgattgtga gcccaatact gatttgaaca tttcaagggt aatggaaaat ctcaataaaa
+     2641 ttaagaatag ggctgatgct ctaatggcaa gaggtggtcc tcaggtagtg agtaatgacg
+     2701 atgatacaga cgatgtaccc agagttttca tttgccccat atttcaggat ataatgaagg
+     2761 acccacatgt ggcagcagat ggattttcat acgagctaga agccataagt gaatggctat
+     2821 caacagggca tgatacttca cccatgacaa acttgcgcct cattcacacc gaccttactc
+     2881 ctaatcgcac ccttcgttcc ctcattcagg attggcaaaa tagaacatca agaagaggtt
+     2941 catcaataca atgatttgtt ttgtatttaa tttgtacaaa gcaaattgag ctttgttcat
+     3001 tcttttccac ttctaatttg gtctatgacc tgtggttgtt caagagaaag agtacgcgtg
+     3061 tttaaggctt cagtgtaagt aattaacttc tcagatataa agtgttactt tgatttacca
+     3121 actttttaaa gtcactattt tgattggtt
+//

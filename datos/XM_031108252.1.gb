@@ -1,0 +1,102 @@
+LOCUS       XM_031108252            2102 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata protein OCTOPUS (LOC115985293), mRNA.
+ACCESSION   XM_031108252
+VERSION     XM_031108252.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044904.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2102
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="1"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2102
+                     /gene="LOC115985293"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 19 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:115985293"
+     CDS             202..1872
+                     /gene="LOC115985293"
+                     /codon_start=1
+                     /product="protein OCTOPUS"
+                     /protein_id="XP_030964112.1"
+                     /db_xref="GeneID:115985293"
+                     /translation="MTSHSHSHSQPRCIRVSRCHRHPSKPITGFCASCLRERLASIDS
+                     ATRHEIPIPTASSSSAALRRTKSYSASSSAAVSDPPRRKSCDVRSRNTLSDLFSIHDH
+                     NHDAVPGGFEVEELGFQLREEDENEEQQEEDEDDEEEEEEEIRVSEAPNVQEDENVEL
+                     KTMKEFIDLEWQTKKRNGGMDFRHIVWEAASVFTKKLSKWRRKQSKKNTKNDCDTVDA
+                     DINRRARPWRETQSEIGDYGFGRRSCDMDPRFSVDAAAARYSFDEPRASWDGYVIGAK
+                     AFPNPNPRQLSPLVSVVEDVNQSRLSLDLTSPPPPGGSAQTKDYYSEMSRPTRRRSFD
+                     RSNSLCNKEVDDLKLISNAKVSPTTTELFYGAKLLIADQNLRDTNGSEIVDSGSKDSV
+                     VSQSGFDKLGKWHKVRNIFNFKPHRRRNESNCGNGNGNEEKYVEGNVVDRSSFGESWQ
+                     KLRRVANGEANGNGSVSQKLIRSYSVSCRNPCKVAGLFNHAETKSNGVKRREEVILQH
+                     SRSARYSPNNLDHNGLLRFYLTPLRSYRRSKSGKSKLRSSSSIARTVL"
+ORIGIN      
+        1 tttccgagct tccccttgca tttcatttgt cactccaact cctactgtcc cactctgtgc
+       61 ttttaccagt tacatcactc acactctcct ccattcacac acaaccagcc aagccagcta
+      121 ctagtctata tagactatac atataatata gtgttataga gtcaacatgc accgatttgc
+      181 caccactctt ttcgtgcagt gatgacatcc cattcccatt cccattccca acctcgatgt
+      241 atccgcgttt ccaggtgtca ccgccacccc tccaaaccca tcaccggctt ctgcgcctcg
+      301 tgcctccgcg agcgcctcgc ttccatcgac tccgccaccc gccacgagat ccccatccca
+      361 accgcctcct cctcctccgc cgccctccgc cgcaccaaat cttactccgc ctcctcctcc
+      421 gccgccgtct ccgaccctcc ccgccgtaaa tcctgcgacg tcaggtctcg caacactctc
+      481 tccgacctct tcagtatcca cgaccacaac cacgacgcgg ttccgggagg cttcgaggtc
+      541 gaggaattag ggtttcagct gagggaagag gacgaaaatg aagaacagca agaagaagat
+      601 gaagatgacg aagaagaaga agaagaagaa attagggttt ctgaagctcc gaatgttcaa
+      661 gaagacgaga atgtggagtt gaagacgatg aaagagttca tagatctcga atggcagacc
+      721 aagaagcgca atggaggaat ggacttcagg cacattgtct gggaagcagc ttcagtgttc
+      781 accaagaaat tgagcaaatg gcgccgaaag cagagcaaga agaacactaa gaacgactgc
+      841 gacaccgtcg atgccgatat caaccgccgc gcgcggccgt ggagggagac gcaatcggag
+      901 ataggggact acggttttgg gaggagatct tgtgacatgg acccaaggtt ttccgtcgat
+      961 gccgcggcgg cacggtactc gttcgacgag cctagagctt cctgggatgg ttatgtgatc
+     1021 ggagcaaagg catttccgaa tccaaatccg aggcagcttt cgcctctggt ttcggttgtt
+     1081 gaggatgtta atcagagtcg attatcgttg gatttaacga gtcctcctcc tcctggaggt
+     1141 tcagctcaga caaaagatta ctattcggaa atgtcaaggc ctacgaggag gaggagcttt
+     1201 gatcgctcca attcactttg taataaagaa gtagatgact tgaaattgat atccaacgct
+     1261 aaggtttcgc ccaccaccac ggagttattc tatggggcta agttgctgat tgcagaccag
+     1321 aatttgaggg acaccaatgg ttctgagatt gtcgattcgg gctctaagga ctctgttgtt
+     1381 agtcagagcg gtttcgacaa gttgggcaag tggcataagg tgcggaatat tttcaatttc
+     1441 aagcctcata ggcggcgaaa cgaatcgaat tgtgggaatg ggaatgggaa tgaagaaaag
+     1501 tatgttgaag gaaatgtggt tgatcgttcc tcctttggtg agtcttggca gaaacttagg
+     1561 agggtagcca atggagaagc aaatggaaat gggtctgtga gccaaaagct tatccggagc
+     1621 tatagtgtga gctgtagaaa cccgtgcaag gtggctggat tgttcaatca tgctgagaca
+     1681 aaatccaatg gtgtcaagag aagagaagag gtaatactgc aacacagccg gagcgcgaga
+     1741 tattcgccaa acaaccttga tcataatggc ctgttgaggt tctatttgac accgttaaga
+     1801 agctaccgca gaagtaaatc gggaaagagt aagctaagga gctcgagttc tatagccagg
+     1861 actgtcttgt gaaggtgcat caactgttct tctaagacat atcttgttgt aaagacatat
+     1921 ataaaaatgt gtttagttct tgttgttggg ataaaagcac atcatattgt agtcttttct
+     1981 ctgatcaata tgcttttcta ataataccag taatggaatt agaaaactga tcgccttttg
+     2041 ttttccttgc tcttgatggt agtgagaact tatatggaaa tataaaatgc ccaaaaatgc
+     2101 tt
+//

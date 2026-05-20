@@ -1,0 +1,110 @@
+LOCUS       XM_031116101            2476 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata acetolactate synthase small subunit 1,
+            chloroplastic (LOC115992055), mRNA.
+ACCESSION   XM_031116101
+VERSION     XM_031116101.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044904.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2476
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="1"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2476
+                     /gene="LOC115992055"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 6 ESTs, 21 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 35 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115992055"
+     CDS             141..1586
+                     /gene="LOC115992055"
+                     /codon_start=1
+                     /product="acetolactate synthase small subunit 1,
+                     chloroplastic"
+                     /protein_id="XP_030971961.1"
+                     /db_xref="GeneID:115992055"
+                     /translation="MAAVSPCPPPLRTQNPNTRLRVDLGNGFSKSLDFGHFRTPKCRN
+                     FEFKKLWVSASASNDNAAYLSESTPSLTLSKVKRHTISVFVGDESGIINRIAGVFARR
+                     GYNIESLAVGLNKDKALFTIVVSGTEKILRQVVEQLNKLVNVIKVEDISREPQVEREL
+                     MLVKLNADPSTRPEIMWLVDIFRAKIVDISEDSLTIEVTGDPGKMVAVQRNLSKFGIK
+                     ELARTGKIALRREKMGETAPFWRFSAASYPDLERPLPAKGLVANGNQSHNGNVSTSTG
+                     GDVYPVEPYDDLSMKKVLDAHWGVLYDEDSSGLRSHTLSMLVNDCPGVLNIVTGVISR
+                     RGYNIQSLAVGHAEIDGLSRITTVIPGTDESIGKLVQQLHKLIDLHEVKDITHFPFAE
+                     RELMLIKIAVNTAAMRDVLDVASIFRAKAVDVSDHTITLELTGDLNKMVALQRLLEPY
+                     GICEVARTGRVALARESGVDSTYLRGYPLPL"
+ORIGIN      
+        1 acccacgtgt gagaaactga caaaagagtt ttagcgtgtg atatatatct atgggtataa
+       61 tataaagcta gaaaatgtag cagtaaacta aaaagttggt gtgtttctct tttctcctca
+      121 aaaaaccagg actctctatc atggcggctg tgtcaccttg cccaccacca ttacgtaccc
+      181 agaatccaaa cacacgttta agagtggatt tgggaaatgg gttttcaaaa agcttggatt
+      241 ttgggcactt taggacaccc aaatgtagga actttgagtt caagaagctg tgggtttctg
+      301 cttctgctag caatgacaat gcagcgtatt taagcgagtc cacaccatca ctgactctgt
+      361 ctaaggtgaa acgtcataca atctcagtgt ttgttgggga tgagagtgga ataataaatc
+      421 gaattgctgg ggtttttgct cggaggggtt acaacattga gtcccttgca gttggcttaa
+      481 acaaggacaa ggctctcttt accatagttg tctccggaac tgaaaagatt ttgcgacaag
+      541 ttgttgaaca gctgaacaag cttgtgaatg tcattaaggt tgaagatatc tcaagggagc
+      601 cacaagtaga acgtgagctg atgcttgtaa aacttaatgc agatccgagt acccgtcctg
+      661 agatcatgtg gttagtagac atctttagag caaagattgt ggatatctcg gaagattctc
+      721 tgaccattga ggtcactgga gaccctggga agatggttgc cgttcaacga aatttaagta
+      781 aatttggaat caaagaactt gcgagaactg gaaagattgc cttgagaaga gaaaagatgg
+      841 gtgagacagc tccattttgg agattctctg cggcttctta tccagacctt gaacggccac
+      901 ttcctgctaa aggtcttgta gcaaatggaa atcaatcaca taatggcaat gtcagtacat
+      961 ccacaggggg agatgtttat cctgtggagc catatgatga cttgtcaatg aaaaaagttc
+     1021 ttgatgctca ttggggtgtt ctctatgatg aagattcaag tgggcttcgg tcacacactt
+     1081 tgtctatgct tgtgaatgac tgtcctggag ttctcaacat agttactggg gttatttctc
+     1141 gaagaggtta taacattcag agcttagctg tgggccatgc tgaaatagat gggctttctc
+     1201 gcatcacaac tgttattcct ggtacagatg agtcaattgg caagttggtt caacaacttc
+     1261 acaagttaat agatcttcat gaggtgaagg atattactca ctttccattt gcagagagag
+     1321 agcttatgtt aataaagatt gccgtgaata ctgctgctat gagggatgtc ctcgatgttg
+     1381 ccagcatttt ccgggcaaaa gctgttgatg tgtctgatca taccattacc cttgagctta
+     1441 caggtgattt aaacaagatg gttgcactac agaggttact agagccatat ggaatttgtg
+     1501 aggtggcacg gacagggagg gtggcattgg cacgagagtc gggcgtagat tccacatacc
+     1561 tccgtggcta tcctcttcca ttgtaatgct tgagttgctg agttctataa tataatataa
+     1621 tataatataa tggtgaagca tcgtaagcaa gtttttctcc tgttgccttt taatggatta
+     1681 ctcttttctt gctggccttt tatcttttaa ttataattag agagtaaagg aaaagatgcg
+     1741 aatttggctt ctccagcgtt taggtatctt tggagagcaa tcaacagaca aatatggtgc
+     1801 ttgtcgtaac ttaatatttc acgggtgttt tacgaaacta aacatatgta ttgtgatatg
+     1861 aatgaaatga gtagatgttc gtttacctca aagaactatc tttttattta tttcttaatg
+     1921 tatgtctttt tatcattgaa ggcttcaacc tttcccctgg tagccatatc atcatattgt
+     1981 acaaatttag gcttaaggca actgacctga attaatttct tttttggtgt ttgatccatt
+     2041 ctggcattga tttgtttgta gattcctttc agaaaacact agtgttttct aagacatttg
+     2101 cattttctct tgctttgagc tccacccact tatgggattc acacattgtg agagatgttg
+     2161 catgtagctg attagataca gaagatactg aggcagtagt cgtggtgtga gaggtcaatg
+     2221 gtcaataatt gattctccct caaacaaaca gttgtatcaa gatcaacggc acacactgtg
+     2281 gttcctctta tggaagttaa gaaggcatgt gcacagcccg aagtaatgct caaatccctt
+     2341 tgtctttcaa ctagtgggag tgctgctttg tccatttatt tggcgtattt atttggccta
+     2401 ttactaacaa tttgttattt taaaatttgt tgtgaatttg tggtgaaaat attgtgtttc
+     2461 tagcattatt cattca
+//

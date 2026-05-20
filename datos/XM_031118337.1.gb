@@ -1,0 +1,96 @@
+LOCUS       XM_031118337            1810 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata calcium-binding protein 39
+            (LOC115994267), mRNA.
+ACCESSION   XM_031118337
+VERSION     XM_031118337.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044909.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1810
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="6"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1810
+                     /gene="LOC115994267"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 7 ESTs, 11 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 35 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115994267"
+     CDS             276..1334
+                     /gene="LOC115994267"
+                     /codon_start=1
+                     /product="calcium-binding protein 39"
+                     /protein_id="XP_030974197.1"
+                     /db_xref="GeneID:115994267"
+                     /translation="MSFSFFKPSRPKTPVEVAKAIKDSLTALDTKTVVEVKALEKALE
+                     EVEKNFATMRCMLSGDGENEPNADQVTQLAQEICKEDVISLLVHKLPILGWETRKDLV
+                     HCWSILLKQKVGSAYCCLQYIENHLELLDFLVVCYDSKEIALNCGNMLRDCIKFPSLA
+                     KYILESASFELFFKFVELPTFDVASDAFSTFKDLLTKHDTMVSEYLTAHYDEFFNLYE
+                     NLLTSANYVTRRQSLKLLSDFLLEPPNSHIMKRYILEVRYLKVMMTLLKDSSKTIQMS
+                     AFHIFKVFVANPNKPREVKVILAKNHEKLLELLHNLSPGKGAEDEQFEEEKELIIKEI
+                     ERVSRLPILESQVISPSC"
+ORIGIN      
+        1 aaaaaaaaaa gggccgctgt acatcttata acgtcgattc aaaatcgacg caataaagtc
+       61 gctgcgagtg aacctcttct ctgtttgcat gatcattgcg atccacaaca ttatttcttc
+      121 tcgaaataca caaaaaccaa aaagcaaaat tccaaagtag acttttgctt ttgctttagc
+      181 tccgatcatc atcatcatca attctgtcca caaaaataga gattagagag aaatcgatcc
+      241 aaatcgaatc agatcgaatc gaatcgactc gaccgatgtc gttctcgttc ttcaagccgt
+      301 cgaggcctaa aaccccagtc gaggtcgcca aggccatcaa ggactccctc accgccctcg
+      361 ataccaaaac cgtcgtcgaa gtcaaagccc tcgaaaaggc tctggaagaa gtggagaaga
+      421 atttcgcgac aatgaggtgt atgctgagcg gagacggcga gaatgagccg aatgctgatc
+      481 aagtcacgca gctggctcag gagatatgta aagaggatgt gatttctctc ttggtccaca
+      541 agttgcctat attgggatgg gaaacgcgga aggatttggt gcattgctgg tctatattgt
+      601 tgaagcagaa ggttggctcg gcgtattgct gcctgcaata cattgaaaat catttggaat
+      661 tactagattt tcttgtcgtg tgctatgata gcaaggaaat tgctttgaat tgtggaaata
+      721 tgttgaggga ctgcatcaaa tttccatcac ttgcaaaata catattggag tctgcaagct
+      781 ttgagttgtt ctttaaattt gtggagttgc ctacttttga tgttgcttct gatgcgtttt
+      841 ctacctttaa ggatctgctt actaaacacg atacgatggt ctctgaatat ttgactgctc
+      901 attatgatga gttctttaat ttatatgaga atctcttgac ttctgctaat tatgtgacaa
+      961 gaaggcaatc cttaaagctt ctctcggatt ttcttttgga gcctccaaat tcccatataa
+     1021 tgaagcgcta cattttagaa gttcggtact tgaaagtcat gatgacattg ctgaaggatt
+     1081 caagcaaaac tatccagatg tctgctttcc acattttcaa ggtttttgtt gctaatccta
+     1141 acaagccacg agaagtaaag gttattctgg caaaaaacca tgagaagttg ctggaattgc
+     1201 ttcacaatct ctctcctgga aaaggtgctg aagatgagca atttgaggag gaaaaggaac
+     1261 tgatcattaa ggaaattgaa agagtatctc gcttgccaat acttgaaagc caggtcattt
+     1321 ctcctagttg ttgattttca ttctgttctg atatgctttt tgaggtttaa cactgattct
+     1381 atgtaatgtc tctctgcaaa cactttttgc caagacccaa aaaagatcat gcgctgagtt
+     1441 gtagaatatt aattatcaaa agaagagttg tagaatttca aatcacctag tagaagagta
+     1501 tgtatcaaga actgaatgcc tttgtaatcc acaaagcagc agtggaggat tatgtacaaa
+     1561 aactgtatgt atttgtaatc tcgtcggttc aaaatgtact gctttttgtt gtattagagc
+     1621 acttgaagta gtggtgctaa aaagctaaaa agctattttt agcaccatta aaaggctatt
+     1681 cggagctgct gcagtagagc tatagccaaa aatattggct tctcagttat agtgtacaac
+     1741 taaaaaaaaa aaaattattt tattttgtgt tcacattgct ctggttataa tatttccggt
+     1801 gttttttttt
+//

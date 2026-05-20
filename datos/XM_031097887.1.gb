@@ -1,0 +1,81 @@
+LOCUS       XM_031097887            1099 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata ras-related protein RABB1b
+            (LOC115976551), mRNA.
+ACCESSION   XM_031097887
+VERSION     XM_031097887.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044905.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1099
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="2"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1099
+                     /gene="LOC115976551"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 8 ESTs, 44 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 40 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115976551"
+     CDS             179..814
+                     /gene="LOC115976551"
+                     /codon_start=1
+                     /product="ras-related protein RABB1b"
+                     /protein_id="XP_030953747.1"
+                     /db_xref="GeneID:115976551"
+                     /translation="MSYDYLFKYIIIGDTGVGKSCLLLQFTDKRFQPVHDLTIGVEFG
+                     ARMVTIDSRPIKLQIWDTAGQESFRSITRSYYRGAAGALLVYDITRRETFNHLASWLE
+                     DARQHANPNMSIMLIGNKSDLAHRRAVSKEEGEQFAKENGLLFLEASARTAQNVEEAF
+                     IKTAAKILQNIQEGVFDVSNESSGIKVGYGRPQGPSGARDGAVAQRGACCG"
+ORIGIN      
+        1 tacattcctt tcctctcatt tcaagcctcg acaactctcc aactcgaacc ttctttcttt
+       61 ctttctttct ttctttcttt aaggtttcag gtttgtgtgt gcgtgtgtgt gtgtgtgttg
+      121 ttgttggtgg tgttggtgtc tctgcttgat tgctctacac gacatcgtat catcggccat
+      181 gtcgtacgac tacctcttca agtacatcat catcggagac acaggtgtag ggaaatcgtg
+      241 tctgctcttg caattcactg acaagagatt ccagcccgtg catgatctca ccattggtgt
+      301 cgagttcgga gctcgcatgg tcaccatcga cagtcgtcct atcaagcttc agatttggga
+      361 cactgctggg caagaatctt tccggtccat cactagatct tactacagag gagcagctgg
+      421 agcacttctg gtatatgaca taaccaggag agagacattt aatcatttgg caagctggct
+      481 agaggatgct cggcagcatg ctaatcccaa catgtcaatc atgctcatag ggaacaagag
+      541 tgatcttgca catcggaggg ctgtcagcaa agaggaaggg gaacaatttg caaaggaaaa
+      601 tgggctttta ttcttggagg catctgcaag aacagctcaa aatgttgagg aggccttcat
+      661 aaagactgct gcaaagatcc ttcagaatat tcaggagggt gtatttgatg tatctaatga
+      721 gtcatctggc atcaaggttg ggtatgggcg cccccagggt ccatcaggtg caagagatgg
+      781 agcagttgct cagagaggtg cttgttgtgg ctgatgaaat aggaagaact tctgtgcttg
+      841 atccttttgt gcaatttact acgtttgttc atccccacga catgaataca ctctttaaac
+      901 tgtcatgact tgtgaagagc attaagatgt atagatttaa cttcagttgt tcttgggagt
+      961 tgggacagat ttagttctta tatcagtaat tcaactctta gtgctcaaag ataacttaat
+     1021 gacgtttgca ccatgacaaa attggttaat gatatgtgga tattactttt ttctttagtg
+     1081 tacttttgga gaatgagaa
+//

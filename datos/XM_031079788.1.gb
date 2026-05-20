@@ -1,0 +1,84 @@
+LOCUS       XM_031079788            1252 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata uncharacterized LOC115960796
+            (LOC115960796), mRNA.
+ACCESSION   XM_031079788
+VERSION     XM_031079788.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044912.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1252
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="9"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1252
+                     /gene="LOC115960796"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 6 ESTs, 4 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 39 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115960796"
+     CDS             35..781
+                     /gene="LOC115960796"
+                     /codon_start=1
+                     /product="uncharacterized protein LOC115960796"
+                     /protein_id="XP_030935648.1"
+                     /db_xref="GeneID:115960796"
+                     /translation="MAETSEKKKRRMAEKREADTKKQKNPTLTTSKWPLIKPKQNIQI
+                     THLKDTDLFTVQNFFTSAESKAFIKAAESIGFVHQGSLGPTKGEAYRDNDRISVNDPV
+                     LAETIWESGLHKLFSDIKIRGKVAVGLNPNIRFYRYKVGQRFGRHIDESADLDEGKRT
+                     HYTLLIYLSGGLKPNAKTDLSSPKDPSSDPLVGGETVFYGSRNAVVAEVAPTEGMALL
+                     HIHGAKCMLHEARNVAKGVKYVFRSDVAFA"
+ORIGIN      
+        1 aacataagag caagaaaaga agccagtgtt taatatggca gaaacatcag agaaaaagaa
+       61 gagaagaatg gcagagaaaa gagaagcaga tacgaagaaa cagaagaacc caacattaac
+      121 aacatcaaag tggccactca tcaaacccaa acaaaacatc cagatcactc acctcaaaga
+      181 tacagatctt tttactgtgc agaatttctt cacatctgct gaatcaaagg catttattaa
+      241 agctgcagag tctattggtt ttgtccacca aggaagtctt ggtccaacaa aaggtgaagc
+      301 ttacagagat aatgatcgaa tttctgtgaa tgatcctgtt cttgcagaaa caatatggga
+      361 gtctggacta cacaaacttt tttcggatat taaaattcga ggaaaggttg ctgttggttt
+      421 gaatccaaat atcaggttct acaggtacaa ggttggtcaa cgctttggac ggcatattga
+      481 tgaaagtgct gatcttgatg agggaaagag aacccattat actttgttaa tatatttaag
+      541 tggtggtctt aaacccaatg ccaaaactga tttgagcagc cccaaggatc cttcctcaga
+      601 tcctctagtc ggaggagaga cagtcttcta cggttcaagg aatgctgttg tggctgaggt
+      661 ggctcccact gaagggatgg ctctcctaca tattcatggg gctaagtgta tgttgcatga
+      721 agcccgtaat gttgcaaagg gtgttaagta tgtcttccgt tcagatgtag catttgcctg
+      781 atgggtgtag tcatcttaga ttaagcagac ttggtgagtg ccaattttgt actgttgaag
+      841 tggccaactc agcaagccaa agccaatatg gaatgctaag atgatttgat tcaatagaaa
+      901 tttcttgatt ttattgtcca ttctctgtgc tgccaaaaaa gctatctgat gctatacaca
+      961 tacatttctc attaacggta tgcaaaatga atatttttat tgctctctat gtcacagaaa
+     1021 tatcaagaaa ctttattacc aatgcatggt ccttagaaat tagagatcgt caatgtgctc
+     1081 aaattagaag ctgttgtttt ataacacaga taatggcttg agaaaagaaa aggccattgt
+     1141 gaatgtagac aatcttttga tatgcaattc tattgctgcc aatatgtgca ttggatttcc
+     1201 ttgtaattag tgtgtgatta atattaggct acacatgcta gttttaatca aa
+//

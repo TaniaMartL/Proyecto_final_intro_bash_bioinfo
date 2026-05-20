@@ -1,0 +1,82 @@
+LOCUS       XM_031086651            1068 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata probable pinoresinol-lariciresinol
+            reductase 3 (LOC115967532), mRNA.
+ACCESSION   XM_031086651
+VERSION     XM_031086651.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044914.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1068
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="11"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1068
+                     /gene="LOC115967532"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 1 EST, 9 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 37 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115967532"
+     CDS             92..1018
+                     /gene="LOC115967532"
+                     /codon_start=1
+                     /product="probable pinoresinol-lariciresinol reductase 3"
+                     /protein_id="XP_030942511.1"
+                     /db_xref="GeneID:115967532"
+                     /translation="MEKKSRILIIGVTGNLGFHLAKASLHFSHPTFALFRDSAFSDPI
+                     KSQKLHSLSNSGATLLKGSLEDEASLIEAIKQVDVVVSAVSSKQVLAQKLLISAIKQA
+                     GCIKRFIPSEFGADPDKVQISNMAYDFYTQKAEIRRLVEAEGIPYTIISCNFFMSFLI
+                     PSLVQPDLETPPRDKATIFGYGDTKGVFVKESDVATFTISAVDDPRTLNKVVYLRPPG
+                     NVYSVNELIEIWESKIGKKLEKIYEPEEELLKKIKEIPYPENMKFIFLYSAFIKGDHT
+                     YFDIELSGGVDGTKLYPHLKYTTISEYLDTLL"
+ORIGIN      
+        1 ttaggaagta actctttgga aactttttct ttttgaaact aaactgaaag ccattttgga
+       61 gattctgagt tttcagtgaa aatcaagaga gatggagaag aagagcagaa tactgataat
+      121 tggagtgaca ggaaatctgg gtttccactt agccaaagcc agcctccatt tttctcaccc
+      181 aacgttcgct cttttcagag actctgcttt ctctgaccca atcaaatctc aaaagcttca
+      241 ctccctctcc aactccggag ccacactcct caagggttct ctggaagatg aagctagcct
+      301 tatagaggcg ataaagcaag tggatgttgt tgtttctgct gtttcttcta aacaggttct
+      361 tgcccagaag cttcttatct cagctattaa acaagctggc tgtatcaaga ggttcattcc
+      421 gtcagaattt ggagcagacc cagataaggt tcagatatca aacatggcat acgacttcta
+      481 cacacagaaa gctgaaattc gacgtcttgt ggaagctgaa ggcattccct acactatcat
+      541 ttcctgcaac ttttttatga gctttttaat tccttcactt gttcaaccgg acctagagac
+      601 tcctccaagg gacaaggcca ccatctttgg ctatggagat actaaaggtg tctttgtgaa
+      661 ggaaagtgat gttgctacct tcacaattag tgcagtggac gatccacgca cgttgaataa
+      721 ggtggtgtat ttgaggcccc caggaaatgt gtactccgtc aatgagctga ttgagatttg
+      781 ggagagtaag attgggaaga agcttgagaa gatatatgaa ccagaagaag agctccttaa
+      841 gaaaataaaa gagatcccat atcccgagaa catgaagttc atattcctat attctgcttt
+      901 cataaagggt gatcatacat actttgatat tgagttgtct ggtggtgttg acgggacaaa
+      961 actgtatcca catctgaaat acactacaat cagcgaatat ttagacacct tactgtaaga
+     1021 acctctaaca atgtgtcaat gttgtttaat aagttgtaat cagtgatc
+//

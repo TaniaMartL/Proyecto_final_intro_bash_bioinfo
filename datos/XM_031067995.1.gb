@@ -1,0 +1,159 @@
+LOCUS       XM_031067995            4670 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata E3 ubiquitin-protein ligase RKP
+            (LOC115950757), mRNA.
+ACCESSION   XM_031067995
+VERSION     XM_031067995.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044909.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4670
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="6"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..4670
+                     /gene="LOC115950757"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 3 ESTs, 7 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 35 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115950757"
+     CDS             388..4215
+                     /gene="LOC115950757"
+                     /codon_start=1
+                     /product="E3 ubiquitin-protein ligase RKP"
+                     /protein_id="XP_030923855.1"
+                     /db_xref="GeneID:115950757"
+                     /translation="MAEDGLRIGGLSSGLAVILKGEDGRENSSKTRLVSHCDDFCHQS
+                     VERMIEYVFGLPHKSIGPLTSPVDSNFVRSIAKSEFSKFYESSGSLVRNRDGLCIFDN
+                     GCGPLVIGLEDISICGDIRIIKSPLLVESLAMFSSARANACVWKGKWMYEVILETSGV
+                     QQLGWVTLSCPFTEHKGVGDADDSYAFDGRRVRKWNNKAEEYGQSWVVGDVIGCCIDL
+                     DYDEISFYRNGVSLGVAFHEIRKMGPGFGYYPAISLSQGERCELNFGSRPFKYPIEGY
+                     FPIQAPSSVTSFATQLLQCLSRLLDMQRKEQGDHASVEKLRRLKRFVSFEELFDPVFH
+                     GICEEFFSILEADAGSLEYIGRGPFLSFMMEVFGVQAPHDYLSLDRAIDIFLEFEKSH
+                     LLFEHLINALSCGCKTAPFVLAECPYSGSYSYLALACHILRREKLMMLWWKSLDFEFL
+                     FEGFLSLKSPNKEDLECMMPSVWWPGSSEDVSCESGMILTTTALSKAISKIEEKHRDL
+                     CRLVIQFIPPIAPPQLPGSVFRKFLQNLLLKNRGADRNVLPPGLSSNSVLVSLYTVIL
+                     HFLSEGFGTGDVCGWLKSCETDPDVGFLHRGGQQSFPMYLFLKNDPHRTGISRLGGSF
+                     NHLLKSNPAKNEEAEVIRWEEGCMDDEENRVTHLTRQKPCCCSSSRYDDFTRISKDPI
+                     IYTAKSSTGHCNHIPERSAHVATECSAGTLNDEIANKPSSSDQSESELDYRPVQHVMI
+                     VPRECNVSSATLTEEELLDALLLLYHIGLAPNFKQASYYMSHQSHSISVLEETDKQIR
+                     DGTCTEQLKRLKEARNLYREEVIDCVRHCAWYRISLFSRWKQRGMYATCMWIVQLLLV
+                     LSRVDSVFVYIPEFYLEVLVDCFHVLRKSDPPFVPPAVFVKQGLASFVTFVVAHFNDP
+                     RISSADLKDLLLQSISVLVQYREYLTAFESNETAILRLPKALLSAFDQRSWIPVTNIL
+                     LRLCRGSGFGSSKHGESSSSSVVFQRLLREACINDKDLFSAFLNRLFNTLSWTMTEFS
+                     VSIREMQEKFQVVEFQQRKCSVIFDLSCNLTRVLEFCTHEIPQAFLLGTDTNLRRLTE
+                     LIVFILNHVTSAVDAEFFDLSLRRHGHSLEKVNRGMILAPLVGIILNLLDASSGAECR
+                     EHNDVVGVFASMDCPKTVHCGFQYLLNYNWAGSFRGDVNLGKLGRLEKFASIIISRTE
+                     SQVIDEMGYGGEIDGDDSTCCICYSGEADSQFVPCSHRSCHGCITRHLLNCQRCFFCN
+                     ATVVEVVRISNEL"
+ORIGIN      
+        1 gctgctctgt ctgacagtcc ctaacctatg gcttcggttc gttcgttcac atctctcccc
+       61 aaacttttgg cgaacattta gaaaatccaa aacacacact ctctctctct ctctaaaacg
+      121 ctttctctct ttaaaagctt tctctttctc tctcaatcaa cggtctctgc aaaaccctag
+      181 catgccttgc ctccgccgcc tttcactgtt ccgaagcgag aaaagaagaa gagcatgagc
+      241 cacacctggt caggaggatg gcgattttac aagagttcaa agtgttgtta gaaaggatca
+      301 atatttctgg aaggatattt gaattttgaa gattttgatt gtgttctgtg aaaattgagg
+      361 gttttgtagt gattctgcat attgccaatg gcagaagacg gcctacggat tggtgggctt
+      421 tcttctggtt tggctgtaat cttgaagggt gaggatggca gagagaattc gtcaaaaacc
+      481 cgtcttgttt cacattgtga tgatttttgt caccagtctg tggagcgaat gattgaatat
+      541 gtatttggtc tccctcacaa atcaattggt ccattgacta gtccagttga cagcaatttt
+      601 gttcgctcta ttgcaaagag tgagttctca aagttttatg agagctcggg ctctttggtt
+      661 agaaataggg atggactttg tatatttgat aatggctgtg gtccccttgt cattggtctt
+      721 gaagatatca gcatttgtgg tgatataaga attattaagt caccattgct tgtagagagc
+      781 ttagcaatgt tcagtagtgc cagggctaat gcttgtgttt ggaaaggaaa atggatgtat
+      841 gaagttatct tagaaacttc aggtgtacaa cagcttggat gggtaactct ttcttgccct
+      901 ttcactgaac ataagggtgt aggtgatgct gatgattcat atgcatttga tggaagaagg
+      961 gttaggaaat ggaataacaa agctgaggaa tatggtcagt catgggttgt tggtgatgtc
+     1021 attggatgtt gcatagattt ggattatgat gagatttcat tctacaggaa tggcgtctca
+     1081 cttggagtgg cttttcatga gattcgcaaa atggggcctg gttttgggta ttatccagca
+     1141 atttctcttt ctcaaggtga acgttgcgaa ttaaattttg ggtcccgccc ctttaagtac
+     1201 ccgattgaag gatatttccc aattcaagct ccttcctctg taacttcttt tgctacacag
+     1261 ttgctgcaat gcttgtcaag gcttttggat atgcaacgga aagagcaggg tgaccatgct
+     1321 tctgttgaga aattgaggag attgaagagg tttgtttcat ttgaagaact ttttgatcct
+     1381 gtattccatg ggatatgtga agaatttttc tctatacttg aagcagatgc tgggagtttg
+     1441 gagtatatag gtcgaggtcc atttctgtca ttcatgatgg aagtgtttgg agtgcaggca
+     1501 ccacatgatt atttaagctt ggatagagct atcgacatct ttctagaatt tgaaaaatct
+     1561 catttgttat ttgagcacct gataaatgcc ctttcatgtg gttgtaaaac agcaccattt
+     1621 gttctagcag aatgcccata ttcaggatca tattcttatc ttgcattggc ctgtcatatc
+     1681 ttaagacgag aaaaattaat gatgctttgg tggaagtcat tagattttga attcttgttt
+     1741 gaaggatttc tttcactgaa gtctccaaac aaggaggatc ttgagtgcat gatgccttca
+     1801 gtgtggtggc ctggttcatc tgaggacgtg tcctgtgaga gtggcatgat tttgacaact
+     1861 actgctttat ccaaagcaat tagtaagata gaggagaagc atagggacct ttgtcgcttg
+     1921 gtcattcaat tcataccacc tattgcacct cctcagttgc ctggttcagt gttcaggaaa
+     1981 tttttacaga atcttttatt aaagaataga ggagcagatc gtaatgtact gcctcctgga
+     2041 ctttcaagca actctgttct tgtttctttg tacacagtca tactccattt tctatctgaa
+     2101 ggatttggta cgggggacgt ctgtggctgg ttgaagagct gcgaaactga ccctgatgtt
+     2161 ggttttcttc ataggggcgg ccaacaaagt tttcccatgt acttgtttct gaaaaatgat
+     2221 cctcatcgaa ctggcatatc taggcttgga gggtcattca atcatctatt gaaatcaaat
+     2281 cctgcaaaga atgaggaagc agaggtgatc cggtgggagg aaggctgtat ggatgatgaa
+     2341 gaaaacagag taactcattt aaccaggcag aaaccatgtt gttgttcaag ttcacggtat
+     2401 gatgacttca caagaatctc aaaggatcca attatataca cagccaaaag ttctactggc
+     2461 cattgcaacc atattccaga gagatcggct catgttgcta cagaatgtag tgctggaact
+     2521 ttgaatgatg agatagcaaa taagcctagc tccagtgatc aatctgaatc tgaattggat
+     2581 tatcgtccgg tccaacatgt gatgattgta cccagggaat gtaatgtgtc ttcagctaca
+     2641 ctaacagaag aagaacttct ggatgcttta ctgttattgt atcacatagg ccttgcacca
+     2701 aactttaagc aggcatcata ttacatgtct catcagtcac attcaatctc tgttctggag
+     2761 gaaactgata aacaaataag agacggaact tgcactgagc aattgaagcg tttgaaagaa
+     2821 gctcggaatc tctatcgtga agaagttatt gactgtgtga gacattgtgc atggtaccgc
+     2881 atttctctct tttctcgatg gaagcaaaga gggatgtatg ctacgtgcat gtggattgtc
+     2941 caattgcttc tggttcttag cagagtagat tcagtgttcg tttacatccc ggaattttac
+     3001 ttggaagttc tggttgactg ctttcatgtg ttgcgtaaga gcgatccccc atttgttccc
+     3061 cctgcggtat ttgtcaagca gggacttgct tcatttgtca cttttgtagt tgcccacttc
+     3121 aatgacccaa ggatatcaag tgcagatctt aaggatcttc tccttcaatc tatatcggtt
+     3181 ctggtccagt acagggaata tttgactgct tttgagagca atgaaacagc aatcctgagg
+     3241 ttgccaaaag cattgctgtc ggcatttgat caaagatcct ggatcccagt taccaatatt
+     3301 cttctgaggt tgtgtagggg ttctggcttt ggttcttcca agcatgggga atcatcatca
+     3361 tcgtcagtgg ttttccagag attactacgg gaagcctgca tcaatgacaa agacctgttc
+     3421 tcagctttcc tcaaccgctt atttaatact ctcagctgga caatgactga attctcagtt
+     3481 tccattcgag aaatgcaaga aaaattccag gtagtagagt ttcagcaaag aaaatgcagc
+     3541 gtaatatttg atctctcatg caatcttacc agggtattgg agttctgtac ccatgaaatt
+     3601 cctcaagcat tcctgttggg aactgataca aaccttcgac ggctaactga actgattgtc
+     3661 tttattttga accatgtaac gtcagcagtg gatgcagagt tttttgactt gtcacttaga
+     3721 cgacatggcc attctttaga gaaagtgaac cgaggcatga tattggcacc tcttgtgggg
+     3781 atcatcttga atttgttgga tgctagttct ggggcagagt gcagggagca caatgatgtt
+     3841 gtgggtgtat ttgcaagcat ggactgccct aaaactgttc attgtggttt ccagtatctc
+     3901 ttgaattata actgggcagg atccttcagg ggggatgtga atcttggaaa acttgggcgg
+     3961 ctggagaaat ttgcaagcat cattattagc cggactgagt cacaagtaat tgatgaaatg
+     4021 ggatatgggg gggaaattga tggggatgat agcacgtgct gcatctgtta ttcaggtgaa
+     4081 gcagattccc agtttgtgcc ttgttcccat agatcttgtc acggctgtat aaccaggcat
+     4141 cttttaaatt gccagagatg tttcttttgc aacgcaacag ttgtagaggt tgtcaggatt
+     4201 agcaatgagc tctgagctag ttggtattta tccagtgtct atgcttggag gttgtcggga
+     4261 ttgcaatgca cgctgagcta ttgtttaagc ttgaaggcca aatttggtga aggcagtggt
+     4321 acactagcta gaaaaaaaga taggaggggg gcatgccagc atacatatca cgtgacacag
+     4381 atttgaagtt ttatgtacaa atcgactaaa ttaaagtaca cgggggtcta aatgcgccaa
+     4441 ctccaagtgc aaaaacaact ctaatgttca agaggtctaa ttttgattaa cggagaatgg
+     4501 tagtctatgg ggtcgggcag atattctcat ggggttttaa agaattttgt agataatttt
+     4561 gagggcgtta ctttgtaaat atgaggtgta aatgttaagg acatttttct cagtattcag
+     4621 aaatttctgc aaggtgtctg aattgagaaa ttcagtttaa tttggtcata
+//

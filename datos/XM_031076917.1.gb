@@ -1,0 +1,108 @@
+LOCUS       XM_031076917            2408 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata aspartyl protease family protein 2-like
+            (LOC115958506), mRNA.
+ACCESSION   XM_031076917
+VERSION     XM_031076917.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044911.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2408
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="8"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2408
+                     /gene="LOC115958506"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 3 ESTs, 15 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:115958506"
+     CDS             545..2176
+                     /gene="LOC115958506"
+                     /codon_start=1
+                     /product="aspartyl protease family protein 2-like"
+                     /protein_id="XP_030932777.1"
+                     /db_xref="GeneID:115958506"
+                     /translation="MVGKVALSLAFFVFFLGVFEAVAGIHNCNGSTFAGIELPDHLSF
+                     NAVSSSSSTGCRGSEPTRQAVLNEEEDERRDAPHKQTLKLHLKHNPLSKEKEPKKSVA
+                     EFTNKDLTRIQTLHTRIVEKKNQNTISRLNKEKEQSKKQIKSVVPPAAAPESSAGDLS
+                     GQLMATLGSGVTLGSGEYFMDVFVGTPPKHFSLILDTGSDLNWIQCVPCYDCFEQNGP
+                     HYDPKDSSSFRNISCHDRRCQLVSSPDPPRPCKAENQSCPYYYWYGDNSNTTGDFAIE
+                     TFTVNLTTPSGKSEFRRVENVMFGCGHWNRGLFHGAAGLLGLGKGALSFSSQLQSLYG
+                     HSFSYCLVDRNSDTNVSSKLIFGEDKDLLSHPNLNFTSFVVGKENLVDTFYYLQIKAI
+                     VVGGEVLNIPEETWNLSPEGAGGTIIDSGTTLSYFAEPAYEIIKEAFVKKVRGYPLLE
+                     DFPILSPCYNVSGVEKIELPEFEIHFADGAVWNFPVENYFIPLEPEGIVCLAIMGTSR
+                     SSLSIIGNYQQQNFHIWYDIKKSRLGYAPMKCADV"
+ORIGIN      
+        1 cttcaacaca tgactttctg aaaccatggt ttcaaagtct ttaacatcgg ttcaatagca
+       61 acaacaaaaa acacacacag agacccaaaa ctcatcagac ttctcttcct ttctgttctt
+      121 tctttcctag ttccaaagag acattttttg ttataaaact gaacctaata tttaattcct
+      181 tatcattttt acagagccta ttctagttgt ctaagcttca atagaaattg ctttctgggt
+      241 ttctgggttt gttgtttctg ggattgaaag caagtcctgc ttggtttttt tcatatatat
+      301 tcctgttctt ctttccttgt ttcactgaaa attctgtttc atctgaattt tcactttctg
+      361 ggtttttctc ttcacacacc cttttctgtt tggaattgaa agaaagttca gaacttgctt
+      421 ttttcattca aagcattgac tttttcaaca aaggcttgct ctttctgggt tttccgggct
+      481 cattttctgg ggtcgacttt gttgtaggat tttctctgca accaaacaag gagaacttgt
+      541 caccatggtt ggtaaggttg ctctcagtct agctttcttt gttttcttcc tcggagtttt
+      601 cgaagctgtt gccggaatcc acaattgtaa tggctctacc ttcgctggta tcgaattgcc
+      661 tgatcacctt agcttcaatg ccgtttcgtc ttcttcgagt accggttgta gaggttcaga
+      721 accaactagg caagcagtac taaatgaaga agaagatgaa cgtagagatg cacctcataa
+      781 acagactttg aagctccact taaagcacaa tccactgagc aaagaaaagg agcctaaaaa
+      841 atctgtggct gagttcacaa acaaggactt gactagaatt cagactcttc atacaaggat
+      901 tgtggagaag aagaaccaaa ataccatttc aaggctaaat aaagagaagg agcaatcaaa
+      961 gaagcagatt aagtcagttg ttcctccggc tgcagcgccg gaatcttctg caggcgacct
+     1021 ttcggggcag ctcatggcga ctttgggatc tggggtgact cttggctctg gagagtactt
+     1081 catggatgtg tttgtgggta ctcctcctaa acatttctct ttgatacttg atactggtag
+     1141 tgaccttaat tggattcaat gtgttccttg ttatgattgt tttgaacaaa atggacccca
+     1201 ttatgatcct aaagattcca gttcttttag aaatataagc tgccatgatc gtcggtgtca
+     1261 attggtctca tcccctgatc ctcctcggcc ttgcaaagct gagaatcaat catgtcctta
+     1321 ctactattgg tatggagata attcaaatac cactggagat tttgcgattg aaacgttcac
+     1381 agttaatctt actacgcctt ccgggaagtc agaatttagg cgggtggaga atgtgatgtt
+     1441 tgggtgtggt cattggaata gaggcctatt ccatggggcc gcaggattgt taggactggg
+     1501 aaagggggct ctctcctttt cttcccagct gcagtctctc tacggtcact cattttcgta
+     1561 ttgtcttgtg gatagaaata gtgacacaaa tgttagcagc aagttgattt ttggagaaga
+     1621 caaggacctt ttgagtcatc ccaatctgaa ttttacttca tttgttgttg gtaaagagaa
+     1681 tctggttgat acattctact atcttcagat taaagcaatt gtggttggag gagaggtgct
+     1741 taacatacca gaggagactt ggaatttgtc accagaagga gctggtggta caataatcga
+     1801 ttctggtacc accctaagtt attttgcaga acctgcttat gagattatca aggaggcatt
+     1861 tgtgaagaag gttagagggt acccgttatt agaagacttt cccattctga gtccttgtta
+     1921 caacgtgtct ggagttgaga agatagagct gcctgaattt gaaattcatt ttgcagatgg
+     1981 agctgtgtgg aatttcccag ttgagaatta ctttatcccg cttgaaccag agggtattgt
+     2041 ttgtttggca attatgggaa ctagtcgttc cagtctttca ataattggaa actaccagca
+     2101 gcagaatttt cacatctggt atgacataaa gaagtctagg ctgggatatg ctccaatgaa
+     2161 gtgtgctgat gtttgacgtt tttatagaag attggagata atggaaggaa aattgtatac
+     2221 aacggtgatt aggaagggag agtttttttt tttttttttt tcctatgaaa gataacacac
+     2281 aaaaagtaga ttcattgttt ttttcaatct tttgagacca ggtgattata gaaacaaggt
+     2341 cataatttgc tttaacaaaa atgtaccatt gcttttatac atatattatc tgctcccttt
+     2401 tgaagtta
+//

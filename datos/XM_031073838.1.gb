@@ -1,0 +1,109 @@
+LOCUS       XM_031073838            2348 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata 65-kDa microtubule-associated protein
+            1-like (LOC115955633), mRNA.
+ACCESSION   XM_031073838
+VERSION     XM_031073838.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044911.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2348
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="8"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2348
+                     /gene="LOC115955633"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 29 ESTs, 14 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 39 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115955633"
+     CDS             262..2025
+                     /gene="LOC115955633"
+                     /codon_start=1
+                     /product="65-kDa microtubule-associated protein 1-like"
+                     /protein_id="XP_030929698.1"
+                     /db_xref="GeneID:115955633"
+                     /translation="MAVTDAQNPLLGETTCGSLLQKLQQIWDEVGESDEERDKMLLQL
+                     EQDCLDVYKRKVEQAAKSRALLLQALSDAKLELSSLLSALGEKSFAGIPDKTSGTIKE
+                     QLAAIAPALEQLWKQKEERIKEFSDVQSQIQKICGEIAGTLNLSDQAGTPAVDEADLS
+                     LKRLDEYHGQLQELQKEKSERLHKVLEFVSTVHDLCAVLGMDFFSTVTEVHPSLNDST
+                     SVQSKSISNDTLSRLAKTVLALKEDKKQRLHKLQELATQLIDLWNLMDTPVEERSLFD
+                     HVTCNISASVDEVTVPGALALDLIEQAEVEVERLDQLKASRMKEIAFKKQTELEDIFA
+                     HAHIEIDPEAAREKIMELIDSGDVEPAELLADMDNQIANAKDEALSRKDILDKVEKWM
+                     SACEEESWLEDYNRDENRYNASRGAHLNLKRAEKARILVNKIPALVETLVTKTRAWEE
+                     ERGIPFTYDGVPLLAMLEEYAMLRHEREEEKRKMRDQKKFHEQQNTEQEAIFGSRPSP
+                     ARPAGTKKVVGPRANGGGGANGTPSRRLSLNAHQNGSRSTTKDGKRDNTRPVAPVNYV
+                     AISKEDAASHVSGSDPVPVSP"
+ORIGIN      
+        1 tttttctctg cacacacaca ctctctcttt ctctctctct ctgtcctttg ttggcttcta
+       61 aaaaaccaag ttctatcact cactccttta ctctgtccct cacaaacact gaggccaaag
+      121 ccccttagat ctgaaaccca caaaccccaa taactcttag ctccaaagaa accatctttg
+      181 ggacctggac agttgtgtat gttgtccact taagtggtcc ttcttgctcg tcaataaggt
+      241 taggttgtag tgttgacgtg aatggcggtg acagatgcac aaaatcccct tcttggagaa
+      301 accacatgtg gttctttgct gcagaaactg cagcaaatat gggatgaggt tggggaaagt
+      361 gatgaggaaa gagacaagat gcttcttcag ttagagcagg attgcttgga cgtatacaag
+      421 aggaaggttg aacaggctgc aaaatctaga gcactgcttc ttcaggcctt gtcagatgcc
+      481 aaacttgaac tttccagtct tctatcagcc cttggagaga aaagtttcgc tggaattccc
+      541 gataagactt caggaactat caaggaacag cttgcagcta tagcaccagc acttgaacag
+      601 ttgtggaaac aaaaagagga gagaattaag gagttttctg atgtacagtc acagattcaa
+      661 aagatatgtg gagaaattgc tgggaccttg aaccttagcg atcaggcagg gactcctgct
+      721 gttgacgaag ctgacctatc cctgaaaagg ttagatgaat atcatggcca acttcaagaa
+      781 cttcaaaagg aaaagagtga gaggttgcac aaggttcttg aatttgtgag cactgtccat
+      841 gatctttgtg ctgtccttgg aatggacttc ttcagtactg ttactgaggt tcatccaagc
+      901 ttaaatgact ctacaagtgt ccaatccaaa agcattagca atgatactct atctaggctg
+      961 gctaagacag tcttagcact gaaagaagat aagaagcaga ggctccataa gctccaagag
+     1021 ttggcaactc aactaattga tctatggaat ctgatggata cccccgtgga agaaaggagt
+     1081 ttatttgacc atgttacctg caacatatct gcttcagtag atgaagtgac cgttccaggg
+     1141 gcccttgctc tagatttgat cgagcaggct gaggtggaag ttgaaaggct tgatcaactg
+     1201 aaagcaagta gaatgaagga aattgctttt aagaagcaaa cagagctcga agatatattt
+     1261 gcccatgctc atatagaaat agatcctgag gctgctcgag aaaagattat ggaacttatt
+     1321 gactctggtg atgttgaacc tgctgaatta ctggctgaca tggataatca gatagcaaat
+     1381 gcgaaagatg aggctctcag cagaaaagat atattggaca aggttgagaa gtggatgtca
+     1441 gcctgtgaag aggagagttg gcttgaagac tacaatcggg atgaaaacag gtacaatgca
+     1501 agcagaggcg cacacttaaa cctcaagcgt gcagaaaaag cccggatttt ggtgaacaaa
+     1561 attccagcac tcgttgagac attggttacc aaaactcggg catgggaaga agaacgtggc
+     1621 ataccattta cttatgatgg tgttcctctt cttgccatgc tagaggaata tgccatgctc
+     1681 aggcatgaac gagaagaaga gaaacggaag atgagggatc agaagaagtt ccatgagcag
+     1741 caaaataccg aacaagaagc tatatttggt tcaaggccca gccctgctcg acctgctggc
+     1801 acaaagaagg tagtgggtcc tcgtgcaaat ggtggtggtg gtgccaatgg aacccccagc
+     1861 agacggctat ctcttaatgc tcatcaaaat gggtccaggt caacaacaaa agatggaaag
+     1921 cgggataata ctagaccagt tgcccctgtg aactacgttg ccatatcaaa agaagatgct
+     1981 gcctcccacg tttctggttc tgacccagtt ccggtttctc catgatgata ataagagacg
+     2041 gatagagaga gtgagagaga gagagagaga gagagatctg taggttactg attacaactt
+     2101 tgtcgtgtta ctgttgttac tacttactta ctagtttgtg ctgtaggaat atgatctatg
+     2161 aatcaatgag taaaaattgg agataaaaca aaactgcttg tagctttgta tgtgatattg
+     2221 acatttggaa gctttttcaa tcatgtttct ctagtctgtt caagttttga tcaattgtag
+     2281 caatcatggt ggatgtctaa gtacacattt ggctcgggga taaaagctgc caatgctttt
+     2341 tgtgctga
+//

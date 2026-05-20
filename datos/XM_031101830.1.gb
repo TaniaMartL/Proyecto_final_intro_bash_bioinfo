@@ -1,0 +1,105 @@
+LOCUS       XM_031101830            1152 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata flagellar radial spoke protein 5
+            (LOC115979766), mRNA.
+ACCESSION   XM_031101830
+VERSION     XM_031101830.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq; corrected model.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044904.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            frameshifts :: corrected 1 indel
+            ##RefSeq-Attributes-END##
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-42                LRBV02000001.1     13219127-13219168
+            43-127              LRBV02000001.1     13219170-13219254
+            128-212             LRBV02000001.1     13220855-13220939
+            213-329             LRBV02000001.1     13221076-13221192
+            330-394             LRBV02000001.1     13222051-13222115
+            395-483             LRBV02000001.1     13222205-13222293
+            484-563             LRBV02000001.1     13222393-13222472
+            564-675             LRBV02000001.1     13222792-13222903
+            676-795             LRBV02000001.1     13223111-13223230
+            796-1152            LRBV02000001.1     13223334-13223690
+FEATURES             Location/Qualifiers
+     source          1..1152
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="1"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1152
+                     /gene="LOC115979766"
+                     /note="The sequence of the model RefSeq transcript was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: deleted 1 base in 1 codon;
+                     Derived by automated computational analysis using gene
+                     prediction method: Gnomon. Supporting evidence includes
+                     similarity to: 1 EST, 1 Protein, and 96% coverage of the
+                     annotated genomic feature by RNAseq alignments, including
+                     40 samples with support for all annotated introns"
+                     /db_xref="GeneID:115979766"
+     CDS             1..978
+                     /gene="LOC115979766"
+                     /note="The sequence of the model RefSeq protein was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: deleted 1 base in 1 codon"
+                     /codon_start=1
+                     /product="LOW QUALITY PROTEIN: flagellar radial spoke
+                     protein 5"
+                     /protein_id="XP_030957690.1"
+                     /db_xref="GeneID:115979766"
+                     /translation="MPSPQRNVADQWGMGRIDRDDAVEAMLRYADSGLSTFDMADHYG
+                     PAEDLYGIFINRVRRERPPEFLEKIRGLTKWVPPPVKMTSSYVRESINVSRKRMDVAS
+                     LDMLQFHWWDYSNTGYLDALKHLTDLKEEGKIKTVALTNFDTERLQIILENKIPIVSN
+                     QVQHSIVDMRPQQKMAELCQLTGVKLITYGTVMGGLLSEKFLDTNLSIPFAGPSLNTP
+                     SLQKYKRMVDAWGGWSQFQVLLQTLKKVASKHGVSIPTVAVKYILDQPAVAGSMIGVR
+                     LGLSDHIQESNAVFSLVLDNDDVNSIQEISKKGKDLLRVIGDCGDEYRR"
+ORIGIN      
+        1 atgccgagtc ctcaacggaa tgtggcagac cagtggggga tgggccgaat cgatcgagac
+       61 gatgccgttg aggctatgct tcgctacgcc gactccggcc tctccacctt cgacatggcc
+      121 gatcactatg ggcctgcaga agatctttat ggtatcttca tcaatagagt tcgtcgagag
+      181 cgcccacccg aattcttgga gaagataaga ggtcttacta aatgggtgcc tccacctgtt
+      241 aagatgacaa gtagctatgt ccgggagagt attaatgttt ctcggaagag aatggatgtg
+      301 gcttccttgg atatgcttca gtttcattgg tgggattact caaatactgg ttaccttgat
+      361 gcactaaaac accttacaga tctgaaagaa gaaggtaaaa tcaagactgt tgccttaaca
+      421 aatttcgata cagaaagatt gcaaataatc ctagaaaaca agattcccat tgtgagcaat
+      481 caggtgcaac attcaattgt tgatatgcgt cctcaacaga aaatggcgga gctttgtcag
+      541 cttacaggag tcaaacttat aacgtatgga acagtaatgg gtggtttgtt atctgagaag
+      601 ttccttgaca ccaacttgtc cattcctttt gctggccctt cattaaacac accctccctc
+      661 caaaagtata aaaggatggt tgatgcctgg ggaggatgga gccagttcca agtactgctt
+      721 caaacactta aaaaagtagc ttctaaacat ggggtctcaa tcccaactgt tgccgtgaaa
+      781 tatatactag atcagccagc agtggcggga tcgatgatag gtgttagact tgggctgtca
+      841 gaccatattc aggagtcaaa tgctgtcttt tctctcgttc ttgacaatga tgatgtaaac
+      901 agcatacaag aaatctcgaa aaaagggaaa gatcttctta gagtgattgg tgattgtgga
+      961 gatgaatata ggcgttgaga cttagaatcg cttgtcctcg tgagcttttt tttttcttaa
+     1021 gaaatgatcc tacaaatact tgaaccccct tctacctttt ccgtttggct ctcaaaaata
+     1081 ataataataa taataacagt ataatgtatg agcttcgaag ttattgagta gaacatgggc
+     1141 gtataaagag ta
+//

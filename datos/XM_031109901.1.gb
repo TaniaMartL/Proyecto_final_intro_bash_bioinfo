@@ -1,0 +1,120 @@
+LOCUS       XM_031109901            2963 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata protein gar2 (LOC115986669), mRNA.
+ACCESSION   XM_031109901
+VERSION     XM_031109901.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044907.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2963
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="4"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2963
+                     /gene="LOC115986669"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 1 EST, 6 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 35 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115986669"
+     CDS             499..2568
+                     /gene="LOC115986669"
+                     /codon_start=1
+                     /product="protein gar2"
+                     /protein_id="XP_030965761.1"
+                     /db_xref="GeneID:115986669"
+                     /translation="MGSVDDQTFNVNFTTDGVGKLREVVKEKLMEFTDFSDDHLVEYV
+                     IVLVKNGKRKEDARNELRVFLDGDTDSFVSWLWDHLALNLDLYVQHEESYMEEAPKTK
+                     PPLWDQGGKNDSHCSDSESEKEKSNMLSRSRHNREWKGLVRDAAEPPPLRSSDIDKIH
+                     YEEKPHRRVSRAKRSPSPRSFQKKRSQPDERESKKREAVSQVNIDAPRRLLQFAVRDA
+                     VGTSRPSNLAKEPRLKRLRSVVSTSTGDSLFVDHPQRIQSVARVLNPMSTVIKAVAEA
+                     AEDVIKVKPSGSVFDRLGRGMDVSETSVQHTEFREAAVEDGEYGDVNQIQQQTWPSYH
+                     QRSNYSGQYVGDMSMLESETGLASDSTSDNEGYDDVNVMGRRVMDVSQTGTSAGNKVE
+                     DSMMVQYSVANNADDVVRRNKDHDQAVAAANTSRSKIVNISVNVNTWKPPHYQEPREI
+                     AEVDNRKSLLESDTGSGKSGVRLMTEPAKVGNGNAKPAVDAQKESLKTLSATPGLYAA
+                     GRPLEDADSRTIFISNVHFGASKDSLSRHFNKFGEVLKVVILTDAATGQPKGSAYVEF
+                     MRKEAADNALSLDGTSFMSRILKVVRRSAANQEAAPIMTWPRGNPFAAARFARVPFPR
+                     GMSGAFRARPPLKLGARSMQWKRDAQATPAESGASVYGNAIPSPTARSLTYVRTEPKP
+                     DGNPSTT"
+ORIGIN      
+        1 agcttttgtt cccgttccat gaagcccaaa aaccttagcc acaacaaagc caaaacccaa
+       61 acccacaata tatctccact cactttctcg tctctctgct gctaaaaatc cttcaccgac
+      121 attagttctg tacccaaaat tccattaacc taattttgta gaaaaaaccc aaaaaacaaa
+      181 atcccttaaa tattttctat cacactttct cttttcattt tcccgagaaa atccctggaa
+      241 tcgttttcgc attgagcaaa atcgtattgg gcaattttag ttaggttttg ttgttttcca
+      301 ctttcggtga aaatctcaac ggttctatat atatatatat ttgaattgct ttttgccgag
+      361 tttcagaggg gtttgaatcc gtggcggaga tttaagggtt ttgtggagga tcgaaatttt
+      421 tgaattggtt tttggaattt agggcaaaat tatttagggt tttgtggttt tatttttgga
+      481 ttgagaaagg ttttagagat gggaagcgtc gatgatcaga cattcaatgt gaatttcact
+      541 accgatggcg ttgggaagct aagggaggta gtgaaggaga agctgatgga gttcacggat
+      601 ttcagcgatg atcatcttgt ggaatatgtg attgtgttag taaagaatgg caagcgcaag
+      661 gaagatgcaa ggaatgagtt gcgtgtgttt ttggatgggg acactgattc ttttgtatct
+      721 tggctgtggg atcatcttgc tttaaatttg gatttgtatg tacaacatga agagtcttat
+      781 atggaagaag ctcccaagac aaaaccccca ttgtgggacc aaggtggaaa aaatgattct
+      841 cattgttcag attctgaatc agaaaaagag aagtctaata tgttatctag aagccggcac
+      901 aatagggaat ggaaaggact agtgagggat gcagctgaac cccctcctct tcggagctct
+      961 gatattgaca aaattcatta tgaagaaaaa cctcatcgca gagtaagtcg tgcaaagagg
+     1021 tctccttctc cccgttcttt tcagaagaaa aggagtcagc cggatgagcg tgagagcaag
+     1081 aagagggagg cagtttctca agtaaatatt gatgccccaa ggcgtctact tcagtttgca
+     1141 gttcgagatg cagtgggaac ttcgaggcct tccaatttgg caaaggaacc cagattgaag
+     1201 cgacttcgtt ctgtggtttc aacatccact ggggactcat tgtttgttga tcatcctcag
+     1261 cggattcagt ctgttgccag agtgctaaat cccatgtcaa ctgttattaa agctgtggca
+     1321 gaggctgcag aagatgtaat aaaggttaaa ccttctggaa gtgtgtttga ccgacttggt
+     1381 cgtggtatgg atgtatcaga gaccagtgtc cagcatacag aatttagaga agctgctgtt
+     1441 gaagatggag aatatgggga tgttaaccaa attcagcaac aaacatggcc gagctatcat
+     1501 caaagaagca actacagtgg acagtatgtt ggcgatatga gtatgttaga aagtgaaact
+     1561 ggcttggcat ctgattctac atctgacaat gaaggatatg atgatgtcaa tgtcatgggc
+     1621 cgtagagtga tggatgtttc tcagactggc acgtctgctg gaaacaaggt tgaggattca
+     1681 atgatggtgc agtatagtgt agctaacaat gctgatgatg ttgttagacg aaataaggat
+     1741 catgatcaag ccgtggcagc agcaaatact tctcgtagta agatagtgaa catctctgtg
+     1801 aatgtaaaca cttggaagcc gcctcattat caggagccta gggagattgc agaagtggat
+     1861 aataggaaat ctctattgga gagcgacaca ggatctggca agtctggtgt gcgtcttatg
+     1921 acggagccgg ccaaagttgg taatggaaat gcaaaacctg ctgtggatgc tcagaaagag
+     1981 tccctgaaga cactgtcagc cactcctggt ttatatgctg ctggtcgacc tctagaggat
+     2041 gctgattctc gaaccatctt tattagcaat gtccattttg gtgcttctaa ggatagtctt
+     2101 tctcggcact ttaataaatt tggggaagta ctaaaagtgg ttatactgac tgatgcagca
+     2161 acagggcaac caaaagggtc agcttatgta gagttcatga gaaaagaggc agcagacaat
+     2221 gctttatctt tggacgggac ctccttcatg tcacggattc ttaaggttgt gaggagaagt
+     2281 gctgccaatc aagaagctgc cccgatcatg acatggcctc ggggcaatcc atttgctgct
+     2341 gctaggtttg ccagggttcc ttttccaaga ggcatgtctg gtgcatttag ggctcgccct
+     2401 ccattaaaac ttggtgctag gagcatgcag tggaagcggg atgctcaggc tacaccagct
+     2461 gagagcggtg cttctgtcta tggaaatgct attccgtcac ccactgctcg tagtctcacc
+     2521 tacgtcagaa cagaaccgaa gccagatggg aatcccagta caacctagtt caacagcctt
+     2581 cccctttttg caaaattctc aactacgatg taccaaagtg cacttgcagg ccagatgaga
+     2641 ccctaccagt tctctatatt ttggaatatc attcttctgt acatgaatgt tttcaagggt
+     2701 tgaggtctga agaagtgtaa taattttctt ggtttaattt tttggctgga gaagaccagg
+     2761 gttttttttt tttttttttg ggatatagtt ctggtggatc caagatggga agaagtttag
+     2821 agaaaatggt ttggaccaat ttctttcggt gcctatggtt gtaatctgtg aatagggtgg
+     2881 atggatggaa tattaattaa tttgggagga gaatatcttt gtttgttttg tattggttac
+     2941 tattatttta atgataaaat gag
+//

@@ -1,0 +1,115 @@
+LOCUS       XM_031115753            2668 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata U-box domain-containing protein 17
+            (LOC115991815), mRNA.
+ACCESSION   XM_031115753
+VERSION     XM_031115753.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044908.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2668
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="5"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2668
+                     /gene="LOC115991815"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 8 ESTs, 19 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:115991815"
+     CDS             337..2532
+                     /gene="LOC115991815"
+                     /codon_start=1
+                     /product="U-box domain-containing protein 17"
+                     /protein_id="XP_030971613.1"
+                     /db_xref="GeneID:115991815"
+                     /translation="MATAAIFSSLRRRRSPSLEAFLAPVDLTDVALVQTLAAISNDLV
+                     SKFSHKCFHFQRRNSRSLIRKIEVFLVLLDYLKDSTSTTTKSASASASSSSTLPSTAL
+                     LCFKELYLLLYRSKILLHYCAKSSKLWLLLQNHSISGHFHDLSQEISTLLDVFPLKDV
+                     VELSDDVREQVELLQRQARRSRLFIDKNDESLRIRFFNFLDVFEKGEVPNSEELRSFF
+                     VGSLGIKDAKSCRVEIEFLEEQIVNHEGDVEPTVSVLNGFVALTRYCRFLLFGFEEDE
+                     VGLGFGCLRRPRKGLITQEIAETFITVPKDFCCPISLDLMRDPVIISTGQTYERSSIA
+                     RWMEEGHCNCPKTGQMLVHNRLVPNRALRSLIMQWCIAHGVPLDPPETMDVSTESFAA
+                     AAPTRAALEANRATAAILIQQLANGSEGGMTVAAREIRLLAKTGKENRAFIAEAGAIP
+                     HLRKLLLSVNPVAQENSVTAMLNLSIYDKNKSRIMDEEGCLGSIVEVLRFGHTTEARE
+                     NAAATLFSLSAVHDYKKRIADEGGAVEALAGLLRDGTPRGKKDAVTALFNLSTHTDNC
+                     VRMIEAGAVTALVGALGNEGVAEEAAGALALIVRQPVGAEAVGKEEMAVAGLIAMMRC
+                     GTPRGKENAVAALLELCRSGGTAATERVVKSPMLAGLLQTLLFTGTKRARRKAASLAR
+                     VFQRCENAALHLGGLGVGYAFAGNSAAANRDSSFAGDVSVPMSISVPVL"
+ORIGIN      
+        1 aaagaaaaaa aaaaaaaaaa agtaaagcct tggaaattca gtcccttttt cctctcaaaa
+       61 aacgcggatt ccccaaaatt aaaaagaccc ggaattcctt ttccttttcc aaacctttga
+      121 agtttgaaga ttcagcttca accacaataa caaaaacagc aacaacaaca ataataacag
+      181 cagcaacaac aacaacaaca acaaaagact gtttcatata ttgttgctat cttttcggtt
+      241 ttccattacc aaatttacaa tatttggtac aacaaacaat cttgtggatc ctttttattt
+      301 tttaattttt ttattataca atttctcttc ttagaaatgg caacggcggc gatattttcg
+      361 tcgctccgga ggcggagatc gccgtcgttg gaagcgttct tagctccggt tgatttaacg
+      421 gacgttgctt tggtacaaac cctagcggcg atctcaaacg acctcgtctc gaaattctcc
+      481 cacaagtgtt tccatttcca gcgcaggaac tcgcgctctc tcatcagaaa aatcgaggtg
+      541 tttctcgtcc tcttagatta tctcaaggac tcgacctcca cgacgacaaa atcagcctcc
+      601 gcttcggctt catcttcatc gactttgcct tcgacagctt tgctctgttt caaagagctt
+      661 tacttgcttc tctaccgctc gaagatactc ctccattact gcgccaaatc tagtaagttg
+      721 tggcttttgc ttcaaaacca ttcgatttca ggccatttcc atgatctgag tcaagaaatt
+      781 tcaacccttt tggatgtttt tccattgaaa gatgttgtcg aattgagtga cgatgttagg
+      841 gaacaggtcg agttgttgca gagacaagcg aggaggtcta ggctgttcat tgataagaac
+      901 gacgagtccc ttaggattcg gttttttaat ttcctcgacg tgtttgagaa aggggaggtt
+      961 ccgaattcgg aggagttaag gtcttttttt gtggggagtt tggggatcaa agatgctaag
+     1021 agttgtagag ttgagattga gttcttggaa gaacagattg tgaatcacga aggagatgtg
+     1081 gagcctaccg tgtctgtgct taatgggttt gttgccctta ccaggtattg taggtttttg
+     1141 ttatttgggt ttgaggaaga tgaggtggga ttggggtttg ggtgtttaag gagacctagg
+     1201 aaaggtttga ttactcagga gattgctgag acgtttataa cggtaccgaa ggacttttgt
+     1261 tgtccaattt cgttggattt gatgcgagac cctgtgatta tttcaacagg gcagacgtat
+     1321 gagaggagtt ctatagctag gtggatggaa gaagggcatt gtaattgccc gaaaacgggg
+     1381 caaatgcttg tacataatcg gcttgttcct aatcgggctt tgaggagttt gatcatgcag
+     1441 tggtgtattg ctcatggagt tcctcttgat ccgccggaga ctatggatgt gtccactgaa
+     1501 agctttgctg cggctgctcc tacccgggct gcacttgaag ccaatagagc tactgcggcg
+     1561 attctcattc aacagctagc aaatgggtcg gagggcggga tgactgttgc tgctcgtgag
+     1621 atacgtttgt tggcgaagac agggaaggag aacagggctt ttattgcgga agctggggcg
+     1681 attccccatc ttcggaagct acttttgtct gtgaaccctg ttgcacagga gaattccgtg
+     1741 actgcaatgc ttaatttatc gatatatgat aagaataaaa gtcgaattat ggatgaggaa
+     1801 gggtgtttgg gatctattgt tgaagttttg agatttgggc acacaacaga ggcaagggaa
+     1861 aatgctgcag caacattgtt cagcctctct gcggttcatg actataagaa gagaatagca
+     1921 gatgagggag gggcagttga agccctggca gggctgttga gagacgggac tccaagagga
+     1981 aagaaggatg ctgtgacggc tttatttaat ctgtcaacac acacagataa ttgtgtgaga
+     2041 atgatagagg caggggctgt aacggcattg gtaggggcat tgggaaatga aggggttgct
+     2101 gaggaagcag ccggtgcatt ggccttgatt gttcggcagc cagttggggc agaagcagtt
+     2161 gggaaagagg aaatggcagt ggcggggttg atagcaatga tgcgttgtgg aacgccaagg
+     2221 ggaaaagaaa atgcagtggc agcattactt gagttatgcc gtagtggtgg aacagctgcc
+     2281 actgagaggg tggttaagtc cccaatgttg gctgggttgc ttcagactct gctatttaca
+     2341 ggtacaaagc gggcaagaag aaaggcagct tcacttgcta gagtgtttca gagatgtgag
+     2401 aatgcagcct tacatcttgg tggattgggt gtaggatatg catttgcagg caactcagca
+     2461 gctgcaaaca gggattcgag ttttgctggt gatgtatcag tgccaatgtc catttcagtg
+     2521 cctgtcttgt agtggtaaca tccacgtcat gttgttgtct tcccttctta tatatgttcc
+     2581 catttttttt ggaaacattt acaaattctt tcattgaaat ttacagatga aaaattttat
+     2641 agtaatacca tatcttatgt gtttgaaa
+//

@@ -1,0 +1,100 @@
+LOCUS       XM_031084750            1949 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata enolase 1, chloroplastic (LOC115965505),
+            mRNA.
+ACCESSION   XM_031084750
+VERSION     XM_031084750.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044913.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1949
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="10"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1949
+                     /gene="LOC115965505"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 6 ESTs, 10 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 36 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115965505"
+     CDS             153..1592
+                     /gene="LOC115965505"
+                     /codon_start=1
+                     /product="enolase 1, chloroplastic"
+                     /protein_id="XP_030940610.1"
+                     /db_xref="GeneID:115965505"
+                     /translation="MALASQASTNLLQNSFLPSKPRNSSTPISLSEPRKPFTVQCSVA
+                     TASSRDHAVKYVKARQIVDSRGNPTVEVDLVTDQLYRSAVPSGASTGIYEALELRDGD
+                     KSVYGGKGVLNAVNNINQILAPKLLGIDVRDQADVDAIMLEIDGTPNKSKLGANAILG
+                     VSLSVCRAGAGAKGVPLYKHIQEISGTKELVMPVPAFNVINGGSHAGNSLAMQEFMIL
+                     PVGATSFAEAFRMGSEVYHTLKGIIKAKYGQDACNVGDEGGFAPNVQDNREGLVLLID
+                     AIEKAGYTGKIKIGMDVAASEFRTKDGKYDLDFKKQPNNGAHVHSAQSLCDLYKEFVK
+                     EFPIVSIEDPFDQDDWSSWASLQSSVDIQLVGDDLLVTNPTRIAEAIQKKACNGLLLK
+                     VNQIGTVTESIRAALDSKAAGWGVMVSHRSGETEDNFIADLSVGLASGQIKTGAPCRS
+                     ERLAKYNQLLRIEEELGNVRYAGEAFRSP"
+ORIGIN      
+        1 ttttgtttta aaaaacacaa actgtctgag actctcaact ctgctttcat cgcccactcg
+       61 gcggactttc ccacactcct tttcctcttt ccttctctat taattcaaac ccacttttca
+      121 cctttcacaa aaaaaactca aaaagaacaa aaatggcctt agcttcccaa gcctccacga
+      181 atctcctcca aaactctttc cttccttcaa aacccagaaa tagttccact cccatctctc
+      241 tctccgaacc ccgcaagccc ttcactgttc aatgctccgt cgcaactgcg tcgtcgagag
+      301 accacgcggt gaagtatgtg aaggcgaggc agatcgtaga cagccgtggc aatccaacgg
+      361 tggaggtgga tcttgttact gatcagcttt accgatcggc agtccccagt ggagcctcca
+      421 cggggattta cgaagctttg gagcttcgtg atggtgacaa gtccgtttat ggtggcaaag
+      481 gtgttctaaa tgctgttaac aacattaacc aaatcctcgc tccaaagctc ctcggcatcg
+      541 atgtccggga ccaagctgat gtggatgcta taatgctgga aattgatgga acacccaaca
+      601 agtcaaaatt aggcgctaat gcaatattgg gagtatccct aagtgtgtgc agagcaggtg
+      661 caggagcaaa gggggtgccc ttatataagc atatccagga aatatcagga acaaaggagc
+      721 ttgtaatgcc agttccagct tttaatgtga taaatggagg cagccatgct ggaaatagtc
+      781 tggccatgca agaatttatg atattaccag taggcgcgac ctcatttgct gaggccttcc
+      841 gcatgggtag tgaagtttat cacacactga agggaataat taaggccaag tatggacaag
+      901 atgcttgcaa tgtcggagat gaaggtggat ttgctcccaa tgtgcaggat aacagggagg
+      961 gactggtatt gctcattgat gccattgaaa aagctggtta cactggcaag attaaaattg
+     1021 gaatggatgt agctgcctca gagtttcgca ctaaagatgg gaaatatgac ctagacttca
+     1081 agaaacaacc aaataacggg gctcatgtgc actcagctca aagcctctgc gacctctaca
+     1141 aggagtttgt taaagaattt ccgattgtgt ccattgaaga tccctttgac caagatgatt
+     1201 ggagctcatg ggcttcatta caatcttcag ttgacattca actcgttgga gatgacttgt
+     1261 tggtcacaaa tccaacaaga atagctgaag ccattcagaa aaaggcttgc aatggtttac
+     1321 ttctaaaggt taaccagatt ggtacggtga ctgaatccat tcgagcagca cttgactcta
+     1381 aagccgccgg ttggggtgtc atggtcagcc accggagtgg tgaaactgag gataacttta
+     1441 ttgcagacct ctctgttggc ttggctagtg gacagatcaa aactggagct ccttgccgaa
+     1501 gtgagcgttt ggccaagtat aatcagcttc tccgcattga agaggaactt ggaaatgtgc
+     1561 gttacgctgg tgaagctttc agatcaccct aggtggaaga agttccattt ctcaaaattt
+     1621 ttatctggga agagcaatct ctcaaccttt tcttatggaa taaggtactg gatcaaagtt
+     1681 tacatcctgg gacgactcat ctaagctgca agtcaaagcg aatgtagaaa aatcttgaaa
+     1741 ttttttgctt gagttgatca tcttaaatct cattagaaag aattagttag tcttttgaag
+     1801 tgaaaccatt ttgtctttga gtgaataaca aagttccgct ttgaagcacc tattggagtg
+     1861 catatggaac tggtcttgtg tatcacctaa tttcgcacct gaactggtat attttttaaa
+     1921 atttcctttg ccggatgaag tttgcttta
+//

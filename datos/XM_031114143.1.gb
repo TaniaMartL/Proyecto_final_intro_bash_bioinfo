@@ -1,0 +1,105 @@
+LOCUS       XM_031114143            2208 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata cysteine--tRNA ligase 2, cytoplasmic
+            (LOC115990297), mRNA.
+ACCESSION   XM_031114143
+VERSION     XM_031114143.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044904.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2208
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="1"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2208
+                     /gene="LOC115990297"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 13 ESTs, 14 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 39 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115990297"
+     CDS             181..1788
+                     /gene="LOC115990297"
+                     /codon_start=1
+                     /product="cysteine--tRNA ligase 2, cytoplasmic"
+                     /protein_id="XP_030970003.1"
+                     /db_xref="GeneID:115990297"
+                     /translation="MAEKEGFRVYNSMAQQKEIFNTLVPGRVGMYVCGVTAYDLSHIG
+                     HARAAVTFDVLYRYLQYLGYEVTYVRNFTDVDDKIIRRANELGEEPLNLSNRFCQEYL
+                     VDMADLQCLTPTHQPRVSEHMEQIKDMITQIINNDSAYAVDGDVYFSVDKSPNYGQLS
+                     GQKLENNRAGERVAVDTRKRNPADFALWKAAKPDEPSWDSPWGPGRPGWHIECSAMSA
+                     HYLSYSFDIHGGGIDLIFPHHENEIAQSCAACQESRVSYWMHNGHVTNNNEKMSKSLG
+                     NFFTIRQITERYHPLALRLFLLSAHYRSPLNYTVLQLESASDAVYYIYQTLQDCEDAL
+                     SPFQQESLKEGPERKSKTARVTPAAQECISKLRSEFQSKMSDDLNTAQILTCAFQEAL
+                     KFINSSLNILKKKQQKQQLSVVQSLIELEKEVKAVLNILGLLSSSTYLEVLLQLKDKA
+                     LTRAGLEESYVLNQIEERKLARENKDFLKSDQIRAALTLKGIALMDVGKETIWRPCIP
+                     VEPVQPAQPVEQEHKTLPVEQKTGTTG"
+ORIGIN      
+        1 tacgaagtca ttcaattcaa gcgctgttga cacctcagca cgcaatctat ccccacactc
+       61 gtttcggtac attgaagaaa agaaagaaga atcttctcca attgtatatt agggtaaggg
+      121 ttttgattga attacgctgc agacacacac agagaccaag agagaaagag agatagagct
+      181 atggcggaga aagagggatt tagggtttac aactcgatgg cacagcagaa ggagatcttc
+      241 aatacgctcg tgccggggcg cgtgggcatg tacgtgtgcg gcgtcactgc ctacgatctc
+      301 agccacattg gccacgcacg cgccgccgtc actttcgacg tcctctacag atacctacaa
+      361 tacttgggat atgaagttac ttatgtgcgg aatttcactg atgttgatga caagataatt
+      421 cgcagggcaa atgagcttgg ggaggaacca ttaaatttaa gtaaccgttt ttgccaagaa
+      481 tatcttgtag acatggctga tcttcagtgc ctcactccta cccatcagcc gcgtgtttct
+      541 gagcatatgg agcagataaa ggatatgata actcagatca tcaacaatga ctctgcatac
+      601 gccgttgatg gggatgtgta cttttctgtt gataaatccc caaattatgg ccagttatca
+      661 gggcaaaaac tggaaaacaa cagggctggt gaacgtgttg ctgttgacac aagaaagcgt
+      721 aatcctgctg actttgcatt gtggaaggct gcaaagcctg atgagccaag ttgggacagc
+      781 ccatggggtc ctggaagacc agggtggcac atagagtgca gtgcaatgag tgctcattac
+      841 ctatcctaca gttttgatat tcatggtggt ggaattgatt tgatctttcc acatcatgaa
+      901 aatgagattg cccagagctg tgctgcttgc caagagagcc gtgttagtta ctggatgcat
+      961 aatgggcatg tcactaataa caatgagaaa atgtccaagt ccttgggtaa tttttttaca
+     1021 attcgtcaga ttactgaacg gtaccatcca ctggctttga gacttttctt gttaagtgca
+     1081 cactatagat ctcctctcaa ttacacagta ttgcagctgg aaagtgcatc agatgctgtt
+     1141 tattacatat atcagacatt gcaagactgt gaagatgctt tatccccatt tcaacaagaa
+     1201 agtctcaagg aggggccaga acggaaaagc aaaacagctc gggttactcc tgctgcccaa
+     1261 gagtgcataa gtaagctacg tagtgagttc cagagtaaaa tgtcagatga cttgaacact
+     1321 gcacagatat tgacttgtgc ttttcaagaa gccttgaagt tcataaacag ttctttgaac
+     1381 atactcaaga agaaacaaca gaaacaacaa ttatcagtgg ttcagtctct tattgaatta
+     1441 gagaaagaag ttaaagcagt tctaaatatt ctgggattgc tttcctcttc cacttacttg
+     1501 gaggttttgc tgcaattaaa agacaaggct ttgacaagag cagggttgga ggaaagttat
+     1561 gtgttgaatc agattgaaga aaggaaacta gcaagggaaa ataaggattt cttaaagagt
+     1621 gatcagatca gggctgcttt aactttgaag ggcattgcac tcatggatgt gggcaaggaa
+     1681 actatttgga gaccatgcat accagttgaa cctgtgcagc ctgcacagcc agttgaacag
+     1741 gaacataaga ccctgccagt tgaacagaaa acaggcacca ctggttgaac aagaaaaaaa
+     1801 cacatccctt taaacaacaa tacaagttac agctaattga acaggaacga tggggacaac
+     1861 attgtggact tgatggtgga aagccttgtt cctgccccaa ccagtggttg acagatgatt
+     1921 ggtacagtta ttatttaatt atatggggat ttttgtaatt ttttattcta ttttgttatt
+     1981 aatgttgtaa catttgggac catcacatgt tagaagcccg agtccatgac caagtgttat
+     2041 ttggtcttaa atatacagca atgtgggcat aatatggctc aattcctgca taaacagcta
+     2101 ttgcaggttg cagcaatact atacaagaac acgggttgtg gtgacccttt tgttgtttga
+     2161 ctactactac aggagtttaa agttgatcaa ttttccttgt tcaattta
+//

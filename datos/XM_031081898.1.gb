@@ -1,0 +1,101 @@
+LOCUS       XM_031081898            1994 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata COBRA-like protein 4 (LOC115963010),
+            mRNA.
+ACCESSION   XM_031081898
+VERSION     XM_031081898.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044913.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1994
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="10"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1994
+                     /gene="LOC115963010"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 5 ESTs, 47 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 36 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115963010"
+     CDS             193..1581
+                     /gene="LOC115963010"
+                     /codon_start=1
+                     /product="COBRA-like protein 4"
+                     /protein_id="XP_030937758.1"
+                     /db_xref="GeneID:115963010"
+                     /translation="MEFNNHTDPIEESMLDARDCSQRPQCYVFPELKFMFLAVLYVMM
+                     FSPTEAYDPLDPTGNITIKWDVMSWTPDGYVAAVTMNNFQMYRGIMNPGWTLGWSWAK
+                     KEVIWTMIGAQTTEQGDCSKFKGSVPHCCKRTPTVVDLLPGVPYNQQFTNCCKGGVLG
+                     TWGQDPLSAVSAFQVSVGLAGTSNKTVKLPKNFTLLGPGPGYTCGPAKIVPSTVFLTA
+                     DKRRKTQALMTWNVTCTYSQFLASKNPSCCVSFSSFYNQTITPCPSCACGCQNKKNCI
+                     KSDSKLLRRAGINTPKKDNTPLLQCTHHMCPIRVHWHVKLNYKDYWRVKVAITNFNYR
+                     LNYSQWTLVAQHPNLNNVTQVFSFDYKSLLPYESINDTGMFYGMKFYNDLIMEAGPLG
+                     NVQSEVLLRKDKDTFTFKQGWAFPRKVYFNGDECMLPPPDTYPFLPNSAYTNPIATPA
+                     VAAFLLLLLSMW"
+ORIGIN      
+        1 agagagtgag agagaaaaaa aatacaaata taagatgaga tgagaatatc acataaagta
+       61 cctaacaacc agtaggtgag aaatttgcag gcactcactt tcaagtagtg cctctattcc
+      121 ttttaacaaa ggagtaccac atactacttt gagttctccc aggatagttt gtgatctggt
+      181 gaacttcagg caatggaatt caataaccat acagacccga ttgaggaaag tatgctagac
+      241 gccagagatt gttctcaaag gccgcaatgc tatgtgtttc cagagctgaa gttcatgttc
+      301 ttggctgttt tatatgtcat gatgttctct cccacagagg catatgatcc cttggatcca
+      361 actggaaata taacaataaa atgggatgta atgtcttgga cgcctgatgg ttatgtggct
+      421 gcagtgacaa tgaacaactt tcaaatgtat cggggaatca tgaaccctgg ctggacttta
+      481 ggatggtctt gggctaagaa agaagtaatc tggacaatga taggagctca aaccacagag
+      541 caaggagact gctccaagtt caaaggaagt gtacctcact gctgtaagag gactcccacg
+      601 gttgttgact tgctccctgg agttccttac aatcaacagt tcaccaattg ctgcaagggt
+      661 ggcgtgttgg gaacttgggg gcaggacccc ttaagtgcag tctctgcctt tcaggtaagc
+      721 gttggactcg ctggcacttc taataagaca gttaagcttc ccaagaactt cactttgctt
+      781 ggtccaggac cagggtacac ttgtggccct gcaaagattg tgccatccac agtcttcctc
+      841 accgctgata aaaggaggaa aactcaagca cttatgacat ggaatgtgac atgcacttat
+      901 tctcaatttc ttgcctctaa gaatcctagc tgttgtgttt ccttttcatc cttctacaat
+      961 caaacaatca ccccctgccc atcttgtgct tgtggttgcc agaacaagaa aaattgtatc
+     1021 aagagcgatt caaagctact acgtagggca ggaataaaca ctcctaaaaa ggataataca
+     1081 ccattgttac agtgcacaca tcatatgtgc cccatacgtg tacactggca tgtaaagctc
+     1141 aactataagg actattggcg tgtgaaggtt gccatcacta attttaacta ccggctgaac
+     1201 tactcacaat ggacacttgt ggcacagcat cccaatctca acaatgtcac ccaagtcttt
+     1261 agctttgatt acaagtctct tctcccctat gaatccataa atgatactgg tatgttctat
+     1321 ggcatgaaat tctacaatga cctaataatg gaagctgggc ccctaggaaa tgtccaatct
+     1381 gaagtgcttc tccggaaaga caaggacaca tttacattca agcaaggatg ggcatttcct
+     1441 cggaaagttt acttcaatgg tgacgaatgt atgcttcctc cacccgatac ctatccattt
+     1501 ctaccaaact ccgcttatac aaatccaatt gcaactccag cagtggcagc cttcctatta
+     1561 ttattactgt ccatgtggtg atcacacttc catgggaggt acaaatgctt tgttgatatt
+     1621 tttgagatag ataaagctag atggcggtga ggcttggcca tcactgatag caggtacata
+     1681 cattgtcaat tctagtacaa gaagatattg tttggtgtgc gataattcag ttggatgttt
+     1741 tagattggac gaatgagctt atcaatgagc aaactacacc tgaaactcca aaaagaaaat
+     1801 ctcccacggt tttgagttgg tccatggttc accaatgtaa ctaaaaagtg ttgctttgcc
+     1861 aatttgtctc tcttgctact ctaaaccata caaacattgt aagctcattt gctgttcctt
+     1921 ttcttcatgt agcataagaa tcatgtattt ggaacccata acagatatga atacatcaag
+     1981 tgtgatttct tctc
+//

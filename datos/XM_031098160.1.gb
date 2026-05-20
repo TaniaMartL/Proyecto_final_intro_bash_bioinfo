@@ -1,0 +1,88 @@
+LOCUS       XM_031098160            1370 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata SNF1-related protein kinase regulatory
+            subunit beta-1 (LOC115976702), mRNA.
+ACCESSION   XM_031098160
+VERSION     XM_031098160.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044904.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1370
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="1"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1370
+                     /gene="LOC115976702"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 21 ESTs, 18 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 39 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115976702"
+     CDS             224..1120
+                     /gene="LOC115976702"
+                     /codon_start=1
+                     /product="SNF1-related protein kinase regulatory subunit
+                     beta-1"
+                     /protein_id="XP_030954020.1"
+                     /db_xref="GeneID:115976702"
+                     /translation="MGNANGREDGGNGIEEDESLSLTGTTRSNGEMGLSYNHAQVPGR
+                     VASSESMGNMNNNNNSNTPPHSPGRSASPLLFAPQLPVAPLQRGDGSPFFNNIWQNES
+                     QGVVDQPPERAIASMITWNYGGNNVAVEGSWDNWTSRKMLQRSGKDHSILLVLPIGIY
+                     HYRFIVDGEWRYNPDLDFAPDEMGHVCNLLNVHDNVPENLESVAEFEAPPSPDYSYSQ
+                     TLPTEEDFAKEPVAVPPQLHLTVLGMENSGEASSSKPQHVVLNHLFIEKGWASQSVVA
+                     LGLTHRYQSKYVTVVLYKPLVR"
+ORIGIN      
+        1 gcaacaacaa caacaacatc aacaaccgtc cctaccacct ccattaaaaa caaagctttt
+       61 tcctttctct tttggctctc ttatctgtta tatctaaaat catacactat tttatttgat
+      121 actgacacaa attaaaaata acaattaaat aaagaaatat aaaattgaat tgattgtata
+      181 tatttggtgg atctggagtt tcttcagtat tgcaattttt gcaatgggaa acgcgaacgg
+      241 tagagaggat ggtgggaacg ggattgaaga agatgaatcg ttatcgttaa ctggaacaac
+      301 aagatccaac ggtgagatgg gattgagtta caaccacgcg caggttccag ggcgcgtggc
+      361 atcttcggag tcaatgggaa acatgaacaa caacaacaat agcaacactc ctcctcacag
+      421 cccaggccgc tctgcttctc ctctcttatt cgctcctcag ctgcctgtag ctcccttgca
+      481 aagaggtgat ggttcgccct ttttcaataa catctggcag aatgaatctc agggagttgt
+      541 tgatcagcct cctgaacgag caatcgcttc catgattaca tggaactatg gtggtaacaa
+      601 tgtggctgtg gagggatctt gggacaattg gacatctagg aaaatgctgc agagatctgg
+      661 taaagaccac tcaattcttc tggtcctgcc aataggtata taccattaca ggttcattgt
+      721 tgatggtgaa tggagataca acccagatct tgattttgca cctgacgaaa tgggccatgt
+      781 ttgtaatctt ctcaatgttc atgataatgt gcctgaaaac ctcgagagtg tagccgagtt
+      841 tgaggctcca ccatcaccgg actacagtta cagtcaaact ttgccaacag aggaagattt
+      901 tgcgaaggag ccagtggctg ttccacccca gctgcatctt accgtgctag gtatggaaaa
+      961 ctcaggtgaa gcttcttctt cgaagcctca gcatgttgtg cttaaccacc tttttataga
+     1021 gaaaggatgg gcctctcagt ctgtggttgc cttgggacta acccataggt accagtccaa
+     1081 atatgtcaca gttgtcctct ataaaccact cgtaaggtaa tgtctctttt caagtccatc
+     1141 tctgtaaagc aaaaaattaa taatgctttt gcagttaatt gtgaagacat tttgattcat
+     1201 gaccatcatg ttttgttctg tcacacagcc gctcgctaat ctcaagcatt tgcttctgga
+     1261 actttttcct tcatgtaaat agtgaaaaaa cttgtcagca tttcacatct acattgtttt
+     1321 tctgcgcctc cccacctttt tcaaaagaaa gtgggcctgg ttcattatca
+//

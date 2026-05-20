@@ -1,0 +1,98 @@
+LOCUS       XM_031099625            1801 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata enoyl-[acyl-carrier-protein] reductase
+            [NADH], chloroplastic-like (LOC115977634), mRNA.
+ACCESSION   XM_031099625
+VERSION     XM_031099625.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044904.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1801
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="1"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1801
+                     /gene="LOC115977634"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 6 ESTs, 37 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 40 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115977634"
+     CDS             219..1397
+                     /gene="LOC115977634"
+                     /codon_start=1
+                     /product="enoyl-[acyl-carrier-protein] reductase [NADH],
+                     chloroplastic-like"
+                     /protein_id="XP_030955485.1"
+                     /db_xref="GeneID:115977634"
+                     /translation="MATTAASSLQIATARPCISSSRRLFKAGAAILGGNSKAVSRNKL
+                     TSACHISSVQPFQRSFTSSSIKFDKVVTKAMSEATENKPISGLPIDLRGKRAFIAGVA
+                     DDNGYGWAIAKSLAAAGAEILLGTWVPALNIFESSLRRGKFDESRVLPDGSLMEITKV
+                     YPLDAVFDNLEDVPEDIKANKRYAGSSNWTVQEVAESVKNDFGSIDILVHSLANGPEV
+                     TKPLLETSRNGYLAAISASSYSYVSLLKHFIPIMNPGGSSISLTYIASERIIPGYGGG
+                     MSSAKAALESDTRVLAFEAGRKHKVRVNTISAGPLRSRAAKAIGFIDMMIDYSIVNAP
+                     LQKELSADEVGNTAAFLASPLASAITGAVIYVDNGLNAMGVGVDSPIFKDLDIPTDKH
+                     "
+ORIGIN      
+        1 aacaaataaa agcccaaata tttataattt tatacctgat tcctgaacct cagaacctga
+       61 tacggtgggg tgaggtgagc agttgagact tgagagaggc ggagagcaga gaatcagaga
+      121 gaggctgagg cggttcagct ggagactaga gagaggcgga gagcagagac tagagagaaa
+      181 gatctctttt ctctagtgtg agatatcatt tactggagat ggcaacaacg gccgcttcca
+      241 gcctgcaaat tgcaacagca agaccctgca tttcttcttc tcgcagactt ttcaaggcag
+      301 gtgctgcaat tcttggtggc aattccaagg cagtatcacg gaataagctt acaagtgcat
+      361 gccatatatc atccgtacaa cctttccagc ggagttttac atcatcgtct attaaatttg
+      421 ataaggttgt tacaaaagca atgtctgaag ctactgaaaa caagcctatc tcagggttgc
+      481 caattgattt gagaggtaag agggcattta ttgctggtgt tgctgatgac aacggatatg
+      541 gttgggcaat agctaaatcc ctcgctgctg caggggctga gattctctta ggcacatggg
+      601 tgcctgcttt gaacattttt gaatccagcc tgcgacgtgg aaaatttgac gaatcacgtg
+      661 tgttgccaga tggctcttta atggagatta ctaaagtata tcctttggat gcagtctttg
+      721 acaaccttga ggatgtacct gaagatataa aagcaaataa acgctatgca ggatccagta
+      781 attggactgt tcaggaagtt gctgaatctg tgaagaatga ttttggcagc atcgacattc
+      841 ttgttcactc acttgcaaat gggccagagg tcactaaacc tctgttggag acatccagga
+      901 atggatatct tgcagctata tctgcatcaa gttactccta tgtttcttta ctcaaacatt
+      961 tcattccaat aatgaatcca ggtggttctt caatttctct tacatacatt gcttctgaaa
+     1021 ggataattcc tgggtatggt ggaggtatga gttcagcaaa ggctgctctg gagagtgaca
+     1081 cacgagtgct tgcttttgaa gcgggtagaa aacacaaagt cagagtcaac acaatatctg
+     1141 caggtccact aaggagccgt gctgcaaaag caattggatt tattgacatg atgattgact
+     1201 attcaatagt caatgcacct ttgcaaaaag aactatccgc agatgaagtg gggaacacag
+     1261 ctgcctttct agcatcacct ttggcttctg ccatcaccgg tgctgttata tatgttgaca
+     1321 atggcctgaa cgcaatgggt gtcggagttg acagtccaat attcaaggat cttgacattc
+     1381 caacagataa gcactaggac aaccacaaat tggtttatag taagccagac tccgaacttc
+     1441 aagtttatct ttaattctgc tagttttctg ctcctttttt tcccgatcgg cttcaaccta
+     1501 ggatggtttg gctagtggcc ccattttgtt gtgagaattt ttctttgcct ttcttaggga
+     1561 ctacgatatt ttcttggggg caggtgttgc aaaggcccca tgtggaagtc ttggaccttt
+     1621 gaaacactaa taagattcat gtttcttaga ctcttcaatt tttctttttt aattaataag
+     1681 taaagtgttg aacctacgtc tataagctcc attccattct gtaggagaag aggtgtcatt
+     1741 tgaacttgaa gtcaattgta ctgttccttt ttcaaaaaga aataatgcct ttttatggtt
+     1801 a
+//

@@ -1,0 +1,91 @@
+LOCUS       XM_031077151            1505 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata WD repeat-containing protein RUP2
+            (LOC115958891), mRNA.
+ACCESSION   XM_031077151
+VERSION     XM_031077151.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044912.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1505
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="9"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1505
+                     /gene="LOC115958891"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 1 EST, 9 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:115958891"
+     CDS             95..1279
+                     /gene="LOC115958891"
+                     /codon_start=1
+                     /product="WD repeat-containing protein RUP2"
+                     /protein_id="XP_030933011.1"
+                     /db_xref="GeneID:115958891"
+                     /translation="MKSFSTKSLSLPDQTQQTKRKQKHSIAQDEEEEDEDNEEKARCE
+                     WDFKLSTIVSSSTSIGAVSDTLGAIELDPSDTLVATGGIARKIRVYSLSTLLPDEEEH
+                     VDNVSSTTLLDHASACDYYVCTPAKLSSLRWKPGSGNRVLGSGDYDGVVMEYDLERKI
+                     PIFERDEHGGRRVWSVDYSHWDPVIGASGSDDGTMQIWDPRYEGGKCVATVQPSVSRS
+                     PVCSVEFNPFGGALVAVGCADRRAYGYDVRNLGDPVVVFDGHGKTVTYVRFLDDHMIV
+                     SAGTDGCLKLWNVDDSTRVIRTYKGHVNSRSFVGLSVWRNGGLLGCGSENNRVFVYDK
+                     RWGEPIWVHGFEPVTGPRCDHGFVSSVCWGQVGEDQCTLLAGGSDGVLQVFVGKRKLF
+                     SY"
+ORIGIN      
+        1 aatactgtgg gtttaaaagt ttgtgggagc ctttcattgg tccaaagatc caaaaacctc
+       61 caatgacatc tctacaactc catttgaatg ggatatgaaa agcttctcca caaaatccct
+      121 atcccttcca gaccaaaccc aacaaacaaa acgcaaacaa aaacacagca tagcccaaga
+      181 tgaagaagaa gaagatgaag ataacgaaga aaaagctaga tgcgaatggg atttcaagct
+      241 ctccaccatt gtctcttcaa gcacgtccat tggagctgtt tccgacaccc tcggagcaat
+      301 cgaattggat ccctcagata ccttggtagc cacgggtggc atagcaagaa agattagagt
+      361 ttatagttta agcactttgt tgcctgatga agaagaacac gttgacaacg ttagtagtac
+      421 tacgttgtta gaccacgcca gtgcatgtga ctattacgtg tgcaccccag caaagcttag
+      481 cagcctgaga tggaaacccg ggtcgggcaa tcgggtcctg gggtctgggg actatgatgg
+      541 ggttgtgatg gagtatgacc tcgagaggaa aatacccatt tttgagcgtg acgagcatgg
+      601 cgggcgccgg gtctggagcg tggactattc gcattgggat ccggttatcg gagcgtccgg
+      661 gtcggacgat ggaaccatgc aaatatggga cccacgttat gaaggtggga aatgtgtggc
+      721 tacggtgcag cctagcgtgt cacgtagtcc tgtttgttct gtggaattca atccatttgg
+      781 tggggcatta gttgccgttg gatgtgctga ccggagggct tacgggtatg atgttagaaa
+      841 cttgggtgac ccggttgtgg tttttgatgg gcatggtaaa acagttactt atgttagatt
+      901 tcttgatgat catatgattg tttcggctgg gactgatggg tgtttgaagc tgtggaatgt
+      961 tgatgattct acacgtgtga ttcgcacgta caaagggcac gtgaatagcc ggagcttcgt
+     1021 cgggttatcc gtgtggagaa atggtgggtt actcggatgc gggtcggaaa ataaccgggt
+     1081 ttttgtgtat gataagaggt ggggtgaacc catatgggtg catgggtttg agccagtgac
+     1141 tggacccagg tgtgaccatg ggtttgttag tagtgtgtgt tggggccaag ttggggagga
+     1201 ccaatgtaca cttttggcag gaggatcaga tggggttttg caagtttttg tgggcaaaag
+     1261 gaagttgttt tcatattagt aattgctttt gacccacttt ccttcaatat tgtttgggaa
+     1321 tttttaatca tatagagagt tgtgcacgca attttttttt ttgaataaag ataaaaggaa
+     1381 aaagaaagat aggccatttt gctcagcttt tatcacttct gctaacaaat gttttagaga
+     1441 tgtaactaca tttatagctc tgtgatgtga attgtccttc ctaaatccta atcgatactc
+     1501 ggcct
+//

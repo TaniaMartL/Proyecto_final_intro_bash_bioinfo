@@ -1,0 +1,100 @@
+LOCUS       XM_031115243            1965 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata pyruvate dehydrogenase E1 component
+            subunit beta-3, chloroplastic (LOC115991501), mRNA.
+ACCESSION   XM_031115243
+VERSION     XM_031115243.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044908.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1965
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="5"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1965
+                     /gene="LOC115991501"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 10 ESTs, 13 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 40 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115991501"
+     CDS             387..1595
+                     /gene="LOC115991501"
+                     /codon_start=1
+                     /product="pyruvate dehydrogenase E1 component subunit
+                     beta-3, chloroplastic"
+                     /protein_id="XP_030971103.1"
+                     /db_xref="GeneID:115991501"
+                     /translation="MATIVGAATALSASKSFDSGKLHLPSRRSLSISERKGSFLVVRS
+                     DGSVVHKAHRAQKLIANAVATKADSSAASTASKPGHELLLFEALREGLEEEMDRDPTV
+                     CVMGEDVGHYGGSYKVTKGLATKYGDLRVLDTPIAENSFTGMGIGAAMTGLRPIVEGM
+                     NMGFLLLAFNQISNNCGMLHYTSGGQFKIPIVIRGPGGVGRQLGAEHSQRLESYFQSI
+                     PGIQMVACSTPYNAKGLMKAAIRSENPVILFEHVLLYNLKERIPDEEYVCSLEEAEMV
+                     RPGEHVTILTYSRMRYHVMQAAKTLVNKGYDPEVIDIRSLKPFDLHTIGNSVKKTHRV
+                     LIVEECMRTGGIGASLTAAITENFNDYLDAPIICLSSQDVPTPYAGTLEEWTVVQPAQ
+                     IVTAVEQLCQ"
+ORIGIN      
+        1 gagagagaga gagagaagtg gcgatggaaa ctatgatggt tgttaaacga agtggctgtc
+       61 tctcaaatcg tatgaaataa atcgccgacc aatatagcac aaactggtga gaattgagaa
+      121 acacacacac acacaacgca cagagacata gctagcaatt aacacaaaca cacgttcaat
+      181 ataaatacaa tacacacgaa gctttttgtt gttgttgttg agtgttgttg ttcctcaatt
+      241 tctccgccca ttctctctct ctctccctct cactcaaatc tcatttttct taatataaat
+      301 tcatacccac ttcctctttt tctctcttca tttcttgtcc acttctctct ctctctctct
+      361 ctctcaagtc tcaagtgcca actcaaatgg ccaccattgt tggagctgcc accgctttat
+      421 cagcctccaa atcctttgat tctggaaaac tccacctccc atctcgcaga tctctctcaa
+      481 tctcagagag gaaaggaagc tttttggttg tcagatcaga tggaagtgtg gttcataaag
+      541 ctcacagggc tcagaaattg attgctaacg cagttgcaac taaggcggat agttctgcgg
+      601 cttctacagc ttcgaaaccc gggcatgaac ttttgctttt tgaggcccta cgggaaggct
+      661 tggaagaaga aatggacagg gatcccactg tatgtgtaat gggtgaagat gtgggtcatt
+      721 atggaggatc atacaaggtg accaaaggcc ttgctaccaa atatggagat ctcagggttc
+      781 ttgacactcc tattgctgag aactccttta caggtatggg tattggagct gccatgactg
+      841 gtctgcggcc aattgttgag ggaatgaaca tgggatttct acttctagct tttaaccaga
+      901 tctctaacaa ctgtggcatg ctccactaca catctggtgg tcagtttaaa atcccaattg
+      961 ttattcgtgg acctggtgga gttggtcggc aacttggggc tgaacattcc caacgtcttg
+     1021 agtcatattt ccaatcaatc cctggaattc aaatggttgc atgctcaacc ccatataatg
+     1081 cgaagggctt gatgaaagct gcaattcgaa gtgagaaccc agtgatacta tttgagcatg
+     1141 ttttgcttta caacctcaaa gagagaattc cagatgaaga gtatgtatgt tctcttgaag
+     1201 aagctgaaat ggttaggcct ggggagcatg tcactatttt aacctattcc cggatgaggt
+     1261 atcatgtaat gcaggctgct aaaactttgg tgaacaaggg ctatgatcct gaagtaattg
+     1321 atatcaggtc actgaaacct tttgatcttc acacaattgg gaattcagtg aaaaagacgc
+     1381 atcgtgtgct gattgtggag gagtgcatgc ggactggtgg tattggtgct agtttgacag
+     1441 ctgctatcac tgagaatttc aatgattatt tggacgcccc cattatatgt ttgtcttcac
+     1501 aggatgtgcc gactccatat gctgggacat tggaggagtg gactgtggtt cagcctgccc
+     1561 agattgtaac agccgttgag cagctttgcc agtaattact ccaacagttc tgaaagagct
+     1621 gttgttttcc atcctgagca cgcaatcttc tttacagttt cgttccagaa ctcgttatct
+     1681 aattttagat tttgttggca attcttgtgt tttctgaaat gtgcaactat tcattaaggt
+     1741 atttttctat gttgctgtat tcctttactt ttggtttgca aggtatttat catgaactag
+     1801 tataggtaga aaggtggagt cgttgtcttc catcctcaat tactggttgc cttcagatca
+     1861 agataggctt atattataaa ttgtcttatt cactccttgg aatgtgcaac ttcaagatat
+     1921 tttatgttat ttataatcaa agggtttgta gtggtaatgc tgaaa
+//

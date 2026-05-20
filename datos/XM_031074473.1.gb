@@ -1,0 +1,99 @@
+LOCUS       XM_031074473            1831 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata serine carboxypeptidase-like
+            (LOC115956021), mRNA.
+ACCESSION   XM_031074473
+VERSION     XM_031074473.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044911.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1831
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="8"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1831
+                     /gene="LOC115956021"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 55 ESTs, 19 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 40 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115956021"
+     CDS             34..1563
+                     /gene="LOC115956021"
+                     /codon_start=1
+                     /product="serine carboxypeptidase-like"
+                     /protein_id="XP_030930333.1"
+                     /db_xref="GeneID:115956021"
+                     /translation="MESSKISLSVLFTFMSLFSLSSSINFNEDLHIARSNLPSVQAEK
+                     FIRDLNLFPKTEINVVDRPGFSSAAAAPKKIVEKRFAFPDLVGSGVTVDDLGHHAGYY
+                     DIEHSHAARLFYFFFESRTNKKDPVVIWLTGGPGCSSELAMFYENGPFSIANNMSLVW
+                     NEYGWDKASNLLYVDQPTGTGFSYTSDKRDIRHNEDGVSNDLYDFLQAFFAEHPEFAE
+                     NDFYITGESYAGHYIPAFAARVHRGNKANEGIHINLKGFAIGNGLTDPAIQYKAYTDY
+                     ALDMGLISKTAYNRISKVIPVCETAIKLCGTDGTISCVASYFVCNTIFSSIMALAGDI
+                     NYYDIRKKCEGTLCYDFSNMDKFLNQESVRDALGVGDLDFVSCSPTVYQAMLVDWMRN
+                     LEVGIPTLLEDGIKLLVYAGEYDLICNWLGNSRWVHAMEWSGQKNFVASPEVQFEVNN
+                     STAGVLKSHGPLSFLKVHNAGHMVPMDQPKAALEMLTRWTQGKLSEVPSDDTGILIAE
+                     M"
+ORIGIN      
+        1 tctcttcaga gaagaaaaaa aaaacttaca aaaatggagt cctcaaaaat ctctctctct
+       61 gttctattca ctttcatgtc cctcttctct ctctcttcct cgatcaactt caacgaggac
+      121 cttcatatag caaggtcgaa cctgccgtcg gtccaagccg agaagtttat cagagacctc
+      181 aatttgttcc ccaaaaccga aatcaacgtc gtcgaccgtc caggtttctc ctccgccgcc
+      241 gccgcaccaa agaagatcgt cgagaaacgg ttcgcttttc ccgacctcgt cggctccgga
+      301 gtcaccgtcg acgatttggg ccaccacgct ggctactacg atatcgagca ttcccatgcc
+      361 gctaggttgt tctacttttt ctttgaatca cgcaccaaca agaaagaccc tgttgttatc
+      421 tggttgaccg gagggccggg atgtagtagt gaattggcca tgttttatga aaatggtcct
+      481 ttttctattg caaacaacat gtctcttgtg tggaacgagt acggttggga caaggcatca
+      541 aacctcctct atgttgatca accaactggg actggcttta gttatacttc tgataaacgt
+      601 gacatccgtc acaatgaaga cggtgttagt aatgaccttt atgacttctt acaggctttc
+      661 tttgcggagc atcctgaatt tgcagagaat gacttctaca taactgggga atcttatgct
+      721 gggcactaca tccctgcctt tgctgctcga gttcaccgtg gaaacaaagc taacgaagga
+      781 attcatataa acctaaaggg atttgccatt ggtaatggac ttactgaccc tgcaatccaa
+      841 tataaagctt acactgatta tgcactggac atgggcttga tttcaaaaac tgcttacaat
+      901 cgcattagca aggtgattcc ggtctgtgaa actgcgatca agctttgtgg cactgatggt
+      961 acaatctctt gtgtggcttc atattttgtt tgcaatacta tattcagtag catcatggcc
+     1021 cttgctggcg atatcaatta ttatgacatt agaaagaagt gtgaggggac cctctgttat
+     1081 gatttctcaa acatggataa gttcctaaac caggaatctg ttagggatgc actaggagtt
+     1141 ggggatttag actttgtgtc gtgtagccct acagtgtatc aggccatgtt ggtggactgg
+     1201 atgaggaatc tcgaagtggg tattcctaca cttcttgagg atggaatcaa attgcttgtg
+     1261 tatgctggag aatatgatct catatgcaac tggcttggta actcaagatg ggttcatgct
+     1321 atggaatggt ctggtcagaa aaattttgta gcatcccctg aagttcaatt tgaagtcaat
+     1381 aattcaacag ctggagtact gaaaagccat ggacctctca gtttccttaa ggtccacaat
+     1441 gcgggtcaca tggttcctat ggaccagccc aaagctgcat tagagatgct gacaaggtgg
+     1501 actcagggca aactttctga agtgccatct gatgatactg gaatattgat tgctgagatg
+     1561 tgattgcctc cttctttcat cttattttgt tatcttatac agagctgtgt ttgacctcaa
+     1621 tgtcagagca aatcagtata ttgtttcctt gggttcttac tatgcttgta aatatttgtg
+     1681 cacacctcaa ctttgggatg aaaaagaact ctagtctcta gataatgtgg tatcttgacg
+     1741 ttttttgaag atttctcaac aataaccaat gagaatatga tgcctaatgt ttgtatagtt
+     1801 gatatgcttc tgtatattct ttctttttct a
+//

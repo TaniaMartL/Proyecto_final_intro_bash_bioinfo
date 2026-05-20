@@ -1,0 +1,104 @@
+LOCUS       XM_031112487            2086 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata
+            phospho-N-acetylmuramoyl-pentapeptide-transferase homolog
+            (LOC115988862), mRNA.
+ACCESSION   XM_031112487
+VERSION     XM_031112487.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044908.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2086
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="5"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2086
+                     /gene="LOC115988862"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 7 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 23 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115988862"
+     CDS             278..1777
+                     /gene="LOC115988862"
+                     /codon_start=1
+                     /product="phospho-N-acetylmuramoyl-pentapeptide-
+                     transferase homolog"
+                     /protein_id="XP_030968347.1"
+                     /db_xref="GeneID:115988862"
+                     /translation="MPSFSHSLNLHHSRFPKPLSPYIRSDSSSFPHYLKLNAPIFRSR
+                     ACRLQRSLVRFKAFDDDSFDIPSLHDWNDNDGMSGYMLSSSEGEDSDTEILLGPLHDD
+                     EMPSVTVKTDEAFAAAANRLAILGRRRRKHRIKLGVLINAGLISFLIVLLLFVDWCAW
+                     RIVRLPLEAFYLTRPFLISAALVSCAGYVCVPLLYRLKIHQIIRTEGPARHSLKKRTP
+                     TMGGLFFVPIGVTVARFVAGFSSTEVFGAAAVTLAFAAIGLLDDILSLVKNDNSGLSA
+                     WGKIALEVAVGTWFSFWLDSTSISSPYSMKMLLPLPAPIGLVCLGRWYLLLTSFCFVS
+                     MGNGVNLTDGLDGLAGGAAALAFIGMSIAVLPICSELAIFGASMAGACVGFLLHNQYR
+                     ASVFMGDTGSLALGGALAAMAACTGMFFPLLISSGIFVMEASSVIVQVLYFKTTRLLW
+                     GFGRRVFRMAPLHHHFELCGIKEPIIVAGAYVISSMLALLAAYVGLISA"
+ORIGIN      
+        1 agtagtaagg tagtagtagg ttaccactta ccaccttctc tctctctctc tctctctctt
+       61 ttctatttcc tccgccagtt cacaaacgaa tacacaaaca caacaataaa aacagctagc
+      121 cgtacagccg gttcgcttgg agttataaaa actcaaaata ctcaactttc ttttttcaca
+      181 agttttgaat ttgaatggcc tctcttctct caccaaactc aactccaaga tctctcttca
+      241 ttttcactct ctctgtatct ccaccctcct cgtaaccatg ccttcctttt ctcattctct
+      301 gaatctccac cactcccgat tccccaaacc gctttctcct tacattcgat ccgactcttc
+      361 ttcctttccg cattatctca agctaaatgc accaattttt cgaagtcgtg cgtgccgttt
+      421 acagcgcagt cttgttcgat tcaaggcctt cgatgacgat tcatttgata taccgtcgct
+      481 tcatgattgg aatgacaatg atgggatgtc tgggtacatg ctttcatcca gtgaaggcga
+      541 agatagcgat acagaaatct tgctaggtcc attacatgac gatgaaatgc ctagtgttac
+      601 tgtaaaaact gatgaggcct ttgcagctgc tgctaaccgg ctcgcaattc ttgggagaag
+      661 acgcaggaaa cacaggatta aattgggggt tttgatcaat gctggactta taagcttctt
+      721 gatagtgctg cttttatttg tggattggtg tgcatggagg attgtcaggt tacctttaga
+      781 agcattttac ttgacccgcc cgtttcttat atcagccgct ttagtgtctt gtgcaggcta
+      841 tgtttgtgtc ccattactgt ataggctcaa gattcatcaa ataatcagaa cagaagggcc
+      901 tgctaggcac tccttaaaaa agagaactcc cacaatgggt ggattgtttt ttgttcctat
+      961 cggtgtaact gttgctagat tcgttgctgg tttttcttct accgaagtgt ttggggcagc
+     1021 tgcagtaact ctagcatttg ctgcaattgg gttactagat gatatcttaa gccttgtcaa
+     1081 gaatgataat agtggtttat cagcatgggg aaaaattgcg ctggaggtag ccgttgggac
+     1141 ctggttttca ttttggttgg atagcacaag tatatcgtca ccctacagca tgaaaatgct
+     1201 acttccacta cctgcaccaa taggacttgt gtgcctggga agatggtatc tattgttgac
+     1261 ttcattttgt tttgtttcaa tggggaatgg ggttaaccta acagatggtc ttgatgggct
+     1321 ggctggaggg gctgctgcat tggcttttat aggaatgtca atcgcagtgc ttccaatatg
+     1381 ttctgagctt gctatatttg gggcatcgat ggcaggagcc tgtgttggtt ttcttttgca
+     1441 caaccagtac agagcatctg tatttatggg tgatactgga tccttggcac tgggtggagc
+     1501 attggctgca atggctgctt gtactggaat gttctttcca ttacttattt catctggaat
+     1561 atttgttatg gaagcatcat cggttattgt acaggtatta tacttcaaga caaccagact
+     1621 tttgtgggga tttgggcgcc gcgtgttccg aatggcaccg cttcatcatc actttgaatt
+     1681 atgtgggatt aaagaaccga tcattgttgc aggcgcatat gttatatcat ccatgttggc
+     1741 tttactggct gcctatgtgg gtcttatttc agcataacat ccaaaaaggc ctaattgcca
+     1801 tttcatttgt tgtagttagg gtcaccagaa tcacagttct ttatttattc tttttgattt
+     1861 agaaactgtg tccaagtagc cattttttat tcttttcttt gaaaaattca agcaagaggt
+     1921 caatgagatt taaccgaaac ctcctctctc tttaataaaa cagtggagag tggagttata
+     1981 gatttaaaac cctttagcac ataatttacc tatagaaaga agagaaaaat gtaaaaatac
+     2041 ctgtcaactt tgggttgatt tcaagttaat cattagaatt cttaat
+//

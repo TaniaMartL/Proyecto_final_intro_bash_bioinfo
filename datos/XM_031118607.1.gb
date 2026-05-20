@@ -1,0 +1,108 @@
+LOCUS       XM_031118607            2276 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata eukaryotic translation initiation factor
+            3 subunit D-like (LOC115994446), mRNA.
+ACCESSION   XM_031118607
+VERSION     XM_031118607.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044909.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2276
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="6"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2276
+                     /gene="LOC115994446"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 7 ESTs, 13 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 38 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115994446"
+     CDS             155..1873
+                     /gene="LOC115994446"
+                     /codon_start=1
+                     /product="eukaryotic translation initiation factor 3
+                     subunit D-like"
+                     /protein_id="XP_030974467.1"
+                     /db_xref="GeneID:115994446"
+                     /translation="MVGGGGGGGEFEVGEVPFNPDGWGPPDSSNLNLNLPVNVPFAPF
+                     SRSDKLGRIADWTRTNYNNQNQNRNKNPSDSVFDFSNDDSFPSSGAADDDSSFRLVDG
+                     KPPPKPKFGPKWRFQQQRQLPQRRDEEVEAKKREAEKERARRDRHYNNNRSNANNMMR
+                     REPLKSSVDIQPEWNMLDQIPFSTFSKLSFSVPEPEDLLLCGGLEFYDRSFDRITPKN
+                     ERRLERFKNRNFFKVTTTDDPVIRRLASEDKATVFATDTILATLMCAPRSVYSWDIVV
+                     QRVGNKLFFDKRDGSQLDLLSVHETSQEPLPEAKDDINSSYSLGVEAAYINQNFSQQV
+                     LIRDGKKVAFEEPNPFASEGEEVASVAYRYRRWKLDNDMYLVARCEVQSVVEINNQRS
+                     FLTLNALNEFDSKYSGVDWRQKLETQRGAVLATELKNNANKMAKWTAQALLASADMMK
+                     LGYVSRVHPRDHFNHVILAVVGYKPREFASQINLNTSNMWGIVKSIVDLCMKLNEGKY
+                     VLVKDPAKPQVRIYEVPADAFENDYVEEPLPEDEQVQPPTEDAESAEPNAATNDVEEK
+                     EVVAQA"
+ORIGIN      
+        1 tccaaactcc ccaaatccga aagagcataa acccgcaaac gaagaaaaac cctttctcaa
+       61 aaaaaaagaa aaaccctttc tttcaaaaac tcaaaagcca agccgctgcc ctgtatctac
+      121 tccttcagat ttgcttcagt ttcaccttca caaaatggta ggaggaggag gaggaggagg
+      181 agagttcgaa gttggagaag tcccattcaa tcctgacgga tggggccctc ccgattcttc
+      241 caatctcaac ctaaatctcc ctgtcaacgt ccccttcgcc cctttctccc gctccgataa
+      301 gcttggccgt atcgccgact ggacccgcac caactacaac aaccagaacc agaaccgcaa
+      361 caagaaccct tccgattccg tcttcgactt ctccaacgac gactccttcc cttcctccgg
+      421 cgccgccgat gacgactcct ccttccgtct cgtcgacggc aagcctccac ctaagcccaa
+      481 gttcggcccc aagtggaggt tccagcaaca gcgccagctc cctcaacgcc gcgacgagga
+      541 agtcgaagcc aaaaagcgcg aggcagagaa ggaacgtgct cgccgcgacc gtcactacaa
+      601 caataaccgc tccaacgcca acaacatgat gcgccgagag cctttgaaat cctccgtcga
+      661 tatccagccc gaatggaaca tgctcgatca gatccccttc tccaccttct ccaagctctc
+      721 cttctcagtc cccgaaccag aggacctcct cctctgcggc ggactcgagt tctacgatcg
+      781 atcctttgac cgcatcactc ccaagaacga gcgccgcctt gagcgcttca aaaaccgcaa
+      841 tttcttcaag gttaccacca ctgatgaccc tgtcatccgc cgcctcgcca gcgaggacaa
+      901 agccaccgtc ttcgccaccg acacgatcct cgccaccctc atgtgtgcgc ccaggtcggt
+      961 ttactcgtgg gacattgtgg tccagagggt cgggaacaag ttgttcttcg ataagcgtga
+     1021 tggctctcag ctcgatttgc tttctgtcca cgagacctct caggagccct tgcctgaggc
+     1081 caaggacgat atcaattcct cctattccct cggcgtggag gctgcttaca tcaaccagaa
+     1141 tttctcccag caggttctca ttagggatgg gaaaaaggtc gcattcgaag agcctaatcc
+     1201 cttcgccagt gaaggagaag aggttgcctc tgtggcatat cgctataggc gctggaagct
+     1261 cgataacgat atgtacttgg tggctcggtg tgaggtacag agtgttgttg agattaacaa
+     1321 tcagaggtct ttcttaactc tgaatgcact caacgaattc gactccaaat actcgggtgt
+     1381 tgattggagg cagaagctcg agactcagag aggtgctgtg ttggccactg agctaaagaa
+     1441 caatgcgaat aagatggcca aatggacggc tcaggctttg ctagctagtg ccgatatgat
+     1501 gaaactgggg tatgtctcta gggttcatcc tcgtgatcat tttaaccatg tgatattggc
+     1561 agttgttggg tacaagccaa gggagttcgc ttcacagatt aatttgaata cttcaaatat
+     1621 gtgggggatt gtgaagtcca ttgtggactt gtgtatgaag ttgaacgagg ggaagtatgt
+     1681 gcttgtcaag gacccagcca aaccacaagt taggatctat gaggtgcctg cggatgcatt
+     1741 cgagaatgat tatgtggagg agccactgcc ggaggatgag caggttcagc cacccacgga
+     1801 ggatgctgag agtgcagagc caaatgctgc tacaaatgat gtggaggaga aggaggtggt
+     1861 tgcacaggct tgaaggggaa gttgctatct tggagggcag gaggcacttt aaacaacaat
+     1921 gttatggttg ggataatacc ttggttaata ttatcttcca gggtgagcaa tttgtttgtc
+     1981 gactcctcaa gtagaaaaaa gatcatggtg cttattctct tctcatctga aaatgtgtga
+     2041 tttctgtttt ctgaatttca aggaagaaaa acacttttgc aatcaattcc tgtaacaatc
+     2101 tacattattt tgtttttatt tatttggcct gcgtgtaagt ttagattatg gagtggtaca
+     2161 acaagaagcc ttagtccgaa gattttggtt agaaaaatta gcctcttgta aaacgcattt
+     2221 ctcatattag taaaagatat tcaagtacca aattttgatg tgctcttgga gtgaca
+//

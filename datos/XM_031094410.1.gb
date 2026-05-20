@@ -1,0 +1,83 @@
+LOCUS       XM_031094410            1154 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata protein DCL, chloroplastic
+            (LOC115974176), mRNA.
+ACCESSION   XM_031094410
+VERSION     XM_031094410.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044905.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1154
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="2"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1154
+                     /gene="LOC115974176"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 ESTs, 8 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 40 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115974176"
+     CDS             195..902
+                     /gene="LOC115974176"
+                     /codon_start=1
+                     /product="protein DCL, chloroplastic"
+                     /protein_id="XP_030950270.1"
+                     /db_xref="GeneID:115974176"
+                     /translation="MALISKIPPRVHFRTNPIPLHFSPVAVILSFPPPSPFPTTSLHL
+                     LHHRTRLCVSALKTGPDGYGSDLLRKPIISPDADTDTDLDTVGVSEKDEDSEGTTEYE
+                     ESDDDDDDEKFVDWEDRILEDTVPLVGFVRMILHSGKYQSGDRLTPEHEKTIIDRLLP
+                     FHPEFEKKIGCGIDYITIGYHPEFERSRCLFIVRKDGQLVDFSYWKCIKGLIRKNYPL
+                     YADSFILRHFRKQRRSL"
+ORIGIN      
+        1 tccgttttcc tttttcctct ttctctcaaa tctcaatatg tgaccaaaaa ccgttaacct
+       61 gttacaacga ggtccatagc caaagccact tccaagttca aacaccttca cttcaaaatg
+      121 caaaagcaaa gtactaatat ctgaaataca ctcacagtca cagctgagca aagcaaagca
+      181 acaaggctct ggccatggct ttgatatcta aaataccgcc acgtgtccac ttccgcacaa
+      241 accctatccc tctccacttc tcacccgtgg cggtgatcct atcattccct cctccctccc
+      301 cattcccaac gacgtcgctt catcttcttc atcaccgcac tcgcctctgc gtctctgctc
+      361 tcaaaaccgg tcccgacgga tacggctccg atttgcttcg gaaacctatt atctctccgg
+      421 acgcggacac ggacacggac ttggacacgg ttggggtttc ggaaaaagac gaggacagtg
+      481 agggaacgac agagtacgag gaaagtgacg acgacgacga cgacgagaaa tttgttgatt
+      541 gggaggaccg gattttggag gacactgttc ctctcgttgg gttcgttaga atgattcttc
+      601 attctggaaa atatcaaagt ggagatagat tgactccaga gcatgagaaa accattattg
+      661 atagattgct tccatttcat cctgagtttg aaaagaagat tggatgcggc attgattata
+      721 tcacaattgg ttatcatcct gagtttgaaa ggtcacgttg tttgttcata gttcgaaagg
+      781 atggacagtt ggttgacttt tcatattgga agtgcataaa gggcctgatc aggaagaact
+      841 atcctttata tgcagacagt ttcatcctca gacatttccg aaaacaaagg cgtagtttat
+      901 gaaggtagca ttctcaattt gtctgccacc tgtatcattg tattgaaaga attttccttt
+      961 ttctttttta ttttattttt tcttatttat aacatgttaa gtagcatgtt agaaattagg
+     1021 aggtatttga ttttcttgac ttctttaagt tcggggcaat tgatggaaaa agatgggact
+     1081 gaatgctgta tgtaattgac tgaattatgt ataattatcc actccagtaa gtcatattgt
+     1141 ccaatattta tgta
+//

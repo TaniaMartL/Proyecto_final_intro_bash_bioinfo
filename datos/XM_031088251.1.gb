@@ -1,0 +1,103 @@
+LOCUS       XM_031088251            2079 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata protein DETOXIFICATION 46,
+            chloroplastic-like (LOC115968756), mRNA.
+ACCESSION   XM_031088251
+VERSION     XM_031088251.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044914.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2079
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="11"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2079
+                     /gene="LOC115968756"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 28 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 32 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115968756"
+     CDS             62..1750
+                     /gene="LOC115968756"
+                     /codon_start=1
+                     /product="protein DETOXIFICATION 46, chloroplastic-like"
+                     /protein_id="XP_030944111.1"
+                     /db_xref="GeneID:115968756"
+                     /translation="MQLKTLARPSHTPIGAPNLQRLSRPSIFLSNQFTPRLRNSTTPP
+                     PQSIRISHKNNLRNRFLTACTSASHELIEEDKLENDNNVASVSLSSEEEEEEEEVVVE
+                     VVESKREDLANQSIWKQMKEIVMFSGPATGLWICGPLMSLISTAVIGRGSSTELAALG
+                     PGTVFCDNMNLLFMFLSIATSNMVATSLAKRDKNEVQHQISILLFVGITCGTLMLLFT
+                     QFLGPWALTAFAGPKNVHIVPAASKYVQIRGLAWPAILFGLVAQSASLGMKDSLGPLK
+                     ALVVASSVNAIGHVVLCNMLHFGITGAAWATMTSQLIAAYMMIDALKQKGYSAFSISI
+                     PSPKEFLQIFAIAAPVFVTMFSKVAFYSLITYFATAMGTNTVAAHQVMIQMYGMCVVW
+                     GEPLSQTAQSFMPELLYGVNQSLEKARMLLKSLMVIGAILGLAIATIGMSVPWLLPKL
+                     FTPDLNVIQEMHKVLILFFLSLAVTPCTHSLEGTLLAGRDLTFISLSMSGCFSLGALL
+                     LLLVKGYGLPGCWFALVGFQWGRFFLALQRLLSPSGVLQSKNMINYKPEKLKAA"
+ORIGIN      
+        1 ctctctctct ctctctctct ctctctctct ccagtctcaa cctcaattct cagcttcaac
+       61 gatgcagctc aaaaccctag ctcgtccttc ccacactcca atcggagccc caaatctcca
+      121 acgactctct cgcccttcaa tcttcctcag caaccaattc acccctcgcc tccgcaactc
+      181 caccactccg ccgccgcaga gtattcgcat ctctcataag aacaatcttc gcaatcggtt
+      241 cctaacagct tgcactagcg ctagtcatga actcatcgaa gaagataagc tcgaaaatga
+      301 taataatgtc gcttcagttt cactctcttc cgaagaagaa gaagaagaag aagaagtagt
+      361 ggtggaagtt gtagaatcga agagagagga tttggcgaac cagagcatat ggaagcaaat
+      421 gaaggagatc gtgatgtttt caggtcccgc cacggggcta tggatctgtg gaccgttgat
+      481 gagtctcatc tcaacggctg tgatcggtcg gggaagctca acggagctcg ctgctttagg
+      541 ccctggaacg gtcttttgcg ataatatgaa tcttttgttc atgttccttt caattgctac
+      601 ttcaaatatg gttgccactt cgcttgccaa aagggataaa aatgaagttc agcatcaaat
+      661 atctatcttg ctctttgttg ggataacttg tgggactttg atgcttttgt ttacccagtt
+      721 cctgggtcca tgggcactga ctgcttttgc tgggccaaag aacgtgcata ttgtacctgc
+      781 agcaagcaaa tatgtccaga ttcgaggctt ggcatggcct gcaattcttt ttgggttggt
+      841 tgctcaaagt gcaagtcttg gcatgaaaga ttcattggga cctctgaagg ctttggtggt
+      901 agctagttct gtgaatgcca ttggtcatgt agtcctgtgc aatatgttac actttggtat
+      961 aactggtgca gcatgggcaa caatgacatc acaacttatt gcagcttata tgatgattga
+     1021 cgctcttaaa caaaaaggat atagcgcttt ttccatctcc attccatcgc ccaaagaatt
+     1081 tttgcagata tttgcaattg ctgctccagt ctttgtaaca atgttctcaa aggtggcctt
+     1141 ctattctctc ataacatatt ttgctacagc tatgggcaca aatacagttg cggctcatca
+     1201 ggtcatgatc caaatgtacg gcatgtgtgt ggtatggggt gaacctctct ctcaaactgc
+     1261 acaatcgttc atgccagagt tattatatgg agtcaaccaa agtttggaga aggctcgaat
+     1321 gctgctaaag tcactgatgg ttattggagc tatacttgga ttagcaatag caacgatagg
+     1381 aatgtccgtt ccttggttgc ttcccaaact ttttacacct gatcttaatg tcatacaaga
+     1441 gatgcacaag gtgttgattc tgttctttct ttcattagct gtgacgccct gtactcatag
+     1501 cctagaggga acattgctgg ctggacgaga tctaacattt attagcttat caatgagcgg
+     1561 atgcttttct ttgggtgctc ttctactgct gcttgtaaaa ggatacggtt tgccaggttg
+     1621 ctggtttgca cttgtgggat ttcaatgggg tcgatttttt cttgctctcc agcgccttct
+     1681 ttctcctagt ggtgtactac agtccaaaaa tatgatcaac tataaaccgg agaagctcaa
+     1741 agctgcttag attccaatcc atattttggt atatgataca gggaaattta tgaagttgca
+     1801 aaggaagtga attccaatat tcttgccttc aaacggcagc ctattatcgc atattggcat
+     1861 atctttttga cctagctgct aaacatcacg ttgtattcat tctttttatg cctctatgag
+     1921 gttaaaagca taagggaaag gataatctcc aaagcaaaag gtgctagata atctctagta
+     1981 cttgttattc ttgtaattgt ttgttactct attcataaga aactttcccc aaccgtgaat
+     2041 atatatttga tgataaataa tttcattgca atttgttaa
+//

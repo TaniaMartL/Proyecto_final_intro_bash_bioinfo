@@ -1,0 +1,106 @@
+LOCUS       XM_031090288            2158 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata ABC transporter G family member 14
+            (LOC115970700), mRNA.
+ACCESSION   XM_031090288
+VERSION     XM_031090288.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044915.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2158
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="12"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2158
+                     /gene="LOC115970700"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 27 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 22 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115970700"
+     CDS             103..2052
+                     /gene="LOC115970700"
+                     /codon_start=1
+                     /product="ABC transporter G family member 14"
+                     /protein_id="XP_030946148.1"
+                     /db_xref="GeneID:115970700"
+                     /translation="MEPKPENGGSDPMETLPEMSDPQNTAVLAYPVQANSQSVYQRTL
+                     YPITLKFEEVVYKVNLDRKESCWGSWTSREKTILNGITGIVSPGEILAMLGPSGSGKT
+                     TLLTALGGRLNGKLSGKITYNGQPFSGTIKRRTGFVAQDDVLYPHLTVTETLFFTALL
+                     RLPNSLTQEEKAQHVENVITELGLTRCRNSMIGGPLFRGISGGEKKRVSIGQEMLINP
+                     SLLLLDEPTSGLDSTTAQRILNTVKKLASGGRTVVTTIHQPSSRLYHMFDKVVLLSEG
+                     SPIYYGPASTALEYFSSINFSTSMTVNPADLLLDLANGIAPDSKQATEQGENAEREQK
+                     LVKETLISAYDKNISTRLKAELCDANNYNYARDGSKRHDMKSEQWCTSWWHQFKVLLQ
+                     RGLRERRFEAFNRLRIFQVISVAVLGGLLWWHTPTSHIEDRIALLFFFSVFWGFYPLY
+                     NAVFTFPQERRMLIKERSSGMYHLSSYFLARTVGDLPLELALPTAFVCIIYWMGGLKP
+                     EPATFIFSLLVVLYAVLVSQSLGLAIGAILMDIKQATTLASVTTLVFLIAGGYYVQQI
+                     PPFIVWLKYLSYSYYCYKLLLGVQYNEDDYYECSKGVMCRVGDFPAVKSMGLNHLWVD
+                     VAIMGLMLVGYRLVAYLALHRVRLR"
+ORIGIN      
+        1 aaaaggaact ccttaacttc tccctttcct caatcatcac caccatcaac accaacacca
+       61 aaaagcagta acaacataat tttagccgtg cccttcaact gcatggagcc aaaaccagaa
+      121 aacggtggca gtgatcctat ggaaactctg cctgagatgt ccgaccccca gaacacagct
+      181 gtccttgcct accctgtaca agccaattct caatctgttt atcaacgcac cttgtatcct
+      241 ataactttaa agtttgagga ggtggtgtat aaagtgaatt tggatcggaa agaatcctgt
+      301 tggggtagtt ggaccagcag agaaaaaacc atattgaatg ggataacagg tattgtttct
+      361 ccaggagaga tactagcaat gttaggtcca tctgggagtg gcaaaaccac cctccttaca
+      421 gctctcggag gccgtctaaa tggtaaattg tctggaaaga tcacatacaa tggtcagcct
+      481 ttttctggta ccataaaaag aagaacagga tttgttgctc aggatgatgt tctatatcca
+      541 catctcactg tgaccgaaac tctatttttc accgcactct tgaggctacc caacagcttg
+      601 actcaggagg aaaaagcaca gcatgtggaa aatgttatca ctgagctggg attgactagg
+      661 tgccggaaca gcatgatagg ggggccactc tttagaggaa tatcaggtgg agaaaagaag
+      721 agggtgagta taggtcagga aatgctaatt aatccaagcc tactattgct agatgagcca
+      781 acctcgggct tggactcaac cacagctcaa cgcatcctga acacagtcaa aaagcttgcc
+      841 agtgggggta gaactgtggt caccaccatt caccagccct caagcaggct gtaccacatg
+      901 tttgataagg tagtcttact ctctgagggg tcccccatct attatggtcc tgcttctacg
+      961 gccttggaat atttttcctc aatcaacttt tccacatcta tgaccgtcaa tccagctgat
+     1021 ctcttacttg atcttgctaa cggaatcgcc cctgattcca agcaagcaac tgagcaaggt
+     1081 gagaatgcag aacgagaaca gaagttggtc aaggaaaccc tgatttcagc ctatgacaag
+     1141 aacatttcta caaggttgaa agccgagctt tgcgatgcca acaactacaa ttatgcaaga
+     1201 gatggttcta aaagacatga tatgaaatca gagcaatggt gtacaagctg gtggcatcag
+     1261 ttcaaggtac tgctccagag gggcctaagg gagaggaggt ttgaagcctt caaccggctc
+     1321 aggattttcc aagttataag tgttgccgta cttggtggac tcttatggtg gcacacccca
+     1381 acatctcaca ttgaagaccg cattgcattg ctcttcttct tctctgtatt ctggggattt
+     1441 tacccactct acaatgcagt tttcacattt ccccaagaaa gaagaatgct aatcaaggaa
+     1501 cgatcatcag gaatgtatca cctgtcttcc tacttcctag ccagaacagt tggagacctg
+     1561 ccactggagc ttgcgctccc aactgcgttt gtttgcatta tctattggat gggtggactt
+     1621 aaacccgaac cagcgacttt tattttttca ctactagttg ttctctacgc agtccttgtc
+     1681 tcccaaagtc ttggcttagc cattggtgca attcttatgg acataaaaca agccactact
+     1741 ttagcttctg tgacaaccct tgttttcctc atagcaggag gatactatgt tcaacaaatt
+     1801 cctcctttca tagtctggct caagtactta agctatagct actactgtta caagcttctt
+     1861 cttggggttc aatacaatga ggatgactat tatgagtgct caaaaggagt gatgtgccga
+     1921 gttggagatt tccctgcagt caaatctatg ggtctgaacc atttatgggt agacgtggcc
+     1981 atcatgggcc taatgttggt gggttatcga cttgttgctt atttagcact gcatcgagtg
+     2041 cggttgagat aaattccata agagtcccat gtcatcaaca cgagagatcc aagagttttc
+     2101 tccttcttca actgaggaat aatgaatcaa tgataaatgc ttaggtttta gatggtga
+//

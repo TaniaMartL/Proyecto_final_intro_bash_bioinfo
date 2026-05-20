@@ -1,0 +1,99 @@
+LOCUS       XM_031097189            1961 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata glycylpeptide N-tetradecanoyltransferase
+            1 (LOC115976087), mRNA.
+ACCESSION   XM_031097189
+VERSION     XM_031097189.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044905.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1961
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="2"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1961
+                     /gene="LOC115976087"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 9 ESTs, 6 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 40 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115976087"
+     CDS             408..1709
+                     /gene="LOC115976087"
+                     /codon_start=1
+                     /product="glycylpeptide N-tetradecanoyltransferase 1"
+                     /protein_id="XP_030953049.1"
+                     /db_xref="GeneID:115976087"
+                     /translation="MGDNKSPSGSPKENPDNDSDANPLARDDSSLETIVRKFQDSMSL
+                     KKHKFWETQPVGQFKEVGDSSLPEGPIEPPTPLSEVKQEPYNLPSAYEWTTCDMDSEE
+                     TCLEVYNLLKNNYVEDDENMFRFNYSKEFLRWALRPPSYFRSWHIGVRAKSSKKLVAF
+                     ITGVPARIRVRDEVVRMAEINFLCVHKKLRSKRLAPVMIKEVTRRVHLENIWQAAYTA
+                     GVVLPTPITTCQYWHRSLNPKKLIDVGFSRLGARMTMSRTIKLYKLPDSPVTPGFRKM
+                     ELRDVPAVTRLLRNYLSQFVVAPDFDEDDVEHWLLPSENVVDSYLVESPETHEITDFC
+                     SFYTLPSSILGNQTYSTLKAAYSYYNVSTKTPLLQLMNDALIVAKQKDYDVFNALDVM
+                     QNESFLKELKFGPGDGQLHYYLYNYRIRRELKPSELGLVLL"
+ORIGIN      
+        1 gtaaacagcg ttccttacca aacggtgtaa aaacagctat caagttattt cgcaaatttc
+       61 agaagacagt cgacacattc gataatactg aaaaccccaa ggatgtcagt ggtattccct
+      121 tgaataaaga aaagagaaag cagagcgacg cacatgaaaa cccaaaaacc acacagtact
+      181 ctcgtcgtgt tttccaaagc tatcggtatc tccaaagccg cctccaccaa aaaaccctaa
+      241 caattcccat ttcgtctcct ccgaaggaac caaaggaatt tgaaaaccac aactttgttt
+      301 tcaagatctt cgccgcttta aagctccagc aacctcgcca gtgaaacttg ggtttggtta
+      361 ttaatcacat ttctgggttt ataactgtta ttgaaagaat tgttgagatg ggtgataaca
+      421 aatctcctag tgggtctcct aaagagaacc cggataatga ttctgatgca aacccacttg
+      481 ctagggatga tagctcattg gaaactatag taagaaaatt ccaagactca atgtccctca
+      541 agaagcataa gttttgggaa acacagcctg ttggacaatt caaggaggtt ggtgactcga
+      601 gtttgcccga gggcccgatt gagcccccga caccattatc tgaagtcaaa caagaacctt
+      661 ataatctccc aagtgcctat gaatggacca cgtgtgacat ggactctgag gagacttgcc
+      721 ttgaggttta caatttgttg aagaataatt atgttgagga tgatgagaac atgtttagat
+      781 tcaattactc caaggaattt cttaggtggg cactgcgtcc tcctagttat ttcaggagct
+      841 ggcatattgg tgttcgtgcc aaatcttcaa agaaactggt tgcttttatt actggtgtcc
+      901 ctgccagaat tcgggttcgt gatgaggttg tcagaatggc tgagattaat ttcttgtgtg
+      961 ttcataagaa gcttagatcg aagaggcttg cacctgttat gatcaaggaa gtcactagga
+     1021 gagttcactt ggagaatatt tggcaagcag cttacacagc cggagtcgtt cttccaacgc
+     1081 caattacaac ttgccaatat tggcataggt ctttgaaccc aaagaagctc attgatgttg
+     1141 ggttttcaag gcttggcgca aggatgacaa tgagccgaac cataaaactt tacaagttac
+     1201 cagattcacc agtgacccct ggatttagaa aaatggaact tagagatgtt cctgctgtta
+     1261 ctcggttgct taggaactac ttgagccagt ttgtggttgc acctgatttt gacgaagatg
+     1321 atgtggagca ttggcttctt ccaagtgaga atgtggtgga tagttacttg gttgagagcc
+     1381 ccgagactca tgagatcact gatttctgca gcttctacac gcttccttcg tctatccttg
+     1441 gcaatcagac ttactcgact ttgaaagcag catattctta ctataatgtc tccacaaaga
+     1501 ctccgttgct tcaattgatg aatgatgctc ttattgtagc aaaacaaaag gattatgatg
+     1561 ttttcaatgc attggacgtc atgcagaatg agtctttcct gaaagaactg aaatttggac
+     1621 caggagacgg gcaacttcac tactatcttt ataactaccg gattaggcgt gaattgaagc
+     1681 catctgaact tggtcttgtg cttttgtagt ttcatatgtt tcagttttgg tatcggttta
+     1741 gtttgctggc ctcattcgtt ttcttcctct gcatcaacag agacgagaat ttgctgcaca
+     1801 tgcgagagaa cggatgcaat gacatccaat gtctgatatg ctttggtaat aagacaacgt
+     1861 tgttggcaat gcttattgtt cttgatatat ttatttgaaa gaaaaaagtg gtctctggac
+     1921 tgaatattgt tgagatattt catttttttc tcattccatc t
+//

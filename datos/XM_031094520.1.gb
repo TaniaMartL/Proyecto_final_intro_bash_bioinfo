@@ -1,0 +1,115 @@
+LOCUS       XM_031094520            2595 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata inactive protein kinase
+            SELMODRAFT_444075-like (LOC115974257), mRNA.
+ACCESSION   XM_031094520
+VERSION     XM_031094520.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044905.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2595
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="2"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2595
+                     /gene="LOC115974257"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 1 EST, 20 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 20 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115974257"
+     CDS             74..2290
+                     /gene="LOC115974257"
+                     /codon_start=1
+                     /product="inactive protein kinase SELMODRAFT_444075-like"
+                     /protein_id="XP_030950380.1"
+                     /db_xref="GeneID:115974257"
+                     /translation="MLPEEMEGSERQSRSTTTTTTTNNNRASHKVLVAVKAEKVISKA
+                     ALAWALTHVVHPGDCITLLAIIPKEKTSRRFWNFTLFRGDCGSSQREKLPEKIYQISE
+                     SCSQMALQFRSQIEVKVRIKVVSSSPGGAVAAEAKSNGVNWVVLDKKLKQERKRCMEE
+                     LQCNIVVMKGGQPKVLRLNLGCSNELQTPFFSATSTPGIDGEKLQGYQMKQSMVSTPQ
+                     SSPEESSTSHTRNTWESSRWSYDTASSLHLVYGQNPLFEGQLNGIHKPIAKRRDLNVP
+                     LSTPELNGQRFTSLSKPPTPSLARNQKRVLWIPQNHLVDEKSPATQNYGKTKEIRSPT
+                     SKSLLDKFVDSDQDKGSNRASIDQMSQGDHTTNSSIRDAVSIGRNCSIPPPLCSQCLH
+                     KAPVFGKPPRHFSYNELEEATDGFSDINFLAEGGFSTVHRGMLRDGQAVVVKRLKFGG
+                     SQSHSDFCREVRILSCAQHRNVVLLIGFCIEERKRVLVYEYICNGSLDFHLNGNNTTL
+                     LDWQSRLKIAIGTARGLRYIHEDCRVGSIAHRDLRPNNILLTHEFEPLIAGFGLARWH
+                     SEWDISTEDQVIGTSGYLAPEYLEGGQITNKVDVYAFGVILLELMTGKRMDELQYIER
+                     QQFLSEWFHPLAALEPGHVIANNYHLLDPCLTCEPSFDFPHQLEAMCRAASLCLRRDP
+                     ESRPPMSKVLRVLEGGDLVPLGLDLNTVGCRSGHLGGISSFRQPELKRKHSRRLSH"
+ORIGIN      
+        1 agtctctagt ctctacgcat ttctgaggca tcgaaaaagc aagaaggccc cccgagaaac
+       61 gaggactcaa ttaatgttgc cagaagagat ggaaggtagc gaaaggcaaa gccgctccac
+      121 caccaccacc accaccacca acaacaacag agcgtcgcat aaagtattag tcgccgttaa
+      181 agccgagaag gtgatttcaa aggctgcatt agcatgggct ctaacgcacg tcgttcatcc
+      241 tggcgattgc ataactttgc tcgccataat tcccaaggag aaaactagta gaaggttctg
+      301 gaactttacg ctatttagag gagactgtgg gagcagccaa cgagagaagt tgccggaaaa
+      361 gatttatcag atctcggagt cttgttctca gatggctctt cagtttcgca gccaaattga
+      421 ggttaaagtg aggattaagg tggtgtcaag ttcacccggt ggtgcggtgg ctgctgaagc
+      481 aaagagcaat ggtgtcaact gggtcgtact tgataagaaa ttgaaacaag agcggaagcg
+      541 ttgcatggag gaattgcagt gcaacattgt agtaatgaag ggtggtcaac caaaagtcct
+      601 taggcttaat ttaggatgct caaatgagct ccaaacaccc ttcttttctg ccacttctac
+      661 accaggaata gatggtgaaa agttgcaagg ctatcaaatg aagcagtcta tggtttctac
+      721 cccacagagc agccctgaag aatcaagtac ttcccacaca agaaatacat gggaaagttc
+      781 acgatggagt tatgacacag cgagttctct tcaccttgtc tatggacaaa atcctctctt
+      841 tgaaggacaa ctcaatggaa ttcacaagcc gattgctaag cgaagagacc tgaatgtccc
+      901 actgtcaacc cctgaattga acgggcaaag gtttacctct ctgtctaaac ccccaacacc
+      961 atctttagct agaaatcaaa agagagttct ttggattccc caaaaccacc ttgttgacga
+     1021 aaagtcccct gcaactcaaa actatggaaa aactaaagaa attagatctc caacttccaa
+     1081 aagtctactt gataagtttg ttgactctga tcaagataag gggagtaata gagccagcat
+     1141 cgatcaaatg agtcagggag accacactac aaactcaagc atcagggatg ccgtttcaat
+     1201 tggtagaaat tgctcaatac ctcctccttt atgctcacaa tgtctacaca aagcacctgt
+     1261 ttttggaaaa cctccaagac atttctctta caacgagcta gaggaagcta cagacgggtt
+     1321 ctcagatata aatttcttag cagaaggtgg tttcagtaca gttcaccggg gcatgttgag
+     1381 agatggccag gctgttgtag ttaagcgatt aaagtttggt ggctctcaat cacattctga
+     1441 tttctgcagg gaagtgcgga tattgagctg tgcgcaacac agaaatgttg tgttgttgat
+     1501 tgggttttgc attgaggaaa ggaagagagt gttggtctat gagtacatat gcaatggatc
+     1561 cttggacttc catttaaatg gaaacaacac aaccctttta gattggcagt caaggctaaa
+     1621 gatagcaata gggacggcac ggggcttacg atatattcac gaggactgca gagtgggttc
+     1681 tatagcgcac agagatctgc gacccaacaa tatcctccta acccacgaat ttgagcctct
+     1741 gattgctggt tttgggcttg ctaggtggca ctctgaatgg gatatcagca ctgaggatca
+     1801 agttattgga acttcggggt acctggcacc agaatacttg gaaggtggac aaattacaaa
+     1861 taaagttgat gtgtatgcat ttggtgttat tttattagag ctaatgacag gtaaaagaat
+     1921 ggatgagctg caatatattg agagacagca gttcctgtct gaatggttcc acccactagc
+     1981 cgcattagaa ccaggccatg ttatagcaaa taactatcat ttactggatc catgcttgac
+     2041 ctgtgaacca tcctttgact tccctcatca actagaggca atgtgtcgag ctgcttcctt
+     2101 gtgcctacgt cgagatcctg aatccagacc cccaatgtca aaggttctca gagtgctaga
+     2161 aggaggagat ttggttcctc tgggtttaga cttgaacaca gtcgggtgta gaagtggcca
+     2221 tttgggtggt atcagctcat ttagacaacc tgaactgaag agaaagcatt cacgtaggct
+     2281 ctcacattga acaattggtt ggcttttgga tgagaggact tccaattaca tgtatagttg
+     2341 aaatggattg ttttttaact ggtgagtagg cagcatatgg caattatcca cttaaatata
+     2401 tagattacat tttgttacgg ctgtcatatc atttttgtat catcttcagt gttttatagg
+     2461 aattataatt taagtcctca tatatgtcag atatttttct caatcagttc acctaaataa
+     2521 gcaggctaaa taaattcaat tgtaacttga gaggagggtt acctttgcct taggttcaga
+     2581 gcattgaatc tgcta
+//

@@ -1,0 +1,124 @@
+LOCUS       XM_031104780            3046 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata mannosyl-oligosaccharide glucosidase
+            GCS1-like (LOC115982239), mRNA.
+ACCESSION   XM_031104780
+VERSION     XM_031104780.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044906.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3046
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="3"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..3046
+                     /gene="LOC115982239"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 5 mRNAs, 2 ESTs, 6 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 34 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115982239"
+     CDS             164..2722
+                     /gene="LOC115982239"
+                     /codon_start=1
+                     /product="mannosyl-oligosaccharide glucosidase GCS1-like"
+                     /protein_id="XP_030960640.1"
+                     /db_xref="GeneID:115982239"
+                     /translation="MSGNGRRTTRSRTKFATDADGDDPLRNTKPNPKLRKDRNRAHNS
+                     IRIFDVNLKVMLGVSVFAFFVIFFLIRRLVNPAEEIRRPRVVTPFPAPKIMDLPQFQG
+                     EHRESLYWGTYRPHVYLGIRARTPRSLLAGLMWIGVKDGRYVMRHVCQDSDELSTYGW
+                     THHNGRDFGHQILVDQDMTLATSFLKSKVDGSGYGGDWAVRIDVQSKQSERSEDMLRT
+                     AHIFFYMADEDGHALSLGRDNLDVHEGSLLASGSRIDVGGWQLHLKSMDDLEVHYSGF
+                     KTNHIHNLSELVQENLGAQARKYGRLQLSDTSDGSPNILVFQVSARIPFKTDIVFVSG
+                     TGLQSSGVEERVNSLTGTSLTGQLKEKQREFDTKFEKSFNLADKLDSESMIAGKAAIG
+                     NMLGGIGYFYGQSKISLPGNPNLGGLNNFISYWPAELYSTVPSRPFFPRGFLWDEGFH
+                     QLLIWHWDVHISLDIIGHWLDLMNIDGWIPREQILGAEAQSKVPEEFIPQHPTNGNPP
+                     TLFLALRDIVHSLKRNKFTSMESKEISSFLERAYVRLEAWFQWFNTTQSGKEMSSYYW
+                     HGRDVTTIRELNPKTLSSGLDDYPRASHPSDDERHLDLRCWMYLASDCMHSIAELLDK
+                     DTKPGKDYGATAKLLSDFQILNQMHLDDKYGAYFDFGNHTEKVRLHWKENMVGHNYAT
+                     RELVREVLERPELRLVPHVGYVSLFPFMGRIIPPESWILEKQLDLISNQSILWTDYGL
+                     RSLSKTSSLYMKRNTEHDPPYWRGPIWMNMNYMILSALHHYSKEDGPYRDKARTIYVD
+                     LRGNLIRNVVRNYHQTGFLWEQYDQRKGKGKGARVFTGWTALVVLMMAEAYGES"
+ORIGIN      
+        1 actcagaagg acattctctc cgtcgtggct atcggttcca gttatataga ttgtgtctgc
+       61 gtttgatcta acactctcaa tttcaacctt atatcgatca ctgaatacat ccacaaaaat
+      121 cgacatgctg tgcatttgag cacagataaa ccctaatctg aaaatgagtg gaaatggccg
+      181 gagaactact cggagcagaa ccaaattcgc caccgatgcc gacggcgacg atcctctccg
+      241 taacacaaaa cctaacccga aactacgtaa agatagaaat agagctcaca actctattcg
+      301 gatcttcgac gtcaatctca aagtcatgct aggagtcagc gtttttgcgt tctttgtgat
+      361 cttcttctta attcgccgcc ttgtaaatcc tgctgaagaa attcggagac cgagggttgt
+      421 aacgccattt ccggcgccaa aaatcatgga ccttcctcag tttcaaggag agcaccgaga
+      481 gagtttgtat tggggaacct atcgccctca tgtttatctt ggaattcgtg ccaggactcc
+      541 acggtctttg cttgctggct tgatgtggat tggtgtaaag gatggaagat atgtcatgag
+      601 acatgtctgc caagattcag atgagctaag cacatacggt tggacacatc ataatggacg
+      661 tgactttggg caccaaattc tggttgacca ggacatgact ttggcaacaa gtttcctgaa
+      721 atccaaggtt gatggcagtg gctatggagg agattgggct gttcggattg atgttcaaag
+      781 caagcaatct gaaaggagtg aggatatgtt gagaactgca catatatttt tctatatggc
+      841 tgatgaagat ggccacgctc taagtttggg tagagataac ttggatgttc atgaaggttc
+      901 tctccttgca tcgggttcac gaatagatgt tggaggttgg cagctacatt taaaatcaat
+      961 ggatgatttg gaagtccatt attctggttt taagactaat cacattcaca atttatctga
+     1021 gcttgtccag gaaaaccttg gagctcaagc aagaaagtat ggtcggctgc agctgtctga
+     1081 cacatctgat ggctctccaa atattctagt ttttcaggtt tctgctagga ttcctttcaa
+     1141 aacagatatt gtgtttgtct ctggaactgg attgcaaagc tcaggagttg aagaacgtgt
+     1201 caacagcctt acaggtacct cactgactgg tcaattgaaa gagaagcaaa gagaatttga
+     1261 cactaaattt gagaagagct ttaatctggc tgacaagctc gattctgaat ccatgattgc
+     1321 tggtaaagct gctattggaa acatgttggg tggcataggc tatttctatg gccagtcgaa
+     1381 aatttcgctc ccaggaaacc ctaatcttgg gggtctcaat aattttattt catattggcc
+     1441 agctgagctt tactcaactg ttccaagtcg acccttcttc ccaaggggat ttttatggga
+     1501 tgaaggtttt catcagctgc tgatctggca ttgggatgtt cacattagct tggatatcat
+     1561 tggacactgg ttagatctaa tgaatattga tggatggatt ccacgtgagc aaattttggg
+     1621 tgccgaagct caaagtaagg tcccagagga attcattccc cagcatccca ctaatggaaa
+     1681 tccaccaact ctttttttgg ccctgcgtga cattgttcat agcttaaaga gaaacaagtt
+     1741 tacttccatg gaaagcaagg agatctcttc attcctagag cgggcttatg ttcgccttga
+     1801 agcatggttc caatggttca acactacaca gtcagggaag gagatgagca gctattattg
+     1861 gcatgggaga gacgttacaa caattcgtga attaaatcca aagacactga gctccggttt
+     1921 ggatgattat ccacgtgctt cacacccaag tgacgatgaa cgtcacttgg atcttagatg
+     1981 ctggatgtat cttgcttcag attgcatgca ttccattgca gagcttcttg ataaggatac
+     2041 taaacctgga aaggattatg gtgcaacagc taagctgctc tcagattttc aaattctgaa
+     2101 tcagatgcac ttggatgata aatacggagc ttactttgat tttggaaatc atacagaaaa
+     2161 ggttcgtctg cactggaaag aaaatatggt aggacacaat tatgcaactc gagagcttgt
+     2221 acgtgaagtg ttagaaaggc ctgagttgag actggttcct catgttggct atgttagtct
+     2281 ttttccattc atggggagga tcattccacc tgaatcatgg attctggaga aacagcttga
+     2341 cctcatttca aaccagagca tcctatggac tgactatgga ctccgttctc tttccaaaac
+     2401 aagctcatta tacatgaaac gcaacacaga gcacgaccca ccgtattgga gaggtcctat
+     2461 ttggatgaac atgaattaca tgattctttc agcactccac cattactcta aagaggatgg
+     2521 accatataga gacaaagcca gaaccatcta cgttgacttg cgaggcaatt tgattagaaa
+     2581 tgtggtacgc aattatcacc agactgggtt tctgtgggaa caatatgatc agaggaaagg
+     2641 caagggaaaa ggcgcacgtg tatttactgg ttggacggca cttgtggtat taatgatggc
+     2701 agaagcttat ggcgaaagtt aggatacttg gaatcagttg tgccgtaata tatcattaga
+     2761 tgtttaatgg tcggagcatc ccattttttt tttttttttt ccttttttgt ttcacctttt
+     2821 cctacagttt taagggaaat tataagttga taaaatcatt ggtatcgaca tttgcacact
+     2881 tgcccttttg cgtgcatcat tgtggcataa tgttttggag gatccaatgt tgcaggagct
+     2941 tgtatcaagt attttatttc agtttttctt ttttttagtt gaagatgaaa atagatgata
+     3001 acatgactag gcgtgccctt tggaatctcc caaatattgt tattga
+//

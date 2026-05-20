@@ -1,0 +1,96 @@
+LOCUS       XM_031084733            1800 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata L-Ala-D/L-amino acid epimerase
+            (LOC115965496), mRNA.
+ACCESSION   XM_031084733
+VERSION     XM_031084733.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044913.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1800
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="10"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1800
+                     /gene="LOC115965496"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 8 ESTs, 9 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 39 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115965496"
+     CDS             134..1420
+                     /gene="LOC115965496"
+                     /codon_start=1
+                     /product="L-Ala-D/L-amino acid epimerase"
+                     /protein_id="XP_030940593.1"
+                     /db_xref="GeneID:115965496"
+                     /translation="MFSTRLFLFSPLYTPILCSPIHVTQNPQKFQPLSRLSPPNSCNT
+                     MAATTSTTSFGFRNLTATFTVDVQRAENRALNVPLIAPFTIASSRLERVENVAIRIEL
+                     SNGCVGWGETPILPGVTAEDQSIAMAKAAEACQLLKKSPVMTLCSLLEEIGRSLPGHE
+                     FASVRAGVEMAVIDAVANSIGVPLWRLFGGVSNTITTDMTIPIVSPAEAAELASKYGN
+                     QGFKTLKLKVGKNLKADIEVLQAIRKAHPECLFILDANEGYKPKEAIEVLEKLHEMGV
+                     TPVLFEQPVHRDDWEGLGHVTHIAKDKYGVSVAADESCRSLDDVKKIVQGNLADVINI
+                     KLAKVGVMGALEIIELARTSGLSLMIGGMVETRLAMGFAGHLAAGLGCFKFIDLDTPL
+                     LLSEDPVFEGYHVLGAVYKFTNARGHGGFLHWDNIS"
+ORIGIN      
+        1 atttctatat cttaacaatg gctgttcttg acatctctct ctcacatctc aatcaaattt
+       61 ccattctcaa acacacaccc atcaatcaaa gtttctaccc cgcttgaagg aaaaaactca
+      121 cagacaccaa atcatgttct caactaggtt gtttctattt tcgccacttt acactcccat
+      181 cctctgttct ccaatacatg tcacccaaaa cccacaaaaa ttccagcccc tttccaggct
+      241 ttcaccgccc aattcctgca acacgatggc tgcaacgact tctacaacca gctttggatt
+      301 caggaacttg acagcgactt tcactgtgga tgtgcagaga gcagagaata gagctttgaa
+      361 tgtccctttg attgcaccgt ttactattgc ttcgtcgagg ctggaaagag tggagaatgt
+      421 ggccattagg attgagctga gtaatgggtg tgtgggttgg ggtgaaactc caatcttgcc
+      481 tggtgtgact gcggaggatc agagcatagc tatggcaaag gcggctgaag cttgtcagtt
+      541 gctgaagaaa agtccggtga tgactttgtg ctcgctgttg gaggagattg gtaggagtct
+      601 acctggacat gagtttgctt ctgtgagggc aggagtcgaa atggcagtga ttgatgcagt
+      661 tgctaatagc atcggtgtgc ccttgtggag actctttggt ggagtttcaa ataccattac
+      721 aactgatatg acaattccaa tcgtttcccc agctgaagct gcggaactgg cttccaagta
+      781 tggcaatcaa ggattcaaga ctttgaagct taaggtagga aagaatctga aagctgatat
+      841 agaagttctt caggccatac gcaaggcaca ccccgagtgc ctttttatct tggatgctaa
+      901 tgaaggttac aaaccaaagg aagcaattga agttcttgaa aaattacacg aaatgggtgt
+      961 cactcctgtc ctttttgaac aaccagttca tagagatgat tgggagggtc ttggtcatgt
+     1021 tacacatatt gcaaaagaca aatatggggt atctgttgct gctgacgaaa gctgtcggag
+     1081 cttagatgac gttaagaaaa tagtccaagg aaatcttgca gatgtgatta acattaaact
+     1141 tgctaaagtt ggagttatgg gagcccttga gattattgag ttggcaagga catctggttt
+     1201 aagtctgatg attggtggta tggttgagac tagattggcc atgggctttg ctggccatct
+     1261 tgctgctggc cttgggtgtt tcaagttcat tgacctagat acaccccttt tgctatcaga
+     1321 agatccagtt tttgagggtt accatgtctt gggcgcggtt tacaagttca caaatgctag
+     1381 aggccatggt ggtttccttc actgggacaa catttcttga aatctgaact taggttggtt
+     1441 cccttttctg gaactgcaag cagagcttat aagattctct tggttgtgaa attctttcta
+     1501 tagcttggca ggcctccatt tttagagggg cttcctgaca aatgagagat ggggcacagg
+     1561 tgatctctgc ttgtattatt gtcctcaggt gaaacatcta cgtcaattac tctaataata
+     1621 accacgttat caaatttctt cagcttgtgg gaatagttga ctttgtaata attacaattt
+     1681 gaaattaaat tgccggtaac atttccaata aacagctctt gtacttagta attgagaagc
+     1741 tgaccacatt atttgagtta tcaatgttaa tgaatgcgaa tgactttgag tgtctccata
+//

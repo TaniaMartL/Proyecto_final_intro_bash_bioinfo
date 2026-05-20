@@ -1,0 +1,124 @@
+LOCUS       XM_031112673            2278 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata protein NRT1/ PTR FAMILY 1.2-like
+            (LOC115989025), mRNA.
+ACCESSION   XM_031112673
+VERSION     XM_031112673.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq; corrected model.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044908.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            frameshifts :: corrected 1 indel
+            ##RefSeq-Attributes-END##
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-325               LRBV02000005.1     21449465-21449789
+            326-543             LRBV02000005.1     21449898-21450115
+            544-1094            LRBV02000005.1     21451080-21451630
+            1095-1671           LRBV02000005.1     21451716-21452292
+            1672-2278           LRBV02000005.1     21452294-21452900
+FEATURES             Location/Qualifiers
+     source          1..2278
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="5"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2278
+                     /gene="LOC115989025"
+                     /note="The sequence of the model RefSeq transcript was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: deleted 1 base in 1 codon;
+                     Derived by automated computational analysis using gene
+                     prediction method: Gnomon. Supporting evidence includes
+                     similarity to: 2 mRNAs, 9 Proteins, and 99% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 23 samples with support for all annotated
+                     introns"
+                     /db_xref="GeneID:115989025"
+     CDS             208..1977
+                     /gene="LOC115989025"
+                     /note="The sequence of the model RefSeq protein was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: deleted 1 base in 1 codon"
+                     /codon_start=1
+                     /product="LOW QUALITY PROTEIN: protein NRT1/ PTR FAMILY
+                     1.2-like"
+                     /protein_id="XP_030968533.1"
+                     /db_xref="GeneID:115989025"
+                     /translation="MEENKEEITKSDQMESTLTTHQVPKRRQKGGIITMPFIIANESF
+                     ERVASFGLIPNMIVYLMTEYNLGLTKGNNILYLWAAASNFMPILGAFLSDSYLGRFLT
+                     IGLGSIVSVLGTVLLWLTAMIPQAKPPPCNQLKGSCKSATTAQMALLVSSFAVLSIGA
+                     GGVLPCSLSFGGDQLAKDDNPRNARVLRSFFGWYYASQAISIMLAMTIIVPIQDHFRW
+                     KVGFGIPVILMFISAVTFFLASPFYVKQKAKKSLFTGFAQVIAVAYKNRKLAILNKSS
+                     SEMYHRGKNSCLIAPTEKLRCLNKACIIRDPKLDIALDGSASNPWCLCAIEEVEELKA
+                     LIKVIPLWSTGIMVAISFSQSSFPLLQAKSMDRHITSSLKFPAASFGFFTIITLAIWV
+                     ALYDRVILPLASKIRGKPVRLGAIQRIGIGIFLSCMALVVSAMVENIRRRKAIEQGFI
+                     NNPNAVLDMSAFWLVPQYCLLGLAEAFNAIGQLEFYYSEFPKSMSSIATALLGLGIAV
+                     ASLLASLIQSTVDNLTSRGGKESWVSKYINKGHYDYYYWLLAIMSFFNLLYFLVCSWT
+                     YGPCTEEGAEEEGEGFKEGQELQ"
+ORIGIN      
+        1 ctcgatattt tagtaacgat accttgtagg gcactcaatt atgcagtagt cacttctatg
+       61 ttccatttct ttgtgtatgt ctgaaaatac caaatccaaa ggattttttt aaagaaatcg
+      121 cagtaaaaga ttttgttcca ctctctgcct tgccttcttt ctttctgtgg cattccttct
+      181 ttgtgagaag caaactggag ctcagcaatg gaggaaaaca aagaagagat cactaagtca
+      241 gatcaaatgg aaagtactct aacaacccat caagttccaa aaagaagaca aaagggaggc
+      301 attataacca tgccattcat tatagcaaat gagtcttttg agagagtggc aagctttggg
+      361 ctaattccaa acatgatagt atatttgatg acagagtaca acctgggatt aaccaaaggg
+      421 aacaacatcc tctatttatg ggcagctgcc tccaatttca tgcctatctt gggggctttc
+      481 ctctcggatt cttatctggg tcgcttcctc accattggct tgggttccat agtcagcgtg
+      541 ctgggcacag tgcttctttg gttaacagcc atgattccac aggcaaagcc tcctccatgt
+      601 aaccaattaa aaggcagctg taaatctgcg acaacagccc aaatggctct cctagtatca
+      661 tcatttgctg tcttgtctat tggagctggt ggcgttctgc catgttcctt atcatttgga
+      721 ggagatcagt tggccaaaga tgataacccc agaaatgcaa gagtcttgag aagcttcttt
+      781 ggctggtact atgcttctca agctatttct atcatgctgg ccatgacaat tattgttcca
+      841 attcaagatc atttcagatg gaaagtgggt tttgggattc cagtgatact tatgttcatc
+      901 tccgcagtca cctttttcct tgcttccccc ttctatgtca agcagaaagc taagaaaagc
+      961 ttgttcactg gttttgcaca agttattgct gttgcttata aaaatagaaa acttgcaatc
+     1021 cttaataaga gctcaagtga aatgtatcat cgcggaaaga actcgtgtct cattgcacca
+     1081 accgagaaac taaggtgttt aaataaagct tgcatcatta gagatcctaa attagacata
+     1141 gccctggatg gatcagcttc aaatccttgg tgtctctgcg caatagagga agtagaagag
+     1201 ctaaaagctc ttattaaggt aatccccttg tggtctactg ggatcatggt ggcaataagc
+     1261 ttcagccaga gctcattccc attgctccaa gctaaatcaa tggacaggca catcacttca
+     1321 agccttaaat ttccagcagc ctcttttggg ttctttacca ttattactct agcaatttgg
+     1381 gttgctctct atgaccgagt aatccttccc ttggcatcaa aaatcagagg gaaaccagta
+     1441 cggcttggtg caattcaaag aattggaatt gggatattcc tctcttgcat ggccttggta
+     1501 gtttctgcaa tggttgagaa tattagacgt agaaaagcaa tcgagcaagg ttttattaac
+     1561 aatccaaatg cagttttgga catgtctgcc ttctggcttg tgccacaata ttgcttgctt
+     1621 ggattagctg aagcctttaa cgcaataggc caattagagt tttattactc agagttccct
+     1681 aagagtatgt caagcattgc tactgctcta ttaggactag gaatagctgt ggcaagctta
+     1741 ttagccagtc ttattcagag cactgttgat aaccttacct caagaggggg aaaggagagc
+     1801 tgggtttcaa aatacattaa caagggtcac tatgactatt actattggct tcttgctata
+     1861 atgagctttt tcaatttact ttatttcctt gtatgtagtt ggacatatgg cccttgcaca
+     1921 gaggaagggg ctgaggagga gggagaaggc tttaaggagg gacaagagtt gcaataactg
+     1981 gtactgctgt cttgaatcaa taattttctc atgcgttgat caatgcatcc tcattttcac
+     2041 aatatgtgga ccccattgtt gttgtgtgcc ctacagactg tgagaggaaa gatgtatata
+     2101 ttcaatgtat tagagaccta catgtcttga ttgtgtaaca atattgattt gaatgttgta
+     2161 gtatggttac cagcttgcaa gaagctaata cctacttatt tgggagattg gttatttggc
+     2221 ttagacttgt tgcaattatg atctctattg actattatgt acaagttttc tttttctt
+//

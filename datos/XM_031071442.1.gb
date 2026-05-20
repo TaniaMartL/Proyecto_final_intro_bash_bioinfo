@@ -1,0 +1,97 @@
+LOCUS       XM_031071442            1738 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata ribulose bisphosphate
+            carboxylase/oxygenase activase, chloroplastic-like (LOC115953684),
+            mRNA.
+ACCESSION   XM_031071442
+VERSION     XM_031071442.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044910.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1738
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="7"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1738
+                     /gene="LOC115953684"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 80 Proteins, and 85%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:115953684"
+     CDS             223..1650
+                     /gene="LOC115953684"
+                     /codon_start=1
+                     /product="ribulose bisphosphate carboxylase/oxygenase
+                     activase, chloroplastic-like"
+                     /protein_id="XP_030927302.1"
+                     /db_xref="GeneID:115953684"
+                     /translation="MAAASVPTLGAVKRAPLKLNGSGAGALVPSSAFWGNSLKKVSPK
+                     ITNQRISSGSFKAVAEYDEQKQTSKDKWGGLAFDTSDDQQDITRGKGMVDTVFQAALG
+                     SGTHYAVMSSYDYISAGLRQFKLDNNMDGFYIAPAFMDKLVVHITKNFLNLPNIKVPL
+                     ILGIWGGKGQGKSFQCELVFAKMGINPIVMSAGELESGNAGEPAKLIRQRYREAADII
+                     SKGKMCCLFINDLDAGAGRMGGTTQYTVNNQMVNATLMNIADNPTSVQLPGMYNKVEN
+                     PRVPIIVTGNDFSTLYAPLIRDGRMEKFYWAPTREDCIGVCTGIFRTDGVPKEGIVKL
+                     VDTFPGQSIDFFGALRARIYDDEVRKWISGVGVENVGKRLVNSKEGPPTFDQPKITLE
+                     KLLEYGNMLVQEQENVKRIQLAEKYLNEAALGDANEDAIKNGNFYGKAAQQFKLPVRE
+                     GSTDPSAANFDPTARSDDGSCLYQF"
+ORIGIN      
+        1 ggaaattcgt aatcgtaagc caaaatccac agtatttcca tttccatttt acctttcgct
+       61 ttctgacttt cttcatactc cctctgtata taaagtccct ctcaccctca aaacttttac
+      121 agtgaaaact agaaaacaga gcaaattcag ttccatttcg tcttctacct ctctaccctc
+      181 caacgtacgt acctaattga ccacaatcgt agtggacctt caatggctgc tgcttcagtt
+      241 ccaactttag gagctgttaa aagagcaccg ctgaaattga atggctctgg ggctggagct
+      301 ttggttccaa gctcggcatt ctggggcaac agcttgaaga aagtgagccc caagatcacc
+      361 aaccagagaa tatcttctgg gagtttcaag gctgttgcgg agtacgatga gcaaaagcag
+      421 acatccaagg acaaatgggg aggacttgcc tttgacactt cggacgacca gcaggacatc
+      481 actcgaggaa agggaatggt ggacactgtt tttcaagctg ccttgggttc tgggactcac
+      541 tatgctgtca tgagctccta tgattatatc agtgctggtc ttcgccaatt caaacttgac
+      601 aacaacatgg atggatttta cattgcaccc gcattcatgg acaagttggt tgttcacatc
+      661 accaagaact tcttgaactt gccaaacatt aaggtacctc tcatcttggg tatctgggga
+      721 ggcaaaggtc agggaaaatc attccaatgt gagcttgtct ttgcaaaaat gggaatcaac
+      781 cccatcgtga tgagtgctgg agaattggaa agtgggaatg ctggagagcc tgcaaaattg
+      841 attaggcaaa ggtatcgcga agcagcagac attatcagca agggaaaaat gtgctgccta
+      901 ttcatcaatg acctcgatgc tggagcgggt aggatgggcg gtactaccca atacactgtc
+      961 aacaatcaga tggtgaatgc cactcttatg aacattgctg ataacccaac cagtgtccag
+     1021 cttcctggta tgtacaacaa ggtggaaaat ccacgcgttc ccatcatagt cactggtaat
+     1081 gacttctcca cattgtatgc ccctctcatc cgtgatggtc gtatggaaaa gttctactgg
+     1141 gcacctacac gggaagactg cattggtgtc tgcacgggca tttttcggac agatggtgta
+     1201 cctaaggagg gcatagtgaa gcttgttgac accttccctg gacagtccat tgatttcttt
+     1261 ggtgctctca gggcaagaat ctatgatgat gaagttagga aatggatatc tggcgtgggt
+     1321 gtagagaatg taggtaaacg gctcgtgaac tcaaaggagg ggcctccaac ctttgatcaa
+     1381 ccaaaaatta cacttgagaa gctccttgag tatggaaaca tgcttgttca agagcaggag
+     1441 aatgtaaaga gaattcaatt ggctgagaag tacttgaatg aggcagctct tggagatgca
+     1501 aatgaagatg ctatcaagaa tggaaacttc tatggcaaag cagcccaaca atttaagctt
+     1561 cctgttcggg aaggcagcac tgatccatct gctgcaaact ttgatccaac agctaggagt
+     1621 gatgatgggt cctgcctgta tcaattttaa gtctgttcca ggcatttgag tataaattgc
+     1681 atagggaaaa taacctccga gaatgggtga accagctcta ttcaacaaaa attgttta
+//

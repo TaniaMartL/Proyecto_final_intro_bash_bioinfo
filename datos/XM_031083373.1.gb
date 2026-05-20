@@ -1,0 +1,104 @@
+LOCUS       XM_031083373            2153 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata protein FRIGIDA (LOC115964070), mRNA.
+ACCESSION   XM_031083373
+VERSION     XM_031083373.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044913.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2153
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="10"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2153
+                     /gene="LOC115964070"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 3 ESTs, 3 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 39 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115964070"
+     CDS             76..1923
+                     /gene="LOC115964070"
+                     /codon_start=1
+                     /product="protein FRIGIDA"
+                     /protein_id="XP_030939233.1"
+                     /db_xref="GeneID:115964070"
+                     /translation="MAMKADEDDVAAGVKEEDDSEESLAASEIKPEEEEEKAVLVKEE
+                     AGESLDESQKQKSEFMKSVVELDGLSIAIHSFTRRLDELQKHLEFIENTIESRSKQLL
+                     LIENTNPVVVETITEEEEAAQGGEGEEEVLSSRGTKSEVEYLCEMMCSRSLRKYIVSN
+                     MSDEAKLREEVPAALKFAPKPAKLVLDCIGRFYLQGSKAYTKNSPMIPARQASLLILE
+                     FFLLSDCESLNEKEKDEAHSAALAWRKRLVTEGGLSRATPIDATGLLLFIASFGIPSR
+                     FSNQDLRDLILLTTQNISTALRRSPLLLARIPDIIEEMMKNGRSVEAVDIAYTFGVEE
+                     KFHPQTILTSFLHKSKEAWKRTRAVAHGSMVLKEANEKQLAALKSVIRCLEDHKIDPT
+                     KLLPGWRIKENIINLEKEISDLDNKIEDKVMRKRKADEIQSSNQIKSQGMKRLFFTAR
+                     APPLMSPPVGGMQEQRVITQVESKSSYDGLMPVNLLDGEQSGHVSNYPTASFIPHGSG
+                     AGFLPKNVLGATVIGPAYGWHGHGIGDATFRERSIGQGFVGQPASLEGFPGLPNSPRS
+                     VDVTDRSTTSDLYRFADTVLEGEACQGSGSHKVGPLSAVLPAHNSYYLY"
+ORIGIN      
+        1 tattaatata agggtgaaac tgaaacatag taaaggaaag ccgtttagcc gtttactggg
+       61 tttggcaatt tggggatggc catgaaagct gatgaagatg atgttgcggc gggcgtgaag
+      121 gaggaagacg attcagaaga atctttagca gcatcagaaa ttaaaccaga agaagaagaa
+      181 gaaaaggcag tgttagtgaa ggaagaagca ggagaatcgt tggatgaatc gcaaaagcaa
+      241 aagtctgaat ttatgaaatc ggtggttgaa ctggacggcc tgtccattgc tattcattca
+      301 ttcacgcgga ggttggatga attgcaaaag catctggaat tcatcgaaaa caccattgag
+      361 tctaggtcga aacaattgct tctcatcgaa aacaccaatc cggtggtggt cgaaacaatt
+      421 acggaagaag aagaagcagc acaaggggga gagggagagg aagaggttct ttcttctcgg
+      481 ggtaccaaat ctgaagttga atacctatgt gagatgatgt gcagccgcag ccttcgtaaa
+      541 tatatagttt caaatatgtc ggacgaagcc aaactccgcg aagaagtccc tgcagctctc
+      601 aagtttgccc ctaaaccagc gaaacttgta ttggactgca ttggacgctt ttaccttcag
+      661 ggaagcaaag cctacactaa gaactctccc atgattccag ctagacaagc ttcccttctc
+      721 attttagaat ttttcctcct ctctgattgt gaatcactca atgaaaagga aaaggatgaa
+      781 gcccactccg ccgctctcgc ctggagaaaa aggcttgtca ctgagggcgg tctctcccgg
+      841 gccactccca ttgatgccac gggtttgctt ctctttattg cttcttttgg tatcccttct
+      901 cgcttttcta atcaagatct ccgggatcta atcctcttga ctacccaaaa tatctccact
+      961 gctcttcgcc gctctcccct tcttcttgcc aggattccag atattataga ggaaatgatg
+     1021 aaaaatggca ggagtgttga agctgttgat attgcttata cttttggggt tgaggaaaaa
+     1081 tttcatcctc agacaatttt gacatcattt ttacacaagt ctaaagaagc atggaagagg
+     1141 acaagagcag tagcacatgg ttctatggta ctgaaagaag cgaatgaaaa acaattagct
+     1201 gctctgaaat ctgtgataag gtgtttggaa gatcacaaga ttgatcccac aaagcttctt
+     1261 cctggatgga gaattaaaga aaatataatc aacttggaaa aagaaatttc tgatcttgac
+     1321 aataaaattg aagataaggt aatgcggaaa agaaaagcag atgaaattca gtcctcaaat
+     1381 caaatcaaga gtcaaggaat gaagcggttg ttttttactg ccagagcacc acccctgatg
+     1441 tctcctccag ttggtggcat gcaagaacaa agagttatta cacaagtgga aagcaagagc
+     1501 tcatatgatg ggttgatgcc agtaaactta ctagatggtg aacaatctgg tcatgtcagt
+     1561 aattatccta ctgcttcatt tataccacat ggatctggtg cagggttctt gcctaaaaat
+     1621 gttcttggtg caacggtaat tggtccagca tatggatggc atggtcatgg aattggagat
+     1681 gcaacatttc gagagagatc aattgggcag ggctttgttg ggcaacctgc atctttagaa
+     1741 ggttttcctg gtctgccaaa ttccccaaga tctgtggacg tgactgatag gagtacaacc
+     1801 tcggatcttt atcggtttgc tgatactgta ttggaaggtg aggcatgtca gggcagcggc
+     1861 tctcataagg ttggcccttt atctgctgtt ttgcctgcgc ataattcgta ttacctgtat
+     1921 taaataatac acagtgcata tgtataatta tcttttctag aggagttggt ggaagggttg
+     1981 gataccatta tatcagggga agttgctttg cattttttaa aatctaaatc acaatggttt
+     2041 tagaggtttt tacaattcag tcggtcggtc agtcgcaaat ttttgcacgc tgttggagga
+     2101 acaagctgca gaagtttaca atgtgctagc tatcgatttt taagcatttt cta
+//

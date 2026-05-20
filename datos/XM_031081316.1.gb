@@ -1,0 +1,102 @@
+LOCUS       XM_031081316            1977 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata methyltransferase-like protein 17,
+            mitochondrial (LOC115962472), mRNA.
+ACCESSION   XM_031081316
+VERSION     XM_031081316.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044913.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1977
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="10"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..1977
+                     /gene="LOC115962472"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 2 ESTs, 5 Proteins, and
+                     99% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 36 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115962472"
+     CDS             207..1736
+                     /gene="LOC115962472"
+                     /codon_start=1
+                     /product="methyltransferase-like protein 17,
+                     mitochondrial"
+                     /protein_id="XP_030937176.1"
+                     /db_xref="GeneID:115962472"
+                     /translation="MATLLPETSKKIFTPENLRAAAKQSQRCLVVPVRLRRAIKKYLR
+                     ELEEPHMKRKVLRLSQSLNTIKDVNAQMVMTTSRELVEDPLKTVEHSKQRWKIKSSYG
+                     DIGFKYMEDETAAYVASRMPAVFSACYRVLKEVRRRLPGFSPARVLDFGAGTGSAFWA
+                     LREVWPQSLEKVNLVEPSQSMQRAGRSLIQGMKNLPLIHSYDSIQALTKSINKSERRH
+                     DLVIASYVLGEIPSLKDRITIVRQLWDLTQDVLVLVEPGTPHGFNVISQMRSHILWME
+                     KRKLRKSKAAINTTSKDLVVAQKSGAFIVAPCPHDGQCPLTRTSKYCHFVQRLERTSS
+                     QRAYKRAKGEPPLRGFEDEKFSFVAFRRGQRPSEPWPLDGMEFETLKEQHAKRNPEDL
+                     EIDYEDLIKLQQEADNIPYEEVDPATYDSDVMDTDAADQNDEDEEEEETASADLGGGW
+                     GRIIFSPVRRGRHVTMDICRSTNQDGSEGSFERVVVTQSKNPTLHHQAKRSLWGDLWP
+                     F"
+ORIGIN      
+        1 aaaattgtat caaggaagaa taagagagga tgtcgggctt ggaatggacc tatgcctaaa
+       61 aggataaacc catcatcaag cccaaaaccc ctaaaaccct attattctgc gtccaaaaac
+      121 ccacacaccc aaactcgatt cactctctca ctcacagaag aaaccagctc ttctcctcac
+      181 agttacagct ccaccaacat acgaaaatgg cgaccctttt gcccgaaacc tctaaaaaaa
+      241 tcttcacccc agaaaatctc cgcgccgccg ctaagcaatc ccagcgctgc ctggtcgttc
+      301 cggttcgtct ccgccgtgcc atcaaaaaat atctccgaga gcttgaggag ccgcacatga
+      361 agaggaaggt gctgaggcta tcacagtctc tgaacacaat caaggatgtg aatgcgcaga
+      421 tggtgatgac aacgtcgagg gagctggtgg aggatccatt gaaaacggta gagcattcga
+      481 agcagcggtg gaagatcaag agctcctatg gtgacattgg cttcaagtat atggaggatg
+      541 agactgccgc ttatgttgca tctcggatgc ctgctgtgtt ctctgcatgt taccgagttc
+      601 tcaaggaggt tcgtagaagg ctaccaggtt tctctccagc tagagtgttg gattttggtg
+      661 ctggcacggg ttcggctttc tgggccctgc gagaagtgtg gccacagtcc ttggagaaag
+      721 tcaatttagt ggagccatcc cagtcaatgc agcgtgctgg ccggagcctt atacaaggta
+      781 tgaagaatct gccacttatt catagttatg atagcattca ggcacttact aaaagcatca
+      841 ataagtcaga gagaagacat gaccttgtga ttgcttccta tgtgcttggg gagataccat
+      901 ctctgaagga cagaatcact atagtacgcc agctttggga tcttacacag gatgttctgg
+      961 ttttggttga acctggaacg cctcatggat ttaatgtaat atctcaaatg cgatctcata
+     1021 tattatggat ggagaaaagg aaactccgta aatctaaagc tgcaatcaat acaacttcaa
+     1081 aggacttggt ggtggctcaa aaaagcggtg cattcatagt tgccccttgc cctcatgatg
+     1141 gacaatgtcc actgacaaga actagtaagt actgtcattt tgtccaacgc ttggagagga
+     1201 catcatcaca acgtgcatac aagcgtgcca agggggaacc acctttacgt ggctttgagg
+     1261 atgagaaatt ttctttcgtt gcttttagac gaggacaaag accaagtgaa ccctggcccc
+     1321 ttgatggcat ggaatttgag acattgaagg aacaacatgc aaaaagaaat ccggaagatc
+     1381 ttgaaattga ctatgaggac ttaatcaagt tacagcaaga ggctgataat attccatatg
+     1441 aagaagtgga tccagctacc tatgattcag atgtaatgga tactgatgct gctgaccaga
+     1501 atgacgaaga tgaggaggaa gaagaaacag cctctgctga tcttgggggt ggttggggca
+     1561 ggattatttt ttcacctgtt cgacggggca ggcatgtcac aatggatatt tgtcgatcaa
+     1621 ccaatcaaga tggctcggag ggttcgtttg agcgtgtggt tgtcactcaa agtaagaatc
+     1681 ctacattaca ccatcaggcc aaaagatctc tttggggtga cttgtggccc ttttgagata
+     1741 acatctttga tgtatcttgc ccttgtaata ctaacggaaa tgtaaaccac aagtgttaca
+     1801 ttcatattta acagtcattt tgtatatggt tctagacgac gaggttagat tagatggatg
+     1861 catacaatat aaaaaatgtt caacgtgcaa aaatgagtga attctattaa tttggtaagc
+     1921 tacagaagtc aggtttgttt tatccatttc tcaaaatatt tttgcttttg gtttcaa
+//

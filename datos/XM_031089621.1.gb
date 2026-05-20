@@ -1,0 +1,121 @@
+LOCUS       XM_031089621            2946 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata DEAD-box ATP-dependent RNA helicase
+            21-like (LOC115969979), mRNA.
+ACCESSION   XM_031089621
+VERSION     XM_031089621.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044915.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2946
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="12"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..2946
+                     /gene="LOC115969979"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 2 ESTs, 12 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 31 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115969979"
+     CDS             194..2371
+                     /gene="LOC115969979"
+                     /codon_start=1
+                     /product="DEAD-box ATP-dependent RNA helicase 21-like"
+                     /protein_id="XP_030945481.1"
+                     /db_xref="GeneID:115969979"
+                     /translation="MKRSLTEDVAAVNVTSSAVKPVFLTRAEREALALKRRQKEADEI
+                     NKSRQGLLSSASNNHSHSHNNHHNSNDFNKPSDSDRHRDRDRDRDRDRDRDRDRDRDR
+                     DRDRRDRDRDRDRERDRDRRDRDREREEDVKSRERARLEKLAEREREKELESIKEQYL
+                     GSKKPKKRVIKPSEKFRFSFDWENTEDTSRDMNALYQNPHEAQLLFGRGFRAGVDRRE
+                     QKKLAAKNEKEMREEIRRKDGVEERPEEAAAQKLKEQAAEKYDPYDMRVDRHWSEKKL
+                     EEMAERDWRIFREDFNISYKGSKIPRPMRAWEESKLSQELLKAVETAGYKKPSPIQMA
+                     AIPLGLQQRDVIGIAETGSGKTAAFVLPMLTYITRLPPMSEENEAEGPYAVVMAPTRE
+                     LAQQIEEETNKFAKHLGIKVVSIVGGQSIEEQGFRIRQGCEVVIATPGRLIDCLERRY
+                     AVLNQCNYVVLDEADRMIDMGFEPQVMGVLDAMPSSNLKPENEDEELDEKKIYRTTYM
+                     FSATMPPAVERLARKYLRNPVVVTIGTAGKTTDLISQHVMMVKESEKFSRLQRLLDEL
+                     GDRTAIVFVNTKKNADNVAKNLDKAGYRVTTLHGGKSQEQREISLEGFRTKRYNVLVA
+                     TDVAGRGIDIPDVAHVINFDMPGSIDMYTHRIGRTGRAGKTGVATTFLTLSDSDVFYD
+                     LKQMLIQSNSSVPNELARHEASKFKPGSVPDRPPRRNDTVFAH"
+ORIGIN      
+        1 ttaaattggg ccacatacta gaaataacac agcccctatt cgggaacgca cagtctcacc
+       61 gacctgtgtt tctggaaggc tctaggactt gcgccactct ctatatccac taatcttttc
+      121 ccctcctgca cttaaccaag cgatctctct ctctaacaaa cacactgtct ctctctcatt
+      181 agtcatttca accatgaaac gtagtttaac cgaagacgtt gccgccgtca acgtcacaag
+      241 ctccgccgtg aaacccgtct tcctaaccag agcggaacgc gaagccttag ccctaaaacg
+      301 ccgtcaaaaa gaagccgatg aaatcaacaa aagccgtcaa ggcctcctct cctccgcttc
+      361 caacaaccac agccacagcc acaacaacca ccacaacagc aacgatttca ataaaccctc
+      421 cgattccgat cgccaccgcg atcgcgatcg cgaccgtgac cgtgaccgcg accgcgatcg
+      481 tgatcgtgac cgtgaccgtg atcgtgacag gcgcgaccgt gaccgtgaca gagaccggga
+      541 acgagaccga gatcggcgcg atagagaccg tgagcgcgaa gaggatgtta agtctcgcga
+      601 gcgtgcgcgg ttggagaaat tggcggagcg agagcgtgag aaagagctcg aatccattaa
+      661 agagcagtac ttagggtcga agaagcctaa gaagcgagtt atcaaaccta gcgagaaatt
+      721 cagattctcg ttcgattggg agaacacgga ggacacttct cgtgacatga atgcactgta
+      781 ccaaaaccct cacgaggctc agctcttgtt cggacgaggc ttccgtgccg gcgtcgatcg
+      841 ccgcgagcag aagaagctcg ccgccaagaa cgagaaggag atgcgcgagg agattcgccg
+      901 gaaggatggg gtggaggaga ggccagagga ggctgcggct cagaaactca aagagcaagc
+      961 tgctgaaaag tacgacccgt acgacatgag agtcgataga cactggagtg agaagaagct
+     1021 cgaggaaatg gcggagagag attggaggat tttcagagag gatttcaata tctcctataa
+     1081 gggttcgaag attcctcgcc ctatgagggc ttgggaagag agcaaattga gtcaagagct
+     1141 gttgaaggca gtcgaaacag ccgggtacaa gaagccttcg cctattcaaa tggcggctat
+     1201 tccactcggt ctgcaacagc gtgacgtgat tgggattgct gaaactggtt ctggtaagac
+     1261 tgctgctttt gttcttccta tgcttactta cattactagg ctacctccaa tgagtgaaga
+     1321 gaacgaggcc gaggggcctt atgccgttgt aatggcaccc actcgtgagc ttgctcaaca
+     1381 gattgaggaa gaaactaata agtttgctaa gcatttgggg atcaaagtgg tctcaattgt
+     1441 tggtgggcag tccattgagg aacaagggtt taggattagg caagggtgtg aggttgtcat
+     1501 tgctacgcca gggcgtttga ttgattgttt ggagaggcgt tacgcggttc tcaatcagtg
+     1561 taattatgtt gttcttgatg aggctgatcg tatgatagat atgggatttg agccacaggt
+     1621 tatgggtgtg ttggatgcaa tgccttctag taatttgaaa cccgaaaatg aagatgaaga
+     1681 gcttgatgag aagaagattt atagaaccac ttatatgttt agtgccacca tgccgcctgc
+     1741 agtggagcgc cttgctagaa agtatttgag gaatcctgtt gtggtaacta taggcactgc
+     1801 tggaaagacc accgacttga tatcccaaca tgtgatgatg gttaaggaat cggagaagtt
+     1861 ttctaggtta cagagattgc ttgacgaact tggtgatagg actgcaattg tgtttgttaa
+     1921 cactaagaag aatgcagata atgttgctaa gaacttggat aaggcaggct atcgtgttac
+     1981 aaccttacat ggtggaaagt cgcaggagca gagggaaatt agtcttgagg gttttaggac
+     2041 gaagagatac aatgtccttg ttgccactga tgttgcgggg cgtggtattg acatacctga
+     2101 tgtcgcccat gtcattaatt ttgatatgcc tgggagtatt gacatgtaca cgcatcgtat
+     2161 tggacgaaca ggacgtgcag gcaagacggg tgtggccact acattcttga ctctttcaga
+     2221 ctctgatgtc ttttatgatc tcaagcagat gcttatccag agtaacagta gtgttcctaa
+     2281 tgaacttgca agacacgagg cttccaaatt caagccaggt tcagttcctg atagaccacc
+     2341 aagacgcaat gacactgttt ttgcccattg agaagtttga aagacacttt taggtgaagt
+     2401 ctccatgtca gttgtgccat atgacagttt ttagtagctg aaacttagcg attcagttgt
+     2461 ttctattatt gctagtgcaa tgcctcagtg gtaccaatgg tattggagcc accagctgaa
+     2521 tttactgttg tgggatcaat ataatggctt caaaaaaaaa tgtcaacata tcaaattcac
+     2581 tgtaaattcg cactggctgt gttttctgtt ttggtcgcac taagatgatg aattcacaac
+     2641 tgcccaatca gcgtggaagt cgaaactaaa tgttccatct ccatcactcc atgcactgtc
+     2701 tccagtaaaa acaggacttt ttggtatgtt gtcctattga ggtttttttt tttttttttt
+     2761 ttttctcctt tatcaaggga aggtgctgaa gttgagtctt agatgtttaa attttgtcgt
+     2821 ttgatatttc cctttcctta ttctctatcc ctttgccttt tctttctcct atacgttaca
+     2881 tttttgtgtt gctatcctgc tgtgttgttg ttgaatgaaa agtgtgaaaa tattgaattt
+     2941 ggctta
+//

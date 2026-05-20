@@ -1,0 +1,127 @@
+LOCUS       XM_031118372            3040 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata probable inactive ATP-dependent zinc
+            metalloprotease FTSHI 4, chloroplastic (LOC115994292), transcript
+            variant X1, mRNA.
+ACCESSION   XM_031118372
+VERSION     XM_031118372.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044909.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3040
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="6"
+                     /tissue_type="leaf"
+                     /geo_loc_name="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            1..3040
+                     /gene="LOC115994292"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 4 ESTs, 6 Proteins, and
+                     99% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 38 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115994292"
+     CDS             183..2765
+                     /gene="LOC115994292"
+                     /codon_start=1
+                     /product="probable inactive ATP-dependent zinc
+                     metalloprotease FTSHI 4, chloroplastic"
+                     /protein_id="XP_030974232.1"
+                     /db_xref="GeneID:115994292"
+                     /translation="MKSQVSNPINQIQLPIPKPHCHCHCHYPSHFLSYSRKTNAFSFR
+                     GAKLRSSSNSLSVLLYNHSKLRISACNASASDSLVVSTDAEEDAESAQIFEKLKDTER
+                     QRINKMEELENKANMQLERQLVMASDWSRALLAMRGKLKGTQWDPENSHRIEFSDFWK
+                     LLNSNNVQFMEYSNYGQTISVILPYYRDGKMEGTKGNSKKDIVFRRHAVDRMPIDCWN
+                     DVWHKLHQQMVNVDVFNVDTVPAEVYSTVATAVIWSMRLALSVALYLWIDSMMRPIYA
+                     KLIPCDLGSPSKTTRQPLKRRALGSLGKSRAKFISAEESTGVTFDDFAGQEYIKRELQ
+                     EIVRILKNDEDFQDKGIYSPKGVLLHGPPGTGKTLLAKAIAGEAGLPFFAANGTDFVE
+                     MFVGVAASRVKDLFASARSFAPSIIFIDEIDAIGSKRGGPDIGGGGAEREQGLLQILT
+                     EMDGFKVSTSQVLVIGATNRLDILDPALLRKGRFDKIIRVGLPSKDGRLAILKVHARN
+                     KYFRSEEEKEVLLQEIAELTEDFTGAELQNILNEAGILTARKDLDYIGREELLEALKR
+                     QKGTFETGQEDSKEIPEELKLRLAYREAAVAVLACYFPDPYRPFTETDIKSIRSQPNM
+                     QYTEVSGRVFSRKSDYVNSIVRACAPRVIEEETFGVDNVCWISAKATLEASKRAEFLI
+                     LQTGMTAFGKAYYRNQRDLVPNLAAKLQALRDEYMRYAVEKCSSVLREYHSAVETITD
+                     ILLEKGEIKAEEIWDIYNRAPQIPQPAVDPVDEYGALIYAGRWGIHGITLPGRVTFAP
+                     GNVGFSTFGAPRPMETQIISDETWKLIDGIWDKRVEEIRAEASMEVEEDKEKPQLLMA
+                     SHFL"
+ORIGIN      
+        1 agcaaaacgt gccgtttttg tcttctccca aaagcggaaa gccagacaaa atctgaaggc
+       61 gcttgtagtt gtagtagaag agtagcagat aaaaagtcga atcctacata catattttga
+      121 aaatagagga acagaagcaa agccattttt tgatggtaga atagaaaaga atagatttca
+      181 atatgaaatc ccaggtttca aatcccataa atcaaattca actcccaatc ccaaaacccc
+      241 actgccactg ccactgtcac tacccatcac atttcttatc ctattctaga aaaaccaatg
+      301 cttttagttt tagaggagcc aaattacgct ccagctccaa tagtctctca gtgcttttat
+      361 ataaccacag caagctgaga attagtgctt gcaatgcttc ggcttctgac tcacttgtag
+      421 tatccacaga tgcagaggaa gatgctgagt ctgctcagat atttgagaaa ttgaaggata
+      481 cagagagaca acgaataaat aagatggagg aacttgagaa caaggctaat atgcagttag
+      541 agaggcagct tgtcatggct tcagattgga gcagggcctt gttggctatg cgtggaaaat
+      601 tgaaaggaac acagtgggat cctgagaact cgcacaggat cgaatttagt gatttctgga
+      661 aacttcttaa ctcaaacaat gtccagttca tggagtactc aaattatggt caaacaatat
+      721 cagtaattct accatactac agagacggaa aaatggaagg aacaaaaggg aattcaaaga
+      781 aagatattgt tttccggcgt catgctgtgg accgtatgcc gattgattgc tggaatgatg
+      841 tttggcacaa gttgcatcag caaatggtaa atgttgatgt ttttaatgtg gacacagtac
+      901 ctgcggaagt gtactcaact gttgcaactg cagtcatatg gtccatgcgg cttgccttat
+      961 ctgttgcgtt atatctctgg attgatagca tgatgagacc aatttatgca aagttaatac
+     1021 cttgtgactt gggaagtcct agcaaaacaa ccaggcagcc actgaagcgc cgtgcgcttg
+     1081 gatccttagg caagagtcgg gcaaaattta tatctgctga agaatctacg ggtgttacat
+     1141 ttgatgattt tgctggccag gaatatataa agagggaact acaggagatt gtaaggattt
+     1201 taaaaaatga tgaagacttc caagacaaag gcatctacag cccaaaaggt gttcttctcc
+     1261 atggacctcc tggaactggt aaaacactgt tggctaaagc tatagctggt gaagccggac
+     1321 ttcctttctt tgcagcaaat ggcactgatt ttgttgagat gtttgtaggt gttgcagcat
+     1381 ctcgtgttaa ggatcttttt gctagtgcca gatcgtttgc accttccatt atatttattg
+     1441 atgagataga tgctattggt agcaagcgtg gtggacctga tattggtggg ggtggtgcag
+     1501 aaagggaaca aggcctactt cagatactga ctgaaatgga tggatttaaa gtttctacat
+     1561 cacaggtgct agtcataggt gcaacaaata gactagatat tcttgatcct gctctcttga
+     1621 gaaagggccg ttttgacaag atcataagag ttggtttgcc atcgaaagat ggtagattgg
+     1681 ccatattaaa ggtgcatgcg agaaataagt attttcgttc tgaggaggaa aaggaagttc
+     1741 tccttcagga aattgcagag cttacagaag attttactgg ggcagagttg cagaatatac
+     1801 tgaatgaagc tggaattttg actgcccgga aagatttgga ctacattgga cgagaagagt
+     1861 tgctagaggc tttgaaaagg caaaaaggca catttgaaac aggccaagaa gatagtaaag
+     1921 aaattccaga ggaattaaag ctgagattgg catacagaga agcagctgtt gctgttcttg
+     1981 catgctactt cccagatccc tacagaccct tcactgagac agatataaaa tccattcgta
+     2041 gccagccaaa tatgcagtat accgaagttt caggaagagt tttctcaaga aaatcagatt
+     2101 atgtgaactc aattgtgcgt gcatgtgctc caagagtaat tgaggaggag acgtttgggg
+     2161 ttgacaacgt gtgttggatc tctgcaaagg ccacattaga agcttcgaag cgtgcagaat
+     2221 tcttgattct gcagacagga atgactgcat ttgggaaagc atactacagg aatcaacgtg
+     2281 atcttgtgcc aaatcttgca gccaagctac aagcacttag agatgaatac atgcgttatg
+     2341 ctgtggaaaa atgctcatca gtgttgagag aataccattc agctgtagag acaatcacag
+     2401 atattttact cgagaaggga gagattaagg ctgaggaaat ttgggacata tataataggg
+     2461 ctccacaaat acctcagcca gctgtggatc cagtcgatga atatggagcc ctaatttatg
+     2521 ctggacgatg gggaatccat ggaatcacac ttcctgggag ggttacattt gctcccggaa
+     2581 atgttggatt ttcaaccttt ggtgcacccc gcccaatgga gactcaaatc ataagtgatg
+     2641 aaacttggaa gctaatagat ggaatctggg ataaaagggt tgaggaaata agagctgaag
+     2701 cttccatgga agttgaagaa gacaaagaaa aaccacaact tttgatggcc agccatttcc
+     2761 tttgaaagca gatcatgctt ttcttcctga ggctccagct gcctaactag accctgaagt
+     2821 ggaggttgat atctatgtcc tctggaagcc tacgctgaga agggaacttg gggaggagac
+     2881 tagcaatata cttagccgct tccaaatatg ctgtaaactt gtttatggtc tcaatttgtt
+     2941 tagctcgcac attgtcatat gcttttgaat tgtaatgtcc ctctttcact gcatgcatag
+     3001 cactggtcac tggcaagatg tgaacagtgc agttgttttc
+//
