@@ -40,6 +40,7 @@
 #### grep
 #### curl 
 ### 7. Reproducibilidad
+#### Para descargar otros genes solo se tienen que cambiar los ID en el archivo genes_id.txt
 #### Dar permisos de ejecución y lectura a los scripts 
 #### Instalación manual de  BAW 0.7.17-r1188 
 ### 8. Instrucciones de uso
