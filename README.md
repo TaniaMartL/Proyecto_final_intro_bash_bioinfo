@@ -10,7 +10,7 @@
 #### Los procesos realizados por los scripts son:
 #### Realizar la descarga de secuencias de mRNA de *Q.* *lobata* que presenta asociación a varables climáticas del database del NCBI
 #### Hacer la validación de las secuencias descargadas 
-#### Concatenar las secuencias a manera de crear un pseudo cromosoma de referencia para realizar el alineamiento con secuencias de Q. macdougalli
+#### Concatenar las secuencias a manera de crear un pseudo cromosoma de referencia para realizar el alineamiento con secuencias de *Q.* *macdougalli*
 #### Indexar el pseudo cromosoma de referencia 
 ### 4. Descripción general del flujo de trabajo
 #### Realizar la descarga de secuencias de mRNA de Q. lobata que presenta asociación a varables climáticas del database del NCBI
