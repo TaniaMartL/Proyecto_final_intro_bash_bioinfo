@@ -19,18 +19,19 @@
 #### Indexar el pseudo cromosoma de referencia 
 
 ### 5. Estructura del repositorio
-#### README.md: Resumen del proyecto 
-#### datos: En esta carpeta se guardaran las secuencias descargadas 
-#### logs: En esta carpeta se guardara el reporte generado de la validación de las secuencias 
-#### metadatos: Contiene 
-##### genes_id.txtx: Lista de los ID de los genes a descargar 
-#### resultados: En esta carpeta se guardadran los archivos fasta generados de concatenar las secuencias de los genes y de indexar el archivo fasta
-#### scripts: Contiene: los siguientes scripts 
-##### descargar_genes.sh: script para realizar la descarga de genes desde la base de datos del NCBI
-##### mensaje.sh: script para recibir notificación del proceso de descargar de los genes ( para que sea funcional se deben cambiar el TOKEN Y CHAT ID
-##### validacion_gb.sh: script para validar las secuencias de genes en formato .gb
-##### pseudo_referencia.sh: script para concatenar las secuencias de los genes
-##### indexar_Quercus_bwa.sh: script para indexar la secuencias concatenada con el programa BWA 
+├── Proyecto_final_intro_bash_bioinfo
+│   ├── datos 
+│   │   ├── *.gb 
+│   ├── logs
+│   │  ├──reporte_verificacion.txt  
+│   ├── metadatos
+│   │  ├──genes_id.txt  
+│   ├── resultados 
+│   │   ├── bwa_index
+│   │   │  ├── Quercus_ref.fasta
+│   │   ├── ref
+│   │   │  ├── Quercus_ref.fasta
+├── README.md
 
 ### 6. Requisitos de software
 #### Bash 5.1
