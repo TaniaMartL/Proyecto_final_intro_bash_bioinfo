@@ -31,6 +31,12 @@
 #### │   │   │  ├── Quercus_ref.fasta
 #### │   │   ├── ref
 #### │   │   │  ├── Quercus_ref.fasta
+#### │   ├── scripts 
+#### │   │   ├── descargar_genes.sh
+#### │   │   ├── indexar_Quercus_bwa.sh
+#### │   │   ├── mensaje.sh
+#### │   │   ├── pseudo_referencia.sh
+#### │   │   ├── validacion_gb.sh
 #### ├── README.md
 
 ### 6. Requisitos de software
