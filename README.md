@@ -19,19 +19,19 @@
 #### Indexar el pseudo cromosoma de referencia 
 
 ### 5. Estructura del repositorio
-├── Proyecto_final_intro_bash_bioinfo
-│   ├── datos 
-│   │   ├── *.gb 
-│   ├── logs
-│   │  ├──reporte_verificacion.txt  
-│   ├── metadatos
-│   │  ├──genes_id.txt  
-│   ├── resultados 
-│   │   ├── bwa_index
-│   │   │  ├── Quercus_ref.fasta
-│   │   ├── ref
-│   │   │  ├── Quercus_ref.fasta
-├── README.md
+#### ├── Proyecto_final_intro_bash_bioinfo
+#### │   ├── datos 
+#### │   │   ├── *.gb 
+#### │   ├── logs
+#### │   │  ├──reporte_verificacion.txt  
+#### │   ├── metadatos
+#### │   │  ├──genes_id.txt  
+#### │   ├── resultados 
+#### │   │   ├── bwa_index
+#### │   │   │  ├── Quercus_ref.fasta
+#### │   │   ├── ref
+#### │   │   │  ├── Quercus_ref.fasta
+#### ├── README.md
 
 ### 6. Requisitos de software
 #### Bash 5.1
